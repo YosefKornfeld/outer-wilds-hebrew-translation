@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
+  "filename": "OuterWildsHebrew.dll",
+  "author": "Yosef Kornfeld",
+  "name": "OuterWildsHebrew",
+  "uniqueName": "YosefKornfeld.OuterWildsHebrew",
+  "version": "0.1.0",
+  "owmlVersion": "2.15.1",
+  "dependencies": [
+      "xen.LocalizationUtility"
+  ]
+}
