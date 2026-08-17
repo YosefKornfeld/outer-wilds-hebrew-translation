@@ -26,6 +26,11 @@ public class OuterWildsHebrew : ModBehaviour
 	        // otherwise LocalizationUtility loads the entries with no fixer attached.
 	        api.RegisterLanguage(this, "Hebrew", "assets/Translation.xml");
 	        api.AddLanguageFixer("Hebrew", HebrewFixer.Fix);
+
+	        // The stock fonts only cover the game's official languages, so every Hebrew
+	        // codepoint draws as a missing glyph. A bundled font that has the Hebrew block
+	        // is the only thing that makes the text visible at all.
+	        api.AddLanguageFont(this, "Hebrew", "assets/hebrewfont", "assets/HebrewFont.asset");
 	    }
 	    else
 	    {
