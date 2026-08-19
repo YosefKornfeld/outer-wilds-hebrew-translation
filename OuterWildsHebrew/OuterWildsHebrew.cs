@@ -30,7 +30,7 @@ public class OuterWildsHebrew : ModBehaviour
 	        // The stock fonts only cover the game's official languages, so every Hebrew
 	        // codepoint draws as a missing glyph. A bundled font that has the Hebrew block
 	        // is the only thing that makes the text visible at all.
-	        api.AddLanguageFont(this, "Hebrew", "assets/ui_font", "assets/UI_font.asset");
+			api.AddLanguageFont(this, "Hebrew", "assets/ui_font", "assets/ui_font.ttf");
 	    }
 	    else
 	    {
