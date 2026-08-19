@@ -4524,11 +4524,12 @@
 	</entry>
 	<entry>
 		<key>CASSAVA: We’re nearly ready! Filix and I have finished construction, and she says calibrating the device won’t take long.</key>
-		<value>CASSAVA: We’re nearly ready! Filix and I have finished construction, and she says calibrating the device won’t take long.</value>
+		<value>קאסאבה: אנחנו כמעט מוכנים! פיליקס ואני כמעט סיימנו לבנות והיא אומרת שלכייל את המכישר </value>
 	</entry>
 	<entry>
 		<key>FILIX: Fortunately, the &lt;color=lightblue&gt;Attlerock&lt;/color&gt;’s lack of atmosphere will make calibration simple. After all this time, I’m thrilled to finally resume our search!</key>
-		<value>FILIX: Fortunately, the &lt;color=lightblue&gt;Attlerock&lt;/color&gt;’s lack of atmosphere will make calibration simple. After all this time, I’m thrilled to finally resume our search!</value>
+		<value>
+פיליקס: למזלנו, האטמוספירה של ה&lt;color=lightblue&gt;אטלרוק&lt;/color&gt; לא קיימת</value>
 	</entry>
 	<entry>
 		<key>Caution: You are about to access the core while the &lt;color=orange&gt;Ash Twin Project&lt;/color&gt; is active.</key>
