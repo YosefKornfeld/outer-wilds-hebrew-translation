@@ -29,10 +29,19 @@ public class OuterWildsHebrew : ModBehaviour
 	    var api = ModHelper.Interaction.TryGetModApi<ILocalizationAPI>("xen.LocalizationUtility");
 	    if (api != null)
 	    {
+	        // Marker mistakes are the translator's to fix, so they go to the console rather
+	        // than being swallowed. Wired up before anything can compile a value.
+	        MarkupCompiler.LogError = message => ModHelper.Console.WriteLine(message, MessageType.Error);
+
 	        // The fixer has to be registered right after the language, before the XML is read,
 	        // otherwise LocalizationUtility loads the entries with no fixer attached.
 	        api.RegisterLanguage(this, "Hebrew", "assets/Translation.xml");
-	        api.AddLanguageFixer("Hebrew", HebrewFixer.Fix);
+
+	        // Order matters: the compiler turns the Hebrew markers into real tags, which is
+	        // what HebrewFixer needs to see in order to carry them through reordering intact.
+	        api.AddLanguageFixer("Hebrew", text => HebrewFixer.Fix(MarkupCompiler.Compile(text)));
+
+	        ValidateTranslation();
 
 	        // The stock fonts only cover the game's official languages, so every Hebrew
 	        // codepoint draws as a missing glyph. A bundled font that has the Hebrew block
@@ -48,6 +57,21 @@ public class OuterWildsHebrew : ModBehaviour
 	    else
 	    {
 	        ModHelper.Console.WriteLine("Could not find xen.LocalizationUtility", MessageType.Error);
+	    }
+	}
+
+	// Cross-checks the translated values against the English keys they replace. Purely
+	// diagnostic, so a failure here must never be allowed to stop the language loading.
+	private void ValidateTranslation()
+	{
+	    try
+	    {
+	        var path = Path.Combine(ModHelper.Manifest.ModFolderPath, "assets", "Translation.xml");
+	        TranslationValidator.Validate(path, message => ModHelper.Console.WriteLine(message, MessageType.Warning));
+	    }
+	    catch (System.Exception exception)
+	    {
+	        ModHelper.Console.WriteLine("Could not validate the translation: " + exception.Message, MessageType.Warning);
 	    }
 	}
 

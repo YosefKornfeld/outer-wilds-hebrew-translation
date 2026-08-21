@@ -5,23 +5,21 @@
 			How can the &lt;color=lightblue&gt;Eye&lt;/color&gt; be older than the universe itself?
 		</key>
 		<value>
-			איך יכול להיות שה&lt;color=lightblue&gt;עין&lt;/color&gt;, עתיקה יותר מהיקום עצמו?
+			איך יכול להיות שהץץץצבע כחול בהירץץץעיןץץץצבע סוףץץץ, עתיקה יותר מהיקום עצמו?
 		</value>
 	</entry>
 	<entry>
 		<key>
 			Suppose it is a relic from a previous universe.
 		</key>
-		<value>
-			Suppose it is a relic from a previous universe.
-		</value>
+		<value>נניח וזה שריד מיקום קודם</value>
 	</entry>
 	<entry>
 		<key>
 			The early universe was unimaginably hot and dense. If anything existed before, it would have been destroyed.
 		</key>
 		<value>
-			The early universe was unimaginably hot and dense. If anything existed before, it would have been destroyed.
+			היקום הקדום היה חם ודחוס במידה בלתי ניתנת לשיעור. אם התקיים שם משהו, הוא היה מושמד.
 		</value>
 	</entry>
 	<entry>
@@ -29,7 +27,7 @@
 			Suppose the universe is older than previously assumed.
 		</key>
 		<value>
-			Suppose the universe is older than previously assumed.
+			נניח וגיל היקום גודל מסברות קודמות.
 		</value>
 	</entry>
 	<entry>
@@ -4528,12 +4526,11 @@
 	</entry>
 	<entry>
 		<key>FILIX: Fortunately, the &lt;color=lightblue&gt;Attlerock&lt;/color&gt;’s lack of atmosphere will make calibration simple. After all this time, I’m thrilled to finally resume our search!</key>
-		<value>
-פיליקס: למזלנו, האטמוספירה של ה&lt;color=lightblue&gt;אטלרוק&lt;/color&gt; לא קיימת</value>
+		<value>פיליקס: למרבה המזל, הכיול יהיה פשוט מאוד בזכות חוסר האטמוספירה של הץץץצבע כחול בהירץץץאטלרוקץץץצבע סוףץץץ.</value>
 	</entry>
 	<entry>
 		<key>Caution: You are about to access the core while the &lt;color=orange&gt;Ash Twin Project&lt;/color&gt; is active.</key>
-		<value>Caution: You are about to access the core while the &lt;color=orange&gt;Ash Twin Project&lt;/color&gt; is active.</value>
+		<value>זהירות: אתה עומד לגשת לליבה בזמן שץץץצבע כתוםץץץפרויקט תאום אפרץץץצבע סוףץץץ פועל</value>
 	</entry>
 	<entry>
 		<key>WARNING: Removing the core will disable the &lt;color=orange&gt;Ash Twin Project&lt;/color&gt;.</key>
@@ -14410,23 +14407,23 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>732</key>
-			<value>LITTLE SCOUT</value>
+			<value>גששון</value>
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>733</key>
-			<value>DETECT HAZARDS</value>
+			<value>גלה סכנות</value>
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>734</key>
-			<value>ILLUMINATE DARK AREAS</value>
+			<value>האר את החשיכה</value>
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>735</key>
-			<value>SEE BEYOND THE HORIZON</value>
+			<value>ראה מעבר לאופק</value>
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>736</key>
-			<value>TEST THE ENVIRONMENT</value>
+			<value>בחן את הסביבה</value>
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>737</key>
@@ -14434,7 +14431,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>738</key>
-			<value>POSTCARDS FROM ORBIT</value>
+			<value>גלויות ממסלול כבידתי</value>
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>739</key>
