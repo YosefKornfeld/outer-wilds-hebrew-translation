@@ -12759,3259 +12759,3259 @@
 	<table_ui>
 		<TranslationTableEntryUI>
 			<key>100</key>
-			<value>חזור למסע</value>
+			<value>חזור למסע</value> <!-- RESUME EXPEDITION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>101</key>
-			<value>מסע חדש</value>
+			<value>מסע חדש</value> <!-- NEW EXPEDITION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>102</key>
-			<value>QUIT</value>
+			<value>לצאת</value> <!-- QUIT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>103</key>
-			<value>PLAYER PROFILE</value>
+			<value>פרופיל השחקן</value> <!-- PLAYER PROFILE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>104</key>
-			<value>OPTIONS</value>
+			<value>אפשרויות</value> <!-- OPTIONS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>105</key>
-			<value>VIEW CREDITS</value>
+			<value>צפה בקרדיטים</value> <!-- VIEW CREDITS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>106</key>
-			<value>YES</value>
+			<value>כן</value> <!-- YES -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>107</key>
-			<value>NO</value>
+			<value>לא</value> <!-- NO -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>108</key>
-			<value>PRESET</value>
+			<value>PRESET</value> <!-- PRESET -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>109</key>
-			<value>Confirm changes?</value>
+			<value>אשר שינויים?</value> <!-- Confirm changes? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>110</key>
-			<value>CURRENT PROFILE:</value>
+			<value>פרופיל נוכחי:</value> <!-- CURRENT PROFILE: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>111</key>
-			<value>CREATE NEW PROFILE</value>
+			<value>צור פרופיל חדש</value> <!-- CREATE NEW PROFILE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>112</key>
-			<value>DELETE PROFILE</value>
+			<value>מחק פרופיל</value> <!-- DELETE PROFILE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>113</key>
-			<value>SWITCH TO</value>
+			<value>SWITCH TO</value> <!-- SWITCH TO -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>114</key>
-			<value>RESET GAME</value>
+			<value>RESET GAME</value> <!-- RESET GAME -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>115</key>
-			<value>Are you sure? This will delete all progress.</value>
+			<value>אתה בטוח? זה ימחק כל התקדמות</value> <!-- Are you sure? This will delete all progress. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>116</key>
-			<value>Are you sure?</value>
+			<value>אתה בטוח?</value> <!-- Are you sure? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>117</key>
-			<value>BACK</value>
+			<value>חזור</value> <!-- BACK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>118</key>
-			<value>Enabled</value>
+			<value>מופעל</value> <!-- Enabled -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>119</key>
-			<value>Disabled</value>
+			<value>מושבת</value> <!-- Disabled -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>120</key>
-			<value>GAMEPLAY</value>
+			<value>משחקיות</value> <!-- GAMEPLAY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>121</key>
-			<value>INPUT</value>
+			<value>קלט</value> <!-- INPUT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>122</key>
-			<value>GRAPHICS</value>
+			<value>גרפיקה</value> <!-- GRAPHICS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>123</key>
-			<value>TEXT/AUDIO</value>
+			<value>טקסט/שמע</value> <!-- TEXT/AUDIO -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>124</key>
-			<value>Auto</value>
+			<value>אוטו׳</value> <!-- Auto -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>125</key>
-			<value>Manual</value>
+			<value>ידני</value> <!-- Manual -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>126</key>
-			<value>Show</value>
+			<value>הראה</value> <!-- Show -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>127</key>
-			<value>Hide</value>
+			<value>החבא</value> <!-- Hide -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>128</key>
-			<value>Settings</value>
+			<value>הגדרות</value> <!-- Settings -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>129</key>
-			<value>Default Settings</value>
+			<value>הגדרות ברירת מחדל</value> <!-- Default Settings -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>130</key>
-			<value>Full Screen Mode</value>
+			<value>מסך מלא</value> <!-- Full Screen Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>131</key>
-			<value>Monitor</value>
+			<value>מסך</value> <!-- Monitor -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>132</key>
-			<value>Aspect Ratio</value>
+			<value>יחס רוחב-גובה</value> <!-- Aspect Ratio -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>133</key>
-			<value>Resolution</value>
+			<value>רזולוציה</value> <!-- Resolution -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>134</key>
-			<value>Anti Aliasing</value>
+			<value>אנטי אליאסינג</value> <!-- Anti Aliasing -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>135</key>
-			<value>Anti Alias Quality</value>
+			<value>איכות אנטי-אליאס</value> <!-- Anti Alias Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>136</key>
-			<value>Texture Quality</value>
+			<value>Texture Quality</value> <!-- Texture Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>137</key>
-			<value>Ocean Quality</value>
+			<value>Ocean Quality</value> <!-- Ocean Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>138</key>
-			<value>Foliage Quality</value>
+			<value>Foliage Quality</value> <!-- Foliage Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>139</key>
-			<value>Shadow Quality</value>
+			<value>Shadow Quality</value> <!-- Shadow Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>140</key>
-			<value>SSAO Quality</value>
+			<value>SSAO Quality</value> <!-- SSAO Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>141</key>
-			<value>Gamma</value>
+			<value>Gamma</value> <!-- Gamma -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>142</key>
-			<value>VSync</value>
+			<value>VSync</value> <!-- VSync -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>143</key>
-			<value>Monitor</value>
+			<value>Monitor</value> <!-- Monitor -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>144</key>
-			<value>Dithering</value>
+			<value>Dithering</value> <!-- Dithering -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>145</key>
-			<value>Field of View</value>
+			<value>Field of View</value> <!-- Field of View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>146</key>
-			<value>Graphics Preset</value>
+			<value>Graphics Preset</value> <!-- Graphics Preset -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>147</key>
-			<value>DO YOU WISH TO APPLY YOUR CHANGES?</value>
+			<value>ברצונך ליישם את השינויים שלך?</value> <!-- DO YOU WISH TO APPLY YOUR CHANGES? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>148</key>
-			<value>Render Mode</value>
+			<value>Render Mode</value> <!-- Render Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>150</key>
-			<value>Use Auto Boost</value>
+			<value>Use Auto Boost</value> <!-- Use Auto Boost -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>151</key>
-			<value>Look Sensitivity</value>
+			<value>Look Sensitivity</value> <!-- Look Sensitivity -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>152</key>
-			<value>Flight Sensitivity</value>
+			<value>Flight Sensitivity</value> <!-- Flight Sensitivity -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>153</key>
-			<value>Text Speed</value>
+			<value>Text Speed</value> <!-- Text Speed -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>154</key>
-			<value>Meditate Until Next Loop</value>
+			<value>Meditate Until Next Loop</value> <!-- Meditate Until Next Loop -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>155</key>
-			<value>Exit to Main Menu</value>
+			<value>Exit to Main Menu</value> <!-- Exit to Main Menu -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>156</key>
-			<value>APPLY</value>
+			<value>APPLY</value> <!-- APPLY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>157</key>
-			<value>DISCARD</value>
+			<value>DISCARD</value> <!-- DISCARD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>160</key>
-			<value>Jetpack Boost Mode</value>
+			<value>Jetpack Boost Mode</value> <!-- Jetpack Boost Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>161</key>
-			<value>Translator Equip Mode</value>
+			<value>Translator Equip Mode</value> <!-- Translator Equip Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>162</key>
-			<value>Ship Log Rumor Mode</value>
+			<value>Ship Log Rumor Mode</value> <!-- Ship Log Rumor Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>163</key>
-			<value>Ship Log Notifications</value>
+			<value>Ship Log Notifications</value> <!-- Ship Log Notifications -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>164</key>
-			<value>Autopilot</value>
+			<value>Autopilot</value> <!-- Autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>165</key>
-			<value>Button Prompts</value>
+			<value>Button Prompts</value> <!-- Button Prompts -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>170</key>
-			<value>Text Speed</value>
+			<value>Text Speed</value> <!-- Text Speed -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>171</key>
-			<value>Freeze Time While Reading</value>
+			<value>Freeze Time While Reading</value> <!-- Freeze Time While Reading -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>172</key>
-			<value>Translator</value>
+			<value>Translator</value> <!-- Translator -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>173</key>
-			<value>Ship Log</value>
+			<value>Ship Log</value> <!-- Ship Log -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>174</key>
-			<value>Conversations</value>
+			<value>Conversations</value> <!-- Conversations -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>175</key>
-			<value>Master Volume</value>
+			<value>Master Volume</value> <!-- Master Volume -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>176</key>
-			<value>Language</value>
+			<value>Language</value> <!-- Language -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>180</key>
-			<value>Do you want to keep these settings?\\nReverting to previous settings in </value>
+			<value>Do you want to keep these settings?\\nReverting to previous settings in </value> <!-- Do you want to keep these settings?\\nReverting to previous settings in -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>181</key>
-			<value> seconds...</value>
+			<value> seconds...</value> <!-- seconds... -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>182</key>
-			<value> second...</value>
+			<value> second...</value> <!-- second... -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>183</key>
-			<value>Error: Profile names have a limit of </value>
+			<value>Error: Profile names have a limit of </value> <!-- Error: Profile names have a limit of -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>184</key>
-			<value> characters and cannot be a duplicate of an existing profile</value>
+			<value> characters and cannot be a duplicate of an existing profile</value> <!-- characters and cannot be a duplicate of an existing profile -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>185</key>
-			<value>Enter Profile Name</value>
+			<value>Enter Profile Name</value> <!-- Enter Profile Name -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>186</key>
-			<value>CREATE NEW PROFILE</value>
+			<value>CREATE NEW PROFILE</value> <!-- CREATE NEW PROFILE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>187</key>
-			<value>Delete</value>
+			<value>Delete</value> <!-- Delete -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>188</key>
-			<value>Are You Sure?</value>
+			<value>Are You Sure?</value> <!-- Are You Sure? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>190</key>
-			<value>Invert Player Look</value>
+			<value>Invert Player Look</value> <!-- Invert Player Look -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>191</key>
-			<value>Invert Ship Look</value>
+			<value>Invert Ship Look</value> <!-- Invert Ship Look -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>192</key>
-			<value>Look Sensitivity</value>
+			<value>Look Sensitivity</value> <!-- Look Sensitivity -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>193</key>
-			<value>Flight Look Sensitivity</value>
+			<value>Flight Look Sensitivity</value> <!-- Flight Look Sensitivity -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>194</key>
-			<value>Inner Dead Zone</value>
+			<value>Inner Dead Zone</value> <!-- Inner Dead Zone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>195</key>
-			<value>Outer Dead Zone</value>
+			<value>Outer Dead Zone</value> <!-- Outer Dead Zone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>196</key>
-			<value>Inverted</value>
+			<value>Inverted</value> <!-- Inverted -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>197</key>
-			<value>Normal</value>
+			<value>Normal</value> <!-- Normal -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>198</key>
-			<value>Remap Controls</value>
+			<value>Remap Controls</value> <!-- Remap Controls -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>200</key>
-			<value>&lt;color=orange&gt;(Hold)&lt;/color&gt;</value>
+			<value>ץץץצבע כתוםץץץ(החזק)ץץץצבע סוףץץץ</value> <!-- &lt;color=orange&gt;(Hold)&lt;/color&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>201</key>
-			<value>&lt;color=orange&gt;(Press)&lt;/color&gt;</value>
+			<value>ץץץצבע כתוםץץץ(לחץ)ץץץצבע סוףץץץ</value> <!-- &lt;color=orange&gt;(Press)&lt;/color&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>202</key>
-			<value>Match Velocity</value>
+			<value>השווה מהירות</value> <!-- Match Velocity -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>203</key>
-			<value>Engage Autopilot</value>
+			<value>הפעל טייס-אוטו׳</value> <!-- Engage Autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>204</key>
-			<value>Lock On</value>
+			<value>נעילה</value> <!-- Lock On -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>205</key>
-			<value>Flashlight</value>
+			<value>פנס</value> <!-- Flashlight -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>206</key>
-			<value>Equip Scout Launcher</value>
+			<value>Equip Scout Launcher</value> <!-- Equip Scout Launcher -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>207</key>
-			<value>View Map</value>
+			<value>View Map</value> <!-- View Map -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>208</key>
-			<value>Free Look</value>
+			<value>Free Look</value> <!-- Free Look -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>209</key>
-			<value>Equip Signalscope</value>
+			<value>Equip Signalscope</value> <!-- Equip Signalscope -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>210</key>
-			<value>Unbuckle</value>
+			<value>Unbuckle</value> <!-- Unbuckle -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>211</key>
-			<value>Equip Translator</value>
+			<value>Equip Translator</value> <!-- Equip Translator -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>212</key>
-			<value>Fire Jetpack Booster</value>
+			<value>Fire Jetpack Booster</value> <!-- Fire Jetpack Booster -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>213</key>
-			<value>Roll</value>
+			<value>Roll</value> <!-- Roll -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>214</key>
-			<value>Jump</value>
+			<value>Jump</value> <!-- Jump -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>215</key>
-			<value>   Wake Up</value>
+			<value>   Wake Up</value> <!-- Wake Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>216</key>
-			<value>(Hold and Release)</value>
+			<value>(Hold and Release)</value> <!-- (Hold and Release) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>217</key>
-			<value>Look Around</value>
+			<value>Look Around</value> <!-- Look Around -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>218</key>
-			<value>Move</value>
+			<value>Move</value> <!-- Move -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>220</key>
-			<value>Up Thrust</value>
+			<value>Up Thrust</value> <!-- Up Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>221</key>
-			<value>Down Thrust</value>
+			<value>Down Thrust</value> <!-- Down Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>222</key>
-			<value>Down / Up Thrust</value>
+			<value>Down / Up Thrust</value> <!-- Down / Up Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>223</key>
-			<value>Horizontal Thrust</value>
+			<value>Horizontal Thrust</value> <!-- Horizontal Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>224</key>
-			<value>Use Jetpack Booster   </value>
+			<value>Use Jetpack Booster   </value> <!-- Use Jetpack Booster -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>225</key>
-			<value>Reset</value>
+			<value>Reset</value> <!-- Reset -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>226</key>
-			<value>Rotational Thrust</value>
+			<value>Rotational Thrust</value> <!-- Rotational Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>230</key>
-			<value>Put Away</value>
+			<value>Put Away</value> <!-- Put Away -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>231</key>
-			<value>Aim Launcher</value>
+			<value>Aim Launcher</value> <!-- Aim Launcher -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>232</key>
-			<value>Launch Scout</value>
+			<value>Launch Scout</value> <!-- Launch Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>233</key>
-			<value>Retrieve Scout</value>
+			<value>Retrieve Scout</value> <!-- Retrieve Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>234</key>
-			<value>Photo Mode</value>
+			<value>Photo Mode</value> <!-- Photo Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>235</key>
-			<value>Launch Mode</value>
+			<value>Launch Mode</value> <!-- Launch Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>236</key>
-			<value>Forward Snapshot</value>
+			<value>Forward Snapshot</value> <!-- Forward Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>237</key>
-			<value>Take Snapshot</value>
+			<value>Take Snapshot</value> <!-- Take Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>238</key>
-			<value>Rearview Snapshot</value>
+			<value>Rearview Snapshot</value> <!-- Rearview Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>239</key>
-			<value>Rotate Camera</value>
+			<value>Rotate Camera</value> <!-- Rotate Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>240</key>
-			<value>Aim Camera</value>
+			<value>Aim Camera</value> <!-- Aim Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>241</key>
-			<value>Remove Snapshot</value>
+			<value>Remove Snapshot</value> <!-- Remove Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>250</key>
-			<value>Liftoff</value>
+			<value>Liftoff</value> <!-- Liftoff -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>251</key>
-			<value>Engage Autopilot</value>
+			<value>Engage Autopilot</value> <!-- Engage Autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>252</key>
-			<value>Abort Autopilot</value>
+			<value>Abort Autopilot</value> <!-- Abort Autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>253</key>
-			<value>Liftoff / Landing Camera</value>
+			<value>Liftoff / Landing Camera</value> <!-- Liftoff / Landing Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>254</key>
-			<value>Landing Mode</value>
+			<value>Landing Mode</value> <!-- Landing Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>255</key>
-			<value>Cockpit View</value>
+			<value>Cockpit View</value> <!-- Cockpit View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>256</key>
-			<value>Repair</value>
+			<value>Repair</value> <!-- Repair -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>257</key>
-			<value>Buckle Up</value>
+			<value>Buckle Up</value> <!-- Buckle Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>258</key>
-			<value>Raise Eject Cover</value>
+			<value>Raise Eject Cover</value> <!-- Raise Eject Cover -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>259</key>
-			<value>Open Hatch</value>
+			<value>Open Hatch</value> <!-- Open Hatch -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>260</key>
-			<value>View Ship Log</value>
+			<value>View Ship Log</value> <!-- View Ship Log -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>261</key>
-			<value>Eject</value>
+			<value>Eject</value> <!-- Eject -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>269</key>
-			<value>SUIT: </value>
+			<value>SUIT: </value> <!-- SUIT: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>270</key>
-			<value>Leave</value>
+			<value>Leave</value> <!-- Leave -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>271</key>
-			<value>Roast Marshmallow</value>
+			<value>Roast Marshmallow</value> <!-- Roast Marshmallow -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>272</key>
-			<value>Talk</value>
+			<value>Talk</value> <!-- Talk -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>273</key>
-			<value>Talk to</value>
+			<value>Talk to</value> <!-- Talk to -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>274</key>
-			<value> Activate Lift</value>
+			<value> Activate Lift</value> <!-- Activate Lift -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>275</key>
-			<value>Suit Up</value>
+			<value>Suit Up</value> <!-- Suit Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>276</key>
-			<value>Use Camera</value>
+			<value>Use Camera</value> <!-- Use Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>277</key>
-			<value>Use Scout Launcher</value>
+			<value>Use Scout Launcher</value> <!-- Use Scout Launcher -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>278</key>
-			<value>Fly Model Ship</value>
+			<value>Fly Model Ship</value> <!-- Fly Model Ship -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>279</key>
-			<value>Use Satellite Camera</value>
+			<value>Use Satellite Camera</value> <!-- Use Satellite Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>280</key>
-			<value>Enter Launch Codes</value>
+			<value>Enter Launch Codes</value> <!-- Enter Launch Codes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>281</key>
-			<value>Requires Launch Codes</value>
+			<value>Requires Launch Codes</value> <!-- Requires Launch Codes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>282</key>
-			<value>Light Campfire</value>
+			<value>Light Campfire</value> <!-- Light Campfire -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>283</key>
-			<value>Return Suit</value>
+			<value>Return Suit</value> <!-- Return Suit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>284</key>
-			<value>Read</value>
+			<value>Read</value> <!-- Read -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>285</key>
-			<value>Play Recording</value>
+			<value>Play Recording</value> <!-- Play Recording -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>286</key>
-			<value>Repair</value>
+			<value>Repair</value> <!-- Repair -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>287</key>
-			<value>Begin Inflation</value>
+			<value>Begin Inflation</value> <!-- Begin Inflation -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>288</key>
-			<value>Gather</value>
+			<value>Gather</value> <!-- Gather -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>289</key>
-			<value>Patch Suit Puncture</value>
+			<value>Patch Suit Puncture</value> <!-- Patch Suit Puncture -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>290</key>
-			<value>Use Medkit and Refuel Jetpack</value>
+			<value>Use Medkit and Refuel Jetpack</value> <!-- Use Medkit and Refuel Jetpack -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>291</key>
-			<value>Use Medkit, Refuel Jetpack, and Clean Visor</value>
+			<value>Use Medkit, Refuel Jetpack, and Clean Visor</value> <!-- Use Medkit, Refuel Jetpack, and Clean Visor -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>292</key>
-			<value>Use Medkit</value>
+			<value>Use Medkit</value> <!-- Use Medkit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>293</key>
-			<value>Use Medkit and Clean Visor</value>
+			<value>Use Medkit and Clean Visor</value> <!-- Use Medkit and Clean Visor -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>294</key>
-			<value>Refuel Jetpack</value>
+			<value>Refuel Jetpack</value> <!-- Refuel Jetpack -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>295</key>
-			<value>Refuel Jetpack and Clean Visor</value>
+			<value>Refuel Jetpack and Clean Visor</value> <!-- Refuel Jetpack and Clean Visor -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>296</key>
-			<value>Clean Visor</value>
+			<value>Clean Visor</value> <!-- Clean Visor -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>297</key>
-			<value>Health and Fuel Full</value>
+			<value>Health and Fuel Full</value> <!-- Health and Fuel Full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>298</key>
-			<value>Jetpack Fuel Full</value>
+			<value>Jetpack Fuel Full</value> <!-- Jetpack Fuel Full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>299</key>
-			<value>Health Full</value>
+			<value>Health Full</value> <!-- Health Full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>300</key>
-			<value>Close Map</value>
+			<value>Close Map</value> <!-- Close Map -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>301</key>
-			<value>Pan View</value>
+			<value>Pan View</value> <!-- Pan View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>302</key>
-			<value>Rotate View</value>
+			<value>Rotate View</value> <!-- Rotate View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>303</key>
-			<value>Zoom View</value>
+			<value>Zoom View</value> <!-- Zoom View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>304</key>
-			<value>Observe</value>
+			<value>Observe</value> <!-- Observe -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>310</key>
-			<value>Pick Up </value>
+			<value>Pick Up </value> <!-- Pick Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>311</key>
-			<value>Drop </value>
+			<value>Drop </value> <!-- Drop -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>312</key>
-			<value>Remove </value>
+			<value>Remove </value> <!-- Remove -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>313</key>
-			<value>Insert </value>
+			<value>Insert </value> <!-- Insert -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>314</key>
-			<value> Does Not Fit</value>
+			<value> Does Not Fit</value> <!-- Does Not Fit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>315</key>
-			<value>Already Holding </value>
+			<value>Already Holding </value> <!-- Already Holding -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>316</key>
-			<value>'Explain' Stone</value>
+			<value>'Explain' Stone</value> <!-- 'Explain' Stone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>317</key>
-			<value>'Eye of the universe' Stone</value>
+			<value>'Eye of the universe' Stone</value> <!-- 'Eye of the universe' Stone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>318</key>
-			<value>'Identify' Stone</value>
+			<value>'Identify' Stone</value> <!-- 'Identify' Stone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>319</key>
-			<value>'Me' Stone</value>
+			<value>'Me' Stone</value> <!-- 'Me' Stone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>320</key>
-			<value>'Quantum Moon' Stone</value>
+			<value>'Quantum Moon' Stone</value> <!-- 'Quantum Moon' Stone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>321</key>
-			<value>'You' Stone</value>
+			<value>'You' Stone</value> <!-- 'You' Stone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>322</key>
-			<value>Scroll</value>
+			<value>Scroll</value> <!-- Scroll -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>323</key>
-			<value>Projection Stone</value>
+			<value>Projection Stone</value> <!-- Projection Stone -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>324</key>
-			<value>Warp Core</value>
+			<value>Warp Core</value> <!-- Warp Core -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>330</key>
-			<value>Move Stick</value>
+			<value>Move Stick</value> <!-- Move Stick -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>331</key>
-			<value>Rotate Stick</value>
+			<value>Rotate Stick</value> <!-- Rotate Stick -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>332</key>
-			<value>Extend Stick</value>
+			<value>Extend Stick</value> <!-- Extend Stick -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>333</key>
-			<value>Eat</value>
+			<value>Eat</value> <!-- Eat -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>334</key>
-			<value>Toss</value>
+			<value>Toss</value> <!-- Toss -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>335</key>
-			<value>Put Away</value>
+			<value>Put Away</value> <!-- Put Away -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>336</key>
-			<value>Extinguish</value>
+			<value>Extinguish</value> <!-- Extinguish -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>337</key>
-			<value>Replace</value>
+			<value>Replace</value> <!-- Replace -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>340</key>
-			<value>Aim Translator</value>
+			<value>Aim Translator</value> <!-- Aim Translator -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>341</key>
-			<value>Put Away</value>
+			<value>Put Away</value> <!-- Put Away -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>342</key>
-			<value>Translate</value>
+			<value>Translate</value> <!-- Translate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>343</key>
-			<value>Scroll Text</value>
+			<value>Scroll Text</value> <!-- Scroll Text -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>344</key>
-			<value>Page Text</value>
+			<value>Page Text</value> <!-- Page Text -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>345</key>
-			<value>&lt;!&gt; Too close to target text &lt;!&gt;</value>
+			<value>&lt;!&gt; Too close to target text &lt;!&gt;</value> <!-- &lt;!&gt; Too close to target text &lt;!&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>346</key>
-			<value>&lt;!&gt; Untranslated Nomai recording &lt;!&gt;</value>
+			<value>&lt;!&gt; Untranslated Nomai recording &lt;!&gt;</value> <!-- &lt;!&gt; Untranslated Nomai recording &lt;!&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>347</key>
-			<value>&lt;!&gt; Untranslated Nomai writing &lt;!&gt;</value>
+			<value>&lt;!&gt; Untranslated Nomai writing &lt;!&gt;</value> <!-- &lt;!&gt; Untranslated Nomai writing &lt;!&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>350</key>
-			<value>Put Away</value>
+			<value>Put Away</value> <!-- Put Away -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>351</key>
-			<value>Zoom In</value>
+			<value>Zoom In</value> <!-- Zoom In -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>352</key>
-			<value>Zoom Level</value>
+			<value>Zoom Level</value> <!-- Zoom Level -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>353</key>
-			<value>Change Frequency</value>
+			<value>Change Frequency</value> <!-- Change Frequency -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>360</key>
-			<value>Leave Ship Log</value>
+			<value>Leave Ship Log</value> <!-- Leave Ship Log -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>361</key>
-			<value>Zoom View</value>
+			<value>Zoom View</value> <!-- Zoom View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>362</key>
-			<value>Map Mode</value>
+			<value>Map Mode</value> <!-- Map Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>363</key>
-			<value>Find in Map Mode</value>
+			<value>Find in Map Mode</value> <!-- Find in Map Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>364</key>
-			<value>View Entry</value>
+			<value>View Entry</value> <!-- View Entry -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>365</key>
-			<value>Skip</value>
+			<value>Skip</value> <!-- Skip -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>366</key>
-			<value>Remove HUD Marker</value>
+			<value>Remove HUD Marker</value> <!-- Remove HUD Marker -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>367</key>
-			<value>Mark Location On HUD</value>
+			<value>Mark Location On HUD</value> <!-- Mark Location On HUD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>368</key>
-			<value>View Rumored Entry</value>
+			<value>View Rumored Entry</value> <!-- View Rumored Entry -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>369</key>
-			<value>View Rumor</value>
+			<value>View Rumor</value> <!-- View Rumor -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>370</key>
-			<value>Back to Map</value>
+			<value>Back to Map</value> <!-- Back to Map -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>371</key>
-			<value>View Entries</value>
+			<value>View Entries</value> <!-- View Entries -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>372</key>
-			<value>Rumor Mode</value>
+			<value>Rumor Mode</value> <!-- Rumor Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>373</key>
-			<value>Find In Rumor Mode</value>
+			<value>Find In Rumor Mode</value> <!-- Find In Rumor Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>374</key>
-			<value>No discoveries yet.</value>
+			<value>No discoveries yet.</value> <!-- No discoveries yet. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>375</key>
-			<value>Scroll Text</value>
+			<value>Scroll Text</value> <!-- Scroll Text -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>380</key>
-			<value>Leave Menu</value>
+			<value>Leave Menu</value> <!-- Leave Menu -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>381</key>
-			<value>Swap Tab</value>
+			<value>Swap Tab</value> <!-- Swap Tab -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>382</key>
-			<value>PRESS A TO START</value>
+			<value>PRESS A TO START</value> <!-- PRESS A TO START -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>383</key>
-			<value>PRESS </value>
+			<value>PRESS </value> <!-- PRESS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>384</key>
-			<value> TO START</value>
+			<value> TO START</value> <!-- TO START -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>400</key>
-			<value>SURFACE INTEGRITY: </value>
+			<value>SURFACE INTEGRITY: </value> <!-- SURFACE INTEGRITY: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>401</key>
-			<value>FUEL LEVEL CRITICAL</value>
+			<value>FUEL LEVEL CRITICAL</value> <!-- FUEL LEVEL CRITICAL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>402</key>
-			<value>% FUEL REMAINING</value>
+			<value>% FUEL REMAINING</value> <!-- % FUEL REMAINING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>403</key>
-			<value>VITALS CRITICAL</value>
+			<value>VITALS CRITICAL</value> <!-- VITALS CRITICAL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>404</key>
-			<value>VITALS LOW</value>
+			<value>VITALS LOW</value> <!-- VITALS LOW -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>405</key>
-			<value> SECONDS OXYGEN REMAINING</value>
+			<value> SECONDS OXYGEN REMAINING</value> <!-- SECONDS OXYGEN REMAINING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>406</key>
-			<value> MINUTES OXYGEN REMAINING</value>
+			<value> MINUTES OXYGEN REMAINING</value> <!-- MINUTES OXYGEN REMAINING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>410</key>
-			<value>FREQUENCY:</value>
+			<value>FREQUENCY:</value> <!-- FREQUENCY: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>411</key>
-			<value>EXIT SHIP TO REPAIR</value>
+			<value>EXIT SHIP TO REPAIR</value> <!-- EXIT SHIP TO REPAIR -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>412</key>
-			<value>HAZARD</value>
+			<value>HAZARD</value> <!-- HAZARD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>413</key>
-			<value>ERROR: DUPLICATE SIGNAL</value>
+			<value>ERROR: DUPLICATE SIGNAL</value> <!-- ERROR: DUPLICATE SIGNAL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>414</key>
-			<value>MULTIPLE MARKERS</value>
+			<value>MULTIPLE MARKERS</value> <!-- MULTIPLE MARKERS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>415</key>
-			<value>SHIP LOG UPDATED</value>
+			<value>SHIP LOG UPDATED</value> <!-- SHIP LOG UPDATED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>416</key>
-			<value> (NEW)</value>
+			<value> (NEW)</value> <!-- (NEW) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>420</key>
-			<value>Launch Codes: --|-..|-.</value>
+			<value>Launch Codes: --|-..|-.</value> <!-- Launch Codes: —|-..|-. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>421</key>
-			<value>Eye Coordinates: </value>
+			<value>Eye Coordinates: </value> <!-- Eye Coordinates: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>430</key>
-			<value>WARNING: FUEL DEPLETED\\nUSING OXYGEN AS PROPELLANT</value>
+			<value>WARNING: FUEL DEPLETED\\nUSING OXYGEN AS PROPELLANT</value> <!-- WARNING: FUEL DEPLETED\\nUSING OXYGEN AS PROPELLANT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>431</key>
-			<value>REFUELING</value>
+			<value>REFUELING</value> <!-- REFUELING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>432</key>
-			<value>HEALING</value>
+			<value>HEALING</value> <!-- HEALING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>433</key>
-			<value>HEALING AND REFUELING</value>
+			<value>HEALING AND REFUELING</value> <!-- HEALING AND REFUELING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>434</key>
-			<value>TREES DETECTED — OXYGEN TANK REFILLED</value>
+			<value>TREES DETECTED — OXYGEN TANK REFILLED</value> <!-- TREES DETECTED — OXYGEN TANK REFILLED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>435</key>
-			<value>OXYGEN TANK REFILLED</value>
+			<value>OXYGEN TANK REFILLED</value> <!-- OXYGEN TANK REFILLED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>436</key>
-			<value>SUIT PUNCTURE DETECTED</value>
+			<value>SUIT PUNCTURE DETECTED</value> <!-- SUIT PUNCTURE DETECTED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>440</key>
-			<value>FREQUENCY DISCOVERED:</value>
+			<value>FREQUENCY DISCOVERED:</value> <!-- FREQUENCY DISCOVERED: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>441</key>
-			<value>SIGNAL IDENTIFIED:</value>
+			<value>SIGNAL IDENTIFIED:</value> <!-- SIGNAL IDENTIFIED: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>442</key>
-			<value>UNABLE TO PINPOINT LOCATION</value>
+			<value>UNABLE TO PINPOINT LOCATION</value> <!-- UNABLE TO PINPOINT LOCATION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>443</key>
-			<value>CONNECTION WITH SCOUT IS LOST</value>
+			<value>CONNECTION WITH SCOUT IS LOST</value> <!-- CONNECTION WITH SCOUT IS LOST -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>444</key>
-			<value>RETURNING TO SOLAR SYSTEM</value>
+			<value>RETURNING TO SOLAR SYSTEM</value> <!-- RETURNING TO SOLAR SYSTEM -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>445</key>
-			<value>HEADLIGHTS ON</value>
+			<value>HEADLIGHTS ON</value> <!-- HEADLIGHTS ON -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>446</key>
-			<value>HEADLIGHTS OFF</value>
+			<value>HEADLIGHTS OFF</value> <!-- HEADLIGHTS OFF -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>447</key>
-			<value>SCOUT LAUNCH OBSTRUCTED</value>
+			<value>SCOUT LAUNCH OBSTRUCTED</value> <!-- SCOUT LAUNCH OBSTRUCTED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>450</key>
-			<value>SATELLITE NODE</value>
+			<value>SATELLITE NODE</value> <!-- SATELLITE NODE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>451</key>
-			<value>UPPER HULL</value>
+			<value>UPPER HULL</value> <!-- UPPER HULL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>452</key>
-			<value>COCKPIT</value>
+			<value>COCKPIT</value> <!-- COCKPIT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>453</key>
-			<value>PORT HULL</value>
+			<value>PORT HULL</value> <!-- PORT HULL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>454</key>
-			<value>LANDING GEAR</value>
+			<value>LANDING GEAR</value> <!-- LANDING GEAR -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>455</key>
-			<value>STARBOARD HULL</value>
+			<value>STARBOARD HULL</value> <!-- STARBOARD HULL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>456</key>
-			<value>AUTOPILOT</value>
+			<value>AUTOPILOT</value> <!-- AUTOPILOT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>457</key>
-			<value>FUEL TANK</value>
+			<value>FUEL TANK</value> <!-- FUEL TANK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>458</key>
-			<value>ARTIFICIAL GRAVITY</value>
+			<value>ARTIFICIAL GRAVITY</value> <!-- ARTIFICIAL GRAVITY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>459</key>
-			<value>HEADLIGHTS</value>
+			<value>HEADLIGHTS</value> <!-- HEADLIGHTS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>460</key>
-			<value>LANDING CAMERA</value>
+			<value>LANDING CAMERA</value> <!-- LANDING CAMERA -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>461</key>
-			<value>PORT THRUSTER BANK</value>
+			<value>PORT THRUSTER BANK</value> <!-- PORT THRUSTER BANK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>462</key>
-			<value>ELECTRICAL SYSTEMS</value>
+			<value>ELECTRICAL SYSTEMS</value> <!-- ELECTRICAL SYSTEMS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>463</key>
-			<value>OXYGEN TANK</value>
+			<value>OXYGEN TANK</value> <!-- OXYGEN TANK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>464</key>
-			<value>REACTOR</value>
+			<value>REACTOR</value> <!-- REACTOR -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>465</key>
-			<value>STARBOARD THRUSTER BANK</value>
+			<value>STARBOARD THRUSTER BANK</value> <!-- STARBOARD THRUSTER BANK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>466</key>
-			<value>UNKNOWN</value>
+			<value>UNKNOWN</value> <!-- UNKNOWN -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>480</key>
-			<value>STAGE 1: ALIGNING FLIGHT TRAJECTORY</value>
+			<value>STAGE 1: ALIGNING FLIGHT TRAJECTORY</value> <!-- STAGE 1: ALIGNING FLIGHT TRAJECTORY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>481</key>
-			<value>STAGE 2: ACCELERATING TOWARD DESTINATION</value>
+			<value>STAGE 2: ACCELERATING TOWARD DESTINATION</value> <!-- STAGE 2: ACCELERATING TOWARD DESTINATION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>482</key>
-			<value>STAGE 3: FIRING RETRO-ROCKETS</value>
+			<value>STAGE 3: FIRING RETRO-ROCKETS</value> <!-- STAGE 3: FIRING RETRO-ROCKETS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>483</key>
-			<value>MATCHING VELOCITY</value>
+			<value>MATCHING VELOCITY</value> <!-- MATCHING VELOCITY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>484</key>
-			<value>VELOCITY MATCHED</value>
+			<value>VELOCITY MATCHED</value> <!-- VELOCITY MATCHED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>485</key>
-			<value>AUTOPILOT ABORTED</value>
+			<value>AUTOPILOT ABORTED</value> <!-- AUTOPILOT ABORTED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>486</key>
-			<value>VELOCITY MATCH ABORTED</value>
+			<value>VELOCITY MATCH ABORTED</value> <!-- VELOCITY MATCH ABORTED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>487</key>
-			<value>AUTOPILOT ABORTED: TOO CLOSE TO TARGET</value>
+			<value>AUTOPILOT ABORTED: TOO CLOSE TO TARGET</value> <!-- AUTOPILOT ABORTED: TOO CLOSE TO TARGET -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>488</key>
-			<value>AUTOPILOT COMPLETE: UNDERSHOT TARGET</value>
+			<value>AUTOPILOT COMPLETE: UNDERSHOT TARGET</value> <!-- AUTOPILOT COMPLETE: UNDERSHOT TARGET -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>489</key>
-			<value>AUTOPILOT COMPLETE</value>
+			<value>AUTOPILOT COMPLETE</value> <!-- AUTOPILOT COMPLETE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>500</key>
-			<value>RESUME</value>
+			<value>RESUME</value> <!-- RESUME -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>501</key>
-			<value>QUIT</value>
+			<value>QUIT</value> <!-- QUIT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>502</key>
-			<value>QUIT TO MAIN MENU\\n\\n(ALL PROGRESS WILL BE LOST)</value>
+			<value>QUIT TO MAIN MENU\\n\\n(ALL PROGRESS WILL BE LOST)</value> <!-- QUIT TO MAIN MENU\\n\\n(ALL PROGRESS WILL BE LOST) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>503</key>
-			<value>RESET LOOP AND QUIT TO MAIN MENU</value>
+			<value>RESET LOOP AND QUIT TO MAIN MENU</value> <!-- RESET LOOP AND QUIT TO MAIN MENU -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>504</key>
-			<value>MEDITATE UNTIL NEXT LOOP</value>
+			<value>MEDITATE UNTIL NEXT LOOP</value> <!-- MEDITATE UNTIL NEXT LOOP -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>505</key>
-			<value>SIGN IN</value>
+			<value>SIGN IN</value> <!-- SIGN IN -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>506</key>
-			<value>RESET TO VESSEL AND QUIT TO MAIN MENU</value>
+			<value>RESET TO VESSEL AND QUIT TO MAIN MENU</value> <!-- RESET TO VESSEL AND QUIT TO MAIN MENU -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>510</key>
-			<value>PAUSED</value>
+			<value>PAUSED</value> <!-- PAUSED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>511</key>
-			<value>&lt;color=orange&gt;Outer Wilds&lt;/color&gt; is best experienced with a game pad...</value>
+			<value>&lt;color=orange&gt;Outer Wilds&lt;/color&gt; is best experienced with a game pad...</value> <!-- &lt;color=orange&gt;Outer Wilds&lt;/color&gt; is best experienced with a game pad... -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>520</key>
-			<value>Controller disconnected.\\nPlease reconnect your controller.</value>
+			<value>Controller disconnected.\\nPlease reconnect your controller.</value> <!-- Controller disconnected.\\nPlease reconnect your controller. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>521</key>
-			<value>Current user signed out.\\nPlease sign in again to continue.</value>
+			<value>Current user signed out.\\nPlease sign in again to continue.</value> <!-- Current user signed out.\\nPlease sign in again to continue. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>522</key>
-			<value>Enter text...</value>
+			<value>Enter text...</value> <!-- Enter text... -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>523</key>
-			<value>USER:</value>
+			<value>USER:</value> <!-- USER: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>524</key>
-			<value>Profile Management</value>
+			<value>Profile Management</value> <!-- Profile Management -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>525</key>
-			<value>Controller disconnected.\\nPlease reconnect your controller.</value>
+			<value>Controller disconnected.\\nPlease reconnect your controller.</value> <!-- Controller disconnected.\\nPlease reconnect your controller. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>526</key>
-			<value>Wireless controller disconnected.\\nPlease reconnect your wireless controller.</value>
+			<value>Wireless controller disconnected.\\nPlease reconnect your wireless controller.</value> <!-- Wireless controller disconnected.\\nPlease reconnect your wireless controller. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>550</key>
-			<value>Interact</value>
+			<value>Interact</value> <!-- Interact -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>551</key>
-			<value>Jump</value>
+			<value>Jump</value> <!-- Jump -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>552</key>
-			<value>Match Velocity</value>
+			<value>Match Velocity</value> <!-- Match Velocity -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>553</key>
-			<value>Mark Entry</value>
+			<value>Mark Entry</value> <!-- Mark Entry -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>554</key>
-			<value>Cancel</value>
+			<value>Cancel</value> <!-- Cancel -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>555</key>
-			<value>Signalscope</value>
+			<value>Signalscope</value> <!-- Signalscope -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>556</key>
-			<value>Ship Log Mode</value>
+			<value>Ship Log Mode</value> <!-- Ship Log Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>557</key>
-			<value>Lock On</value>
+			<value>Lock On</value> <!-- Lock On -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>558</key>
-			<value>Flashlight</value>
+			<value>Flashlight</value> <!-- Flashlight -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>559</key>
-			<value>Roll</value>
+			<value>Roll</value> <!-- Roll -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>560</key>
-			<value>Walk</value>
+			<value>Walk</value> <!-- Walk -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>561</key>
-			<value>Rearview Snapshot</value>
+			<value>Rearview Snapshot</value> <!-- Rearview Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>562</key>
-			<value>Scout</value>
+			<value>Scout</value> <!-- Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>563</key>
-			<value>Scope View</value>
+			<value>Scope View</value> <!-- Scope View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>564</key>
-			<value>Translate</value>
+			<value>Translate</value> <!-- Translate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>565</key>
-			<value>Map</value>
+			<value>Map</value> <!-- Map -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>566</key>
-			<value>Pause</value>
+			<value>Pause</value> <!-- Pause -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>567</key>
-			<value>Look / Move</value>
+			<value>Look / Move</value> <!-- Look / Move -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>568</key>
-			<value>Default</value>
+			<value>Default</value> <!-- Default -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>569</key>
-			<value>Southpaw</value>
+			<value>Southpaw</value> <!-- Southpaw -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>570</key>
-			<value>Up / Down / Zoom</value>
+			<value>Up / Down / Zoom</value> <!-- Up / Down / Zoom -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>571</key>
-			<value>Forward</value>
+			<value>Forward</value> <!-- Forward -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>572</key>
-			<value>Backward</value>
+			<value>Backward</value> <!-- Backward -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>573</key>
-			<value>Left</value>
+			<value>Left</value> <!-- Left -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>574</key>
-			<value>Right</value>
+			<value>Right</value> <!-- Right -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>575</key>
-			<value>Thrust Up</value>
+			<value>Thrust Up</value> <!-- Thrust Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>576</key>
-			<value>Thrust Down</value>
+			<value>Thrust Down</value> <!-- Thrust Down -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>577</key>
-			<value>Retrieve Scout</value>
+			<value>Retrieve Scout</value> <!-- Retrieve Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>578</key>
-			<value>Change Frequency</value>
+			<value>Change Frequency</value> <!-- Change Frequency -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>579</key>
-			<value>Signalscope Zoom</value>
+			<value>Signalscope Zoom</value> <!-- Signalscope Zoom -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>580</key>
-			<value>Map Zoom</value>
+			<value>Map Zoom</value> <!-- Map Zoom -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>581</key>
-			<value>Ship Log Zoom</value>
+			<value>Ship Log Zoom</value> <!-- Ship Log Zoom -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>582</key>
-			<value>Scout Camera Up / Down</value>
+			<value>Scout Camera Up / Down</value> <!-- Scout Camera Up / Down -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>583</key>
-			<value>Scout Camera Left / Right</value>
+			<value>Scout Camera Left / Right</value> <!-- Scout Camera Left / Right -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>584</key>
-			<value>Translator Scroll</value>
+			<value>Translator Scroll</value> <!-- Translator Scroll -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>585</key>
-			<value>Translator Page</value>
+			<value>Translator Page</value> <!-- Translator Page -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>586</key>
-			<value>Autopilot</value>
+			<value>Autopilot</value> <!-- Autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>587</key>
-			<value>Ship Log Scroll</value>
+			<value>Ship Log Scroll</value> <!-- Ship Log Scroll -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>588</key>
-			<value>Free Look</value>
+			<value>Free Look</value> <!-- Free Look -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>589</key>
-			<value>Scout Mode</value>
+			<value>Scout Mode</value> <!-- Scout Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>600</key>
-			<value>Sun Station</value>
+			<value>Sun Station</value> <!-- Sun Station -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>601</key>
-			<value>Ash Twin</value>
+			<value>Ash Twin</value> <!-- Ash Twin -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>602</key>
-			<value>Ember Twin</value>
+			<value>Ember Twin</value> <!-- Ember Twin -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>603</key>
-			<value>Hourglass Twins</value>
+			<value>Hourglass Twins</value> <!-- Hourglass Twins -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>604</key>
-			<value>Timber Hearth</value>
+			<value>Timber Hearth</value> <!-- Timber Hearth -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>605</key>
-			<value>Brittle Hollow</value>
+			<value>Brittle Hollow</value> <!-- Brittle Hollow -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>606</key>
-			<value>Hollow's Lantern</value>
+			<value>Hollow's Lantern</value> <!-- Hollow's Lantern -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>607</key>
-			<value>Giant's Deep</value>
+			<value>Giant's Deep</value> <!-- Giant's Deep -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>608</key>
-			<value>Orbital Probe Cannon</value>
+			<value>Orbital Probe Cannon</value> <!-- Orbital Probe Cannon -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>609</key>
-			<value>Control Module</value>
+			<value>Control Module</value> <!-- Control Module -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>610</key>
-			<value>Launch Module</value>
+			<value>Launch Module</value> <!-- Launch Module -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>611</key>
-			<value>Probe Tracking Module</value>
+			<value>Probe Tracking Module</value> <!-- Probe Tracking Module -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>612</key>
-			<value>Dark Bramble</value>
+			<value>Dark Bramble</value> <!-- Dark Bramble -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>613</key>
-			<value>The Interloper</value>
+			<value>The Interloper</value> <!-- The Interloper -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>614</key>
-			<value>White Hole</value>
+			<value>White Hole</value> <!-- White Hole -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>615</key>
-			<value>Quantum Moon</value>
+			<value>Quantum Moon</value> <!-- Quantum Moon -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>616</key>
-			<value>Sun</value>
+			<value>Sun</value> <!-- Sun -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>617</key>
-			<value>The Attlerock</value>
+			<value>The Attlerock</value> <!-- The Attlerock -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>618</key>
-			<value>The Eye of the universe</value>
+			<value>The Eye of the universe</value> <!-- The Eye of the universe -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>650</key>
-			<value>ESCAPE POD 1</value>
+			<value>ESCAPE POD 1</value> <!-- ESCAPE POD 1 -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>651</key>
-			<value>ESCAPE POD 2</value>
+			<value>ESCAPE POD 2</value> <!-- ESCAPE POD 2 -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>652</key>
-			<value>ESCAPE POD 3</value>
+			<value>ESCAPE POD 3</value> <!-- ESCAPE POD 3 -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>653</key>
-			<value>ARKOSE</value>
+			<value>ARKOSE</value> <!-- ARKOSE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>654</key>
-			<value>GALENA</value>
+			<value>GALENA</value> <!-- GALENA -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>655</key>
-			<value>TEPHRA</value>
+			<value>TEPHRA</value> <!-- TEPHRA -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>656</key>
-			<value>GROVE SHARD</value>
+			<value>GROVE SHARD</value> <!-- GROVE SHARD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>657</key>
-			<value>MUSEUM SHARD</value>
+			<value>MUSEUM SHARD</value> <!-- MUSEUM SHARD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>658</key>
-			<value>TOWER SHARD</value>
+			<value>TOWER SHARD</value> <!-- TOWER SHARD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>659</key>
-			<value>CAVE SHARD</value>
+			<value>CAVE SHARD</value> <!-- CAVE SHARD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>660</key>
-			<value>ISLAND SHARD</value>
+			<value>ISLAND SHARD</value> <!-- ISLAND SHARD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>661</key>
-			<value>QUANTUM MOON</value>
+			<value>QUANTUM MOON</value> <!-- QUANTUM MOON -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>662</key>
-			<value>CHERT</value>
+			<value>CHERT</value> <!-- CHERT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>663</key>
-			<value>ESKER</value>
+			<value>ESKER</value> <!-- ESKER -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>664</key>
-			<value>FELDSPAR</value>
+			<value>FELDSPAR</value> <!-- FELDSPAR -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>665</key>
-			<value>GABBRO</value>
+			<value>GABBRO</value> <!-- GABBRO -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>666</key>
-			<value>RIEBECK</value>
+			<value>RIEBECK</value> <!-- RIEBECK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>667</key>
-			<value>SOLANUM</value>
+			<value>SOLANUM</value> <!-- SOLANUM -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>668</key>
-			<value>WHITE HOLE</value>
+			<value>WHITE HOLE</value> <!-- WHITE HOLE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>669</key>
-			<value>WHITE HOLE CORE</value>
+			<value>WHITE HOLE CORE</value> <!-- WHITE HOLE CORE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>680</key>
-			<value>UNIDENTIFIED</value>
+			<value>UNIDENTIFIED</value> <!-- UNIDENTIFIED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>681</key>
-			<value>OUTER WILDS VENTURES</value>
+			<value>OUTER WILDS VENTURES</value> <!-- OUTER WILDS VENTURES -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>682</key>
-			<value>QUANTUM FLUCTUATIONS</value>
+			<value>QUANTUM FLUCTUATIONS</value> <!-- QUANTUM FLUCTUATIONS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>683</key>
-			<value>DISTRESS BEACON</value>
+			<value>DISTRESS BEACON</value> <!-- DISTRESS BEACON -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>684</key>
-			<value>WHITE HOLE</value>
+			<value>WHITE HOLE</value> <!-- WHITE HOLE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>685</key>
-			<value>HIDE AND SEEK</value>
+			<value>HIDE AND SEEK</value> <!-- HIDE AND SEEK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>700</key>
-			<value>SUN STATION</value>
+			<value>SUN STATION</value> <!-- SUN STATION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>701</key>
-			<value>ASH TWIN</value>
+			<value>ASH TWIN</value> <!-- ASH TWIN -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>702</key>
-			<value>EMBER TWIN</value>
+			<value>EMBER TWIN</value> <!-- EMBER TWIN -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>703</key>
-			<value>THE HOURGLASS TWINS</value>
+			<value>THE HOURGLASS TWINS</value> <!-- THE HOURGLASS TWINS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>704</key>
-			<value>TIMBER HEARTH</value>
+			<value>TIMBER HEARTH</value> <!-- TIMBER HEARTH -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>705</key>
-			<value>BRITTLE HOLLOW</value>
+			<value>BRITTLE HOLLOW</value> <!-- BRITTLE HOLLOW -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>706</key>
-			<value>HOLLOW'S LANTERN</value>
+			<value>HOLLOW'S LANTERN</value> <!-- HOLLOW'S LANTERN -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>707</key>
-			<value>GIANT'S DEEP</value>
+			<value>GIANT'S DEEP</value> <!-- GIANT'S DEEP -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>708</key>
-			<value>CONTROL MODULE</value>
+			<value>CONTROL MODULE</value> <!-- CONTROL MODULE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>709</key>
-			<value>LAUNCH MODULE</value>
+			<value>LAUNCH MODULE</value> <!-- LAUNCH MODULE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>710</key>
-			<value>PROBE TRACKING MODULE</value>
+			<value>PROBE TRACKING MODULE</value> <!-- PROBE TRACKING MODULE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>711</key>
-			<value>DARK BRAMBLE</value>
+			<value>DARK BRAMBLE</value> <!-- DARK BRAMBLE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>712</key>
-			<value>THE INTERLOPER</value>
+			<value>THE INTERLOPER</value> <!-- THE INTERLOPER -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>713</key>
-			<value>WHITE HOLE</value>
+			<value>WHITE HOLE</value> <!-- WHITE HOLE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>714</key>
-			<value>QUANTUM MOON</value>
+			<value>QUANTUM MOON</value> <!-- QUANTUM MOON -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>715</key>
-			<value>SUN</value>
+			<value>SUN</value> <!-- SUN -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>716</key>
-			<value>THE ATTLEROCK</value>
+			<value>THE ATTLEROCK</value> <!-- THE ATTLEROCK -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>717</key>
-			<value>THE EYE OF THE UNIVERSE</value>
+			<value>THE EYE OF THE UNIVERSE</value> <!-- THE EYE OF THE UNIVERSE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>718</key>
-			<value>SCOUT</value>
+			<value>SCOUT</value> <!-- SCOUT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>719</key>
-			<value>YOU ARE HERE</value>
+			<value>YOU ARE HERE</value> <!-- YOU ARE HERE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>720</key>
-			<value>SHIP</value>
+			<value>SHIP</value> <!-- SHIP -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>730</key>
-			<value>PLANETARY CHART of the OUTER WILDS</value>
+			<value>PLANETARY CHART of the OUTER WILDS</value> <!-- PLANETARY CHART of the OUTER WILDS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>731</key>
-			<value>OUTER WILDS VENTURES</value>
+			<value>OUTER WILDS VENTURES</value> <!-- OUTER WILDS VENTURES -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>732</key>
-			<value>גששון</value>
+			<value>גששון</value> <!-- LITTLE SCOUT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>733</key>
-			<value>גלה סכנות</value>
+			<value>גלה סכנות</value> <!-- DETECT HAZARDS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>734</key>
-			<value>האר את החשיכה</value>
+			<value>האר את החשיכה</value> <!-- ILLUMINATE DARK AREAS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>735</key>
-			<value>ראה מעבר לאופק</value>
+			<value>ראה מעבר לאופק</value> <!-- SEE BEYOND THE HORIZON -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>736</key>
-			<value>בחן את הסביבה</value>
+			<value>בחן את הסביבה</value> <!-- TEST THE ENVIRONMENT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>737</key>
-			<value>PRESENTS</value>
+			<value>PRESENTS</value> <!-- PRESENTS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>738</key>
-			<value>גלויות ממסלול כבידתי</value>
+			<value>גלויות ממסלול כבידתי</value> <!-- POSTCARDS FROM ORBIT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>739</key>
-			<value>This projector is linked to our "Sky Shutter" satellite, which is currently orbiting Timber Hearth.</value>
+			<value>This projector is linked to our "Sky Shutter" satellite, which is currently orbiting Timber Hearth.</value> <!-- This projector is linked to our "Sky Shutter" satellite, which is currently orbiting Timber Hearth. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>740</key>
-			<value>The satellite is equipped with two onboard cameras. See if you can take a snapshot of our village!</value>
+			<value>The satellite is equipped with two onboard cameras. See if you can take a snapshot of our village!</value> <!-- The satellite is equipped with two onboard cameras. See if you can take a snapshot of our village! -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>800</key>
-			<value>Departure Time: </value>
+			<value>Departure Time: </value> <!-- Departure Time: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>801</key>
-			<value>Arrival Time: </value>
+			<value>Arrival Time: </value> <!-- Arrival Time: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>802</key>
-			<value>Return warp status: CHARGED. Step onto warp platform when ready.</value>
+			<value>Return warp status: CHARGED. Step onto warp platform when ready.</value> <!-- Return warp status: CHARGED. Step onto warp platform when ready. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>810</key>
-			<value>YOU ARE DEAD</value>
+			<value>YOU ARE DEAD</value> <!-- YOU ARE DEAD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>811</key>
-			<value>YOU DESTROYED THE FABRIC OF SPACETIME</value>
+			<value>YOU DESTROYED THE FABRIC OF SPACETIME</value> <!-- YOU DESTROYED THE FABRIC OF SPACETIME -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>812</key>
-			<value>NOW BEYOND THE REACH OF THE SUPERNOVA,\\nYOU DRIFT THROUGH SPACE UNTIL YOUR SHIP'S RESOURCES ARE FINALLY DEPLETED</value>
+			<value>NOW BEYOND THE REACH OF THE SUPERNOVA,\\nYOU DRIFT THROUGH SPACE UNTIL YOUR SHIP'S RESOURCES ARE FINALLY DEPLETED</value> <!-- NOW BEYOND THE REACH OF THE SUPERNOVA,\\nYOU DRIFT THROUGH SPACE UNTIL YOUR SHIP'S RESOURCES ARE FINALLY DEPLETED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>813</key>
-			<value>HOW LONG HAVE YOU BEEN HERE? MINUTES? YEARS?\\nYOU ARE UNSURE BUT IT SEEMS YOUR JOURNEY HAS REACHED ITS END.</value>
+			<value>HOW LONG HAVE YOU BEEN HERE? MINUTES? YEARS?\\nYOU ARE UNSURE BUT IT SEEMS YOUR JOURNEY HAS REACHED ITS END.</value> <!-- HOW LONG HAVE YOU BEEN HERE? MINUTES? YEARS?\\nYOU ARE UNSURE BUT IT SEEMS YOUR JOURNEY HAS REACHED ITS END. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>814</key>
-			<value>NOW BEYOND THE REACH OF THE SUPERNOVA, YOU FIND YOURSELF THE ONLY INHABITANT OF AN ABANDONED WORLD.\\nSURELY &lt;i&gt;SOMETHING&lt;/i&gt; HERE MUST BE EDIBLE?</value>
+			<value>NOW BEYOND THE REACH OF THE SUPERNOVA, YOU FIND YOURSELF THE ONLY INHABITANT OF AN ABANDONED WORLD.\\nSURELY &lt;i&gt;SOMETHING&lt;/i&gt; HERE MUST BE EDIBLE?</value> <!-- NOW BEYOND THE REACH OF THE SUPERNOVA, YOU FIND YOURSELF THE ONLY INHABITANT OF AN ABANDONED WORLD.\\nSURELY &lt;i&gt;SOMETHING&lt;/i&gt; HERE MUST BE EDIBLE? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>815</key>
-			<value>HOW MUCH TIME HAS PASSED?\\nTHEY DON’T EVEN BOTHER TO HUNT YOU ANYMORE.\\nTIME PASSES, AND PASSES, UNTIL YOUR LIFE BEFORE IS SOME HALF-REMEMBERED DREAM.\\nIF ONLY YOU COULD WAKE UP.</value>
+			<value>HOW MUCH TIME HAS PASSED?\\nTHEY DON’T EVEN BOTHER TO HUNT YOU ANYMORE.\\nTIME PASSES, AND PASSES, UNTIL YOUR LIFE BEFORE IS SOME HALF-REMEMBERED DREAM.\\nIF ONLY YOU COULD WAKE UP.</value> <!-- HOW MUCH TIME HAS PASSED?\\nTHEY DON’T EVEN BOTHER TO HUNT YOU ANYMORE.\\nTIME PASSES, AND PASSES, UNTIL YOUR LIFE BEFORE IS SOME HALF-REMEMBERED DREAM.\\nIF ONLY YOU COULD WAKE UP. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>900</key>
-			<value>Middle Screen Reticle</value>
+			<value>Middle Screen Reticle</value> <!-- Middle Screen Reticle -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>901</key>
-			<value>Heads Up Display</value>
+			<value>Heads Up Display</value> <!-- Heads Up Display -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>902</key>
-			<value>Vibration</value>
+			<value>Vibration</value> <!-- Vibration -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>903</key>
-			<value>Button Remapping</value>
+			<value>Button Remapping</value> <!-- Button Remapping -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>904</key>
-			<value>Mouse Smoothing</value>
+			<value>Mouse Smoothing</value> <!-- Mouse Smoothing -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>905</key>
-			<value>HUD Notifications</value>
+			<value>HUD Notifications</value> <!-- HUD Notifications -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>906</key>
-			<value>Photo Mode</value>
+			<value>Photo Mode</value> <!-- Photo Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>907</key>
-			<value>Music Volume</value>
+			<value>Music Volume</value> <!-- Music Volume -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>908</key>
-			<value>SFX Volume</value>
+			<value>SFX Volume</value> <!-- SFX Volume -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>909</key>
-			<value>Target Frame Rate</value>
+			<value>Target Frame Rate</value> <!-- Target Frame Rate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>910</key>
-			<value>Field of View</value>
+			<value>Field of View</value> <!-- Field of View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>911</key>
-			<value>Physics Update Rate</value>
+			<value>Physics Update Rate</value> <!-- Physics Update Rate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>912</key>
-			<value>Ship Auto Orientation</value>
+			<value>Ship Auto Orientation</value> <!-- Ship Auto Orientation -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>913</key>
-			<value>Ship Center of Mass</value>
+			<value>Ship Center of Mass</value> <!-- Ship Center of Mass -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>914</key>
-			<value>Difficulty Modes</value>
+			<value>Difficulty Modes</value> <!-- Difficulty Modes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>915</key>
-			<value>Easy</value>
+			<value>Easy</value> <!-- Easy -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>916</key>
-			<value>Medium</value>
+			<value>Medium</value> <!-- Medium -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>917</key>
-			<value>Hard</value>
+			<value>Hard</value> <!-- Hard -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>918</key>
-			<value>Impact Wobble</value>
+			<value>Impact Wobble</value> <!-- Impact Wobble -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>919</key>
-			<value>?</value>
+			<value>?</value> <!-- ? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>920</key>
-			<value>Grappling Hook</value>
+			<value>Grappling Hook</value> <!-- Grappling Hook -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>921</key>
-			<value>Jump Multiplier</value>
+			<value>Jump Multiplier</value> <!-- Jump Multiplier -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>922</key>
-			<value>Invincibility</value>
+			<value>Invincibility</value> <!-- Invincibility -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>923</key>
-			<value>Probe Destruction</value>
+			<value>Probe Destruction</value> <!-- Probe Destruction -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>924</key>
-			<value>Infinite Resources</value>
+			<value>Infinite Resources</value> <!-- Infinite Resources -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>925</key>
-			<value>Limited Ship Fuel</value>
+			<value>Limited Ship Fuel</value> <!-- Limited Ship Fuel -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>926</key>
-			<value>Sprint Speed</value>
+			<value>Sprint Speed</value> <!-- Sprint Speed -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>927</key>
-			<value>FLASHLIGHT</value>
+			<value>FLASHLIGHT</value> <!-- FLASHLIGHT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>928</key>
-			<value>FLASHLIGHT</value>
+			<value>FLASHLIGHT</value> <!-- FLASHLIGHT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>929</key>
-			<value> LANDING CAM</value>
+			<value> LANDING CAM</value> <!-- LANDING CAM -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>930</key>
-			<value>COMPUTER</value>
+			<value>COMPUTER</value> <!-- COMPUTER -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>931</key>
-			<value>SIGNALSCOPE</value>
+			<value>SIGNALSCOPE</value> <!-- SIGNALSCOPE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>932</key>
-			<value>GRAVITY</value>
+			<value>GRAVITY</value> <!-- GRAVITY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>933</key>
-			<value>Launch Tower</value>
+			<value>Launch Tower</value> <!-- Launch Tower -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>934</key>
-			<value>Lumber Mill</value>
+			<value>Lumber Mill</value> <!-- Lumber Mill -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>935</key>
-			<value>Zero-G Cave</value>
+			<value>Zero-G Cave</value> <!-- Zero-G Cave -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>936</key>
-			<value>Observatory</value>
+			<value>Observatory</value> <!-- Observatory -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>937</key>
-			<value>The quiet shade</value>
+			<value>The quiet shade</value> <!-- The quiet shade -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>938</key>
-			<value>Across old bark</value>
+			<value>Across old bark</value> <!-- Across old bark -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>939</key>
-			<value>In the ancient glade</value>
+			<value>In the ancient glade</value> <!-- In the ancient glade -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>940</key>
-			<value>It's always dark</value>
+			<value>It's always dark</value> <!-- It's always dark -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>941</key>
-			<value>FUEL</value>
+			<value>FUEL</value> <!-- FUEL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>942</key>
-			<value>TEMP</value>
+			<value>TEMP</value> <!-- TEMP -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>943</key>
-			<value>O2</value>
+			<value>O2</value> <!-- O2 -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>944</key>
-			<value>H2O</value>
+			<value>H2O</value> <!-- H2O -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>945</key>
-			<value>MASTER\\nALARM</value>
+			<value>MASTER\\nALARM</value> <!-- MASTER\\nALARM -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>946</key>
-			<value>EJECT</value>
+			<value>EJECT</value> <!-- EJECT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>947</key>
-			<value>WARNING:\\nUSE ONLY IN\\nEMERGENCY</value>
+			<value>WARNING:\\nUSE ONLY IN\\nEMERGENCY</value> <!-- WARNING:\\nUSE ONLY IN\\nEMERGENCY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>948</key>
-			<value>HUD</value>
+			<value>HUD</value> <!-- HUD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>949</key>
-			<value>ON</value>
+			<value>ON</value> <!-- ON -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>950</key>
-			<value>OFF</value>
+			<value>OFF</value> <!-- OFF -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>951</key>
-			<value>CAUTION</value>
+			<value>CAUTION</value> <!-- CAUTION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>952</key>
-			<value>WARNING</value>
+			<value>WARNING</value> <!-- WARNING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>953</key>
-			<value>DAMAGE</value>
+			<value>DAMAGE</value> <!-- DAMAGE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>954</key>
-			<value>ALTIMETER</value>
+			<value>ALTIMETER</value> <!-- ALTIMETER -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>955</key>
-			<value>MATCH VELOCITY</value>
+			<value>MATCH VELOCITY</value> <!-- MATCH VELOCITY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>956</key>
-			<value>OXYGEN REFILL:</value>
+			<value>OXYGEN REFILL:</value> <!-- OXYGEN REFILL: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>957</key>
-			<value>SPOT A TREE</value>
+			<value>SPOT A TREE</value> <!-- SPOT A TREE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>958</key>
-			<value>WALK TOWARDS IT</value>
+			<value>WALK TOWARDS IT</value> <!-- WALK TOWARDS IT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>959</key>
-			<value>ENJOY!</value>
+			<value>ENJOY!</value> <!-- ENJOY! -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>960</key>
-			<value>Loading... </value>
+			<value>Loading... </value> <!-- Loading... -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>961</key>
-			<value>UNIDENTIFIED SIGNAL NEARBY</value>
+			<value>UNIDENTIFIED SIGNAL NEARBY</value> <!-- UNIDENTIFIED SIGNAL NEARBY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>962</key>
-			<value>UNKNOWN</value>
+			<value>UNKNOWN</value> <!-- UNKNOWN -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>963</key>
-			<value>DANGER: GHOST MATTER DETECTED NEARBY</value>
+			<value>DANGER: GHOST MATTER DETECTED NEARBY</value> <!-- DANGER: GHOST MATTER DETECTED NEARBY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>964</key>
-			<value>LOAD PREVIOUS SAVE</value>
+			<value>LOAD PREVIOUS SAVE</value> <!-- LOAD PREVIOUS SAVE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>965</key>
-			<value> signed out.\\nPlease sign in again to continue.</value>
+			<value> signed out.\\nPlease sign in again to continue.</value> <!-- signed out.\\nPlease sign in again to continue. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>966</key>
-			<value>SWITCH PROFILE</value>
+			<value>SWITCH PROFILE</value> <!-- SWITCH PROFILE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>967</key>
-			<value>SHIP HULL BREACH DETECTED</value>
+			<value>SHIP HULL BREACH DETECTED</value> <!-- SHIP HULL BREACH DETECTED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>968</key>
-			<value>UNABLE TO RETRIEVE SCOUT; TOO MANY TARGETS</value>
+			<value>UNABLE TO RETRIEVE SCOUT; TOO MANY TARGETS</value> <!-- UNABLE TO RETRIEVE SCOUT; TOO MANY TARGETS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>969</key>
-			<value>EMERGENCY SCOUT RECALL ACTIVATED</value>
+			<value>EMERGENCY SCOUT RECALL ACTIVATED</value> <!-- EMERGENCY SCOUT RECALL ACTIVATED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>970</key>
-			<value> DAMAGED</value>
+			<value> DAMAGED</value> <!-- DAMAGED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>971</key>
-			<value> OF 3 REPAIRED</value>
+			<value> OF 3 REPAIRED</value> <!-- OF 3 REPAIRED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>972</key>
-			<value>3 OF 3 REPAIRED\\nTRAINING SIMULATION COMPLETE</value>
+			<value>3 OF 3 REPAIRED\\nTRAINING SIMULATION COMPLETE</value> <!-- 3 OF 3 REPAIRED\\nTRAINING SIMULATION COMPLETE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>973</key>
-			<value>&lt;color=orange&gt;There's more to explore here.&lt;/color&gt;</value>
+			<value>&lt;color=orange&gt;There's more to explore here.&lt;/color&gt;</value> <!-- &lt;color=orange&gt;There's more to explore here.&lt;/color&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>974</key>
-			<value>UNTRANSLATED TEXT REMAINING</value>
+			<value>UNTRANSLATED TEXT REMAINING</value> <!-- UNTRANSLATED TEXT REMAINING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>975</key>
-			<value>AFT HULL</value>
+			<value>AFT HULL</value> <!-- AFT HULL -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>980</key>
-			<value>Low</value>
+			<value>Low</value> <!-- Low -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>981</key>
-			<value>Medium</value>
+			<value>Medium</value> <!-- Medium -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>982</key>
-			<value>High</value>
+			<value>High</value> <!-- High -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>983</key>
-			<value>Very High</value>
+			<value>Very High</value> <!-- Very High -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>984</key>
-			<value>Full</value>
+			<value>Full</value> <!-- Full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>985</key>
-			<value>Half</value>
+			<value>Half</value> <!-- Half -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>986</key>
-			<value>Quarter</value>
+			<value>Quarter</value> <!-- Quarter -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>987</key>
-			<value>Eighth</value>
+			<value>Eighth</value> <!-- Eighth -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>988</key>
-			<value>Invalid</value>
+			<value>Invalid</value> <!-- Invalid -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>989</key>
-			<value>Slow</value>
+			<value>Slow</value> <!-- Slow -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>990</key>
-			<value>Normal</value>
+			<value>Normal</value> <!-- Normal -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>991</key>
-			<value>Fast</value>
+			<value>Fast</value> <!-- Fast -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>992</key>
-			<value>Instant</value>
+			<value>Instant</value> <!-- Instant -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>995</key>
-			<value>1440p/60fps</value>
+			<value>1440p/60fps</value> <!-- 1440p/60fps -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>996</key>
-			<value>2160p/30fps</value>
+			<value>2160p/30fps</value> <!-- 2160p/30fps -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>997</key>
-			<value>Dynamic/60fps</value>
+			<value>Dynamic/60fps</value> <!-- Dynamic/60fps -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>998</key>
-			<value>1080p/60fps</value>
+			<value>1080p/60fps</value> <!-- 1080p/60fps -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>999</key>
-			<value>1440p/30fps</value>
+			<value>1440p/30fps</value> <!-- 1440p/30fps -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1000</key>
-			<value>Create Profile</value>
+			<value>Create Profile</value> <!-- Create Profile -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1001</key>
-			<value>Enter Profile Name...</value>
+			<value>Enter Profile Name...</value> <!-- Enter Profile Name... -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1002</key>
-			<value>Create</value>
+			<value>Create</value> <!-- Create -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1003</key>
-			<value>Cancel And Exit Game</value>
+			<value>Cancel And Exit Game</value> <!-- Cancel And Exit Game -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1004</key>
-			<value>Delete the profile </value>
+			<value>Delete the profile </value> <!-- Delete the profile -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1005</key>
-			<value>?</value>
+			<value>?</value> <!-- ? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1006</key>
-			<value>Switch to profile </value>
+			<value>Switch to profile </value> <!-- Switch to profile -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1007</key>
-			<value>?</value>
+			<value>?</value> <!-- ? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1008</key>
-			<value>Switch</value>
+			<value>Switch</value> <!-- Switch -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1009</key>
-			<value>Last Saved: </value>
+			<value>Last Saved: </value> <!-- Last Saved: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1010</key>
-			<value>Please ensure that \\n- Outer Wilds has permissions to write to the disk \\n- The hard drive is not full</value>
+			<value>Please ensure that \\n- Outer Wilds has permissions to write to the disk \\n- The hard drive is not full</value> <!-- Please ensure that \\n- Outer Wilds has permissions to write to the disk \\n- The hard drive is not full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1011</key>
-			<value>Rebind Controls</value>
+			<value>Rebind Controls</value> <!-- Rebind Controls -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1012</key>
-			<value>Control Rebinding</value>
+			<value>Control Rebinding</value> <!-- Control Rebinding -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1013</key>
-			<value>Gamepad</value>
+			<value>Gamepad</value> <!-- Gamepad -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1014</key>
-			<value>Keyboard &amp; Mouse</value>
+			<value>Keyboard &amp; Mouse</value> <!-- Keyboard &amp; Mouse -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1015</key>
-			<value>Discard and Exit</value>
+			<value>Discard and Exit</value> <!-- Discard and Exit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1016</key>
-			<value>Save and Exit</value>
+			<value>Save and Exit</value> <!-- Save and Exit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1017</key>
-			<value>Cancel Rebinding</value>
+			<value>Cancel Rebinding</value> <!-- Cancel Rebinding -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1018</key>
-			<value>Confirm</value>
+			<value>Confirm</value> <!-- Confirm -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1019</key>
-			<value>Map Zoom In</value>
+			<value>Map Zoom In</value> <!-- Map Zoom In -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1020</key>
-			<value>Map Zoom Out</value>
+			<value>Map Zoom Out</value> <!-- Map Zoom Out -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1021</key>
-			<value>Move X-Axis</value>
+			<value>Move X-Axis</value> <!-- Move X-Axis -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1022</key>
-			<value>Move Y-Axis</value>
+			<value>Move Y-Axis</value> <!-- Move Y-Axis -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1023</key>
-			<value>Look X-Axis</value>
+			<value>Look X-Axis</value> <!-- Look X-Axis -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1024</key>
-			<value>Look Y-Axis</value>
+			<value>Look Y-Axis</value> <!-- Look Y-Axis -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1025</key>
-			<value>Launch Scout / Forward Snapshot</value>
+			<value>Launch Scout / Forward Snapshot</value> <!-- Launch Scout / Forward Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1026</key>
-			<value>Scout Rearview Snapshot</value>
+			<value>Scout Rearview Snapshot</value> <!-- Scout Rearview Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1027</key>
-			<value>Tool X-Axis</value>
+			<value>Tool X-Axis</value> <!-- Tool X-Axis -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1028</key>
-			<value>Tool Y-Axis</value>
+			<value>Tool Y-Axis</value> <!-- Tool Y-Axis -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1029</key>
-			<value>Roll Mode</value>
+			<value>Roll Mode</value> <!-- Roll Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1030</key>
-			<value>Jetpack Boost</value>
+			<value>Jetpack Boost</value> <!-- Jetpack Boost -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1031</key>
-			<value>Landing Camera</value>
+			<value>Landing Camera</value> <!-- Landing Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1032</key>
-			<value>Cockpit Free Look</value>
+			<value>Cockpit Free Look</value> <!-- Cockpit Free Look -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1033</key>
-			<value>Change Ship Log Mode</value>
+			<value>Change Ship Log Mode</value> <!-- Change Ship Log Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1034</key>
-			<value>Mark Entry on HUD</value>
+			<value>Mark Entry on HUD</value> <!-- Mark Entry on HUD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1035</key>
-			<value>Scroll Ship Log Text</value>
+			<value>Scroll Ship Log Text</value> <!-- Scroll Ship Log Text -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1036</key>
-			<value>Doze Off</value>
+			<value>Doze Off</value> <!-- Doze Off -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1037</key>
-			<value>Fall Asleep</value>
+			<value>Fall Asleep</value> <!-- Fall Asleep -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1038</key>
-			<value>PS4®</value>
+			<value>PS4®</value> <!-- PS4® -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1039</key>
-			<value>Xbox</value>
+			<value>Xbox</value> <!-- Xbox -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1040</key>
-			<value>Custom</value>
+			<value>Custom</value> <!-- Custom -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1041</key>
-			<value>Gamepad Preset</value>
+			<value>Gamepad Preset</value> <!-- Gamepad Preset -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1042</key>
-			<value>File Save Error</value>
+			<value>File Save Error</value> <!-- File Save Error -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1043</key>
-			<value>PS4® (Custom)</value>
+			<value>PS4® (Custom)</value> <!-- PS4® (Custom) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1044</key>
-			<value>Dualshock (Custom)</value>
+			<value>Dualshock (Custom)</value> <!-- Dualshock (Custom) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1045</key>
-			<value>Dualshock</value>
+			<value>Dualshock</value> <!-- Dualshock -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1046</key>
-			<value>Xbox (Custom)</value>
+			<value>Xbox (Custom)</value> <!-- Xbox (Custom) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1047</key>
-			<value>Switch Pro</value>
+			<value>Switch Pro</value> <!-- Switch Pro -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1048</key>
-			<value>Switch Pro (Custom)</value>
+			<value>Switch Pro (Custom)</value> <!-- Switch Pro (Custom) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1049</key>
-			<value>Axis #</value>
+			<value>Axis #</value> <!-- Axis # -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1050</key>
-			<value>Button #</value>
+			<value>Button #</value> <!-- Button # -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1051</key>
-			<value>Found recovered data for profile name &lt;Profile Name&gt;. Restore? </value>
+			<value>Found recovered data for profile name &lt;Profile Name&gt;. Restore? </value> <!-- Found recovered data for profile name &lt;Profile Name&gt;. Restore? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1052</key>
-			<value>Overwrite existing data for profile name &lt;Profile Name&gt;?</value>
+			<value>Overwrite existing data for profile name &lt;Profile Name&gt;?</value> <!-- Overwrite existing data for profile name &lt;Profile Name&gt;? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1100</key>
-			<value>Gear Options</value>
+			<value>Gear Options</value> <!-- Gear Options -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1101</key>
-			<value>Gear Options</value>
+			<value>Gear Options</value> <!-- Gear Options -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1102</key>
-			<value>ERROR: SCOUT RECALL FAILED</value>
+			<value>ERROR: SCOUT RECALL FAILED</value> <!-- ERROR: SCOUT RECALL FAILED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1103</key>
-			<value>FREEZE TIME WHILE READING</value>
+			<value>FREEZE TIME WHILE READING</value> <!-- FREEZE TIME WHILE READING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1104</key>
-			<value>REBIND CONTROLS</value>
+			<value>REBIND CONTROLS</value> <!-- REBIND CONTROLS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1105</key>
-			<value>CONTROL REBINDING</value>
+			<value>CONTROL REBINDING</value> <!-- CONTROL REBINDING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1106</key>
-			<value>GAMEPAD</value>
+			<value>GAMEPAD</value> <!-- GAMEPAD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1107</key>
-			<value>KEYBOARD &amp; MOUSE</value>
+			<value>KEYBOARD &amp; MOUSE</value> <!-- KEYBOARD &amp; MOUSE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1108</key>
-			<value>Delete Profile</value>
+			<value>Delete Profile</value> <!-- Delete Profile -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1109</key>
-			<value>Switch Profile</value>
+			<value>Switch Profile</value> <!-- Switch Profile -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1110</key>
-			<value>Select from pre-configured visual quality settings.</value>
+			<value>Select from pre-configured visual quality settings.</value> <!-- Select from pre-configured visual quality settings. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1111</key>
-			<value>Whether the game should run as windowed or fullscreen.</value>
+			<value>Whether the game should run as windowed or fullscreen.</value> <!-- Whether the game should run as windowed or fullscreen. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1112</key>
-			<value>Choose which monitor will display the game</value>
+			<value>Choose which monitor will display the game</value> <!-- Choose which monitor will display the game -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1113</key>
-			<value>Determines which resolutions are available in the following option, based on the dimensions of the screen.</value>
+			<value>Determines which resolutions are available in the following option, based on the dimensions of the screen.</value> <!-- Determines which resolutions are available in the following option, based on the dimensions of the screen. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1114</key>
-			<value>The game will render at this pixel resolution.\\nRendering cost: High</value>
+			<value>The game will render at this pixel resolution.\\nRendering cost: High</value> <!-- The game will render at this pixel resolution.\\nRendering cost: High -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1115</key>
-			<value>Smooths out jagged pixel edges.  SMAA is more precise and higher quality, but FXAA is faster.\\nRendering cost: Low</value>
+			<value>Smooths out jagged pixel edges.  SMAA is more precise and higher quality, but FXAA is faster.\\nRendering cost: Low</value> <!-- Smooths out jagged pixel edges.  SMAA is more precise and higher quality, but FXAA is faster.\\nRendering cost: Low -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1116</key>
-			<value>Quality of the anti-aliasing post-processing effect.  Higher quality is more expensive.</value>
+			<value>Quality of the anti-aliasing post-processing effect.  Higher quality is more expensive.</value> <!-- Quality of the anti-aliasing post-processing effect.  Higher quality is more expensive. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1117</key>
-			<value>Relative resolution of texture maps used throughout the game.\\nMemory cost: Medium</value>
+			<value>Relative resolution of texture maps used throughout the game.\\nMemory cost: Medium</value> <!-- Relative resolution of texture maps used throughout the game.\\nMemory cost: Medium -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1118</key>
-			<value>Amount of detail in the ocean waves and lighting quality of the water.\\nRendering cost: High</value>
+			<value>Amount of detail in the ocean waves and lighting quality of the water.\\nRendering cost: High</value> <!-- Amount of detail in the ocean waves and lighting quality of the water.\\nRendering cost: High -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1119</key>
-			<value>The resolution and accuracy of shadows in the game world, as well as the number of shadow-casting lights.\\nRendering cost: High</value>
+			<value>The resolution and accuracy of shadows in the game world, as well as the number of shadow-casting lights.\\nRendering cost: High</value> <!-- The resolution and accuracy of shadows in the game world, as well as the number of shadow-casting lights.\\nRendering cost: High -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1120</key>
-			<value>Calculates ambient occlusion (the soft shadows when objects are close to each other) as a post-processing effect.\\nRendering cost: Medium</value>
+			<value>Calculates ambient occlusion (the soft shadows when objects are close to each other) as a post-processing effect.\\nRendering cost: Medium</value> <!-- Calculates ambient occlusion (the soft shadows when objects are close to each other) as a post-processing effect.\\nRendering cost: Medium -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1121</key>
-			<value>Adjusts the brightness or darkness of the visuals.\\nRendering cost: None</value>
+			<value>Adjusts the brightness or darkness of the visuals.\\nRendering cost: None</value> <!-- Adjusts the brightness or darkness of the visuals.\\nRendering cost: None -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1122</key>
-			<value>Prevents screen-tearing by synchronizing the game's framerate with the monitor's refresh rate.\\nRendering cost: None, but will automatically lower your framerate to the closest multiple of the monitor's sync rate</value>
+			<value>Prevents screen-tearing by synchronizing the game's framerate with the monitor's refresh rate.\\nRendering cost: None, but will automatically lower your framerate to the closest multiple of the monitor's sync rate</value> <!-- Prevents screen-tearing by synchronizing the game's framerate with the monitor's refresh rate.\\nRendering cost: None, but will automatically lower your framerate to the closest multiple of the monitor's sync rate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1123</key>
-			<value>Dithering improves color blending, but may make compressed video of the game look worse.\\nRendering cost: None</value>
+			<value>Dithering improves color blending, but may make compressed video of the game look worse.\\nRendering cost: None</value> <!-- Dithering improves color blending, but may make compressed video of the game look worse.\\nRendering cost: None -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1124</key>
-			<value>The vertical field-of-view of the in-game camera.  Warning: changing this might affect certain puzzles in Outer Wilds.\\nRendering cost: Low</value>
+			<value>The vertical field-of-view of the in-game camera.  Warning: changing this might affect certain puzzles in Outer Wilds.\\nRendering cost: Low</value> <!-- The vertical field-of-view of the in-game camera.  Warning: changing this might affect certain puzzles in Outer Wilds.\\nRendering cost: Low -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1125</key>
-			<value>Jetpack boost can be triggered with a separate button press (manual) or any time upward thrust is used (auto).</value>
+			<value>Jetpack boost can be triggered with a separate button press (manual) or any time upward thrust is used (auto).</value> <!-- Jetpack boost can be triggered with a separate button press (manual) or any time upward thrust is used (auto). -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1126</key>
-			<value>Translator can be equipped with a button press (manual) or by looking at translatable text (auto).</value>
+			<value>Translator can be equipped with a button press (manual) or by looking at translatable text (auto).</value> <!-- Translator can be equipped with a button press (manual) or by looking at translatable text (auto). -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1127</key>
-			<value>Displays a HUD notification when new information is added to the ship log.</value>
+			<value>Displays a HUD notification when new information is added to the ship log.</value> <!-- Displays a HUD notification when new information is added to the ship log. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1128</key>
-			<value>Displays rumor connections between ship log entries. Disable to minimize in-game guidance.</value>
+			<value>Displays rumor connections between ship log entries. Disable to minimize in-game guidance.</value> <!-- Displays rumor connections between ship log entries. Disable to minimize in-game guidance. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1129</key>
-			<value>Disabling this will remove the ability to automatically fly between planets using autopilot.</value>
+			<value>Disabling this will remove the ability to automatically fly between planets using autopilot.</value> <!-- Disabling this will remove the ability to automatically fly between planets using autopilot. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1130</key>
-			<value>Displays button prompts for available actions.</value>
+			<value>Displays button prompts for available actions.</value> <!-- Displays button prompts for available actions. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1131</key>
-			<value>Change volume for all audio.</value>
+			<value>Change volume for all audio.</value> <!-- Change volume for all audio. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1132</key>
-			<value>Change volume for non-diegetic music.</value>
+			<value>Change volume for non-diegetic music.</value> <!-- Change volume for non-diegetic music. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1133</key>
-			<value>Change the language for all text in the game.</value>
+			<value>Change the language for all text in the game.</value> <!-- Change the language for all text in the game. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1134</key>
-			<value>Change the reveal speed of text during conversation.</value>
+			<value>Change the reveal speed of text during conversation.</value> <!-- Change the reveal speed of text during conversation. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1135</key>
-			<value>Freezes time while reading translated text (translator must remain stationary).\\nNOTE: There are certain periods when time cannot be frozen.</value>
+			<value>Freezes time while reading translated text (translator must remain stationary).\\nNOTE: There are certain periods when time cannot be frozen.</value> <!-- Freezes time while reading translated text (translator must remain stationary).\\nNOTE: There are certain periods when time cannot be frozen. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1136</key>
-			<value>Freezes time while using the ship log.\\nNOTE: There are certain periods when time cannot be frozen.</value>
+			<value>Freezes time while using the ship log.\\nNOTE: There are certain periods when time cannot be frozen.</value> <!-- Freezes time while using the ship log.\\nNOTE: There are certain periods when time cannot be frozen. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1137</key>
-			<value>Freezes time while talking to characters and reading journals or signs. This will prevent character animations from playing during conversation.\\nNOTE: There are certain periods when time cannot be frozen.</value>
+			<value>Freezes time while talking to characters and reading journals or signs. This will prevent character animations from playing during conversation.\\nNOTE: There are certain periods when time cannot be frozen.</value> <!-- Freezes time while talking to characters and reading journals or signs. This will prevent character animations from playing during conversation.\\nNOTE: There are certain periods when time cannot be frozen. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1138</key>
-			<value>Invert look y-axis when on foot.</value>
+			<value>Invert look y-axis when on foot.</value> <!-- Invert look y-axis when on foot. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1139</key>
-			<value>Invert look y-axis when piloting your ship.</value>
+			<value>Invert look y-axis when piloting your ship.</value> <!-- Invert look y-axis when piloting your ship. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1140</key>
-			<value>Enables controller vibration (controller only).</value>
+			<value>Enables controller vibration (controller only).</value> <!-- Enables controller vibration (controller only). -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1141</key>
-			<value>Set look input sensitivity while on foot. A lower look sensitivity will result is a slower look speed that is easier to control.</value>
+			<value>Set look input sensitivity while on foot. A lower look sensitivity will result is a slower look speed that is easier to control.</value> <!-- Set look input sensitivity while on foot. A lower look sensitivity will result is a slower look speed that is easier to control. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1142</key>
-			<value>Set look input sensitivity while piloting your ship. A lower look sensitivity will result is a slower look speed that is easier to control.</value>
+			<value>Set look input sensitivity while piloting your ship. A lower look sensitivity will result is a slower look speed that is easier to control.</value> <!-- Set look input sensitivity while piloting your ship. A lower look sensitivity will result is a slower look speed that is easier to control. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1143</key>
-			<value>Determines how far (from center) the left/right stick must be tilted before any input is detected.\\nConsider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick.</value>
+			<value>Determines how far (from center) the left/right stick must be tilted before any input is detected.\\nConsider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick.</value> <!-- Determines how far (from center) the left/right stick must be tilted before any input is detected.\\nConsider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1144</key>
-			<value>Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected.\\nConsider increasing this dead zone if you are unable to move or look at maximum speed.</value>
+			<value>Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected.\\nConsider increasing this dead zone if you are unable to move or look at maximum speed.</value> <!-- Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected.\\nConsider increasing this dead zone if you are unable to move or look at maximum speed. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1145</key>
-			<value>Open this menu to modify which buttons are assigned to which in-game actions.</value>
+			<value>Open this menu to modify which buttons are assigned to which in-game actions.</value> <!-- Open this menu to modify which buttons are assigned to which in-game actions. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1150</key>
-			<value>Throw Marshmallow</value>
+			<value>Throw Marshmallow</value> <!-- Throw Marshmallow -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1151</key>
-			<value>Push Off</value>
+			<value>Push Off</value> <!-- Push Off -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1152</key>
-			<value>Your save file was corrupted.</value>
+			<value>Your save file was corrupted.</value> <!-- Your save file was corrupted. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1153</key>
-			<value>Load previous save?</value>
+			<value>Load previous save?</value> <!-- Load previous save? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1154</key>
-			<value>Selects the controller that the game will use.</value>
+			<value>Selects the controller that the game will use.</value> <!-- Selects the controller that the game will use. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1155</key>
-			<value>Changes the controller mapping to correspond to the indicated controller.</value>
+			<value>Changes the controller mapping to correspond to the indicated controller.</value> <!-- Changes the controller mapping to correspond to the indicated controller. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1156</key>
-			<value>Changes the displayed button images to that of the indicated controller.</value>
+			<value>Changes the displayed button images to that of the indicated controller.</value> <!-- Changes the displayed button images to that of the indicated controller. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1157</key>
-			<value>Changes the Keyboard Layout setting. Changes to this setting will prompt you as to whether or not you want to change the currently set keyboard bindings. This will also redefine the default settings for Keyboard &amp; Mouse.</value>
+			<value>Changes the Keyboard Layout setting. Changes to this setting will prompt you as to whether or not you want to change the currently set keyboard bindings. This will also redefine the default settings for Keyboard &amp; Mouse.</value> <!-- Changes the Keyboard Layout setting. Changes to this setting will prompt you as to whether or not you want to change the currently set keyboard bindings. This will also redefine the default settings for Keyboard &amp; Mouse. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1158</key>
-			<value>Pauses the game</value>
+			<value>Pauses the game</value> <!-- Pauses the game -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1159</key>
-			<value>Menu Confirm</value>
+			<value>Menu Confirm</value> <!-- Menu Confirm -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1160</key>
-			<value>Menu Cancel</value>
+			<value>Menu Cancel</value> <!-- Menu Cancel -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1161</key>
-			<value>Movement from side to side</value>
+			<value>Movement from side to side</value> <!-- Movement from side to side -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1162</key>
-			<value>Movement forward and backwards</value>
+			<value>Movement forward and backwards</value> <!-- Movement forward and backwards -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1163</key>
-			<value>Camera movement left to right</value>
+			<value>Camera movement left to right</value> <!-- Camera movement left to right -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1164</key>
-			<value>Camera movement up and down</value>
+			<value>Camera movement up and down</value> <!-- Camera movement up and down -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1165</key>
-			<value>Interact with objects</value>
+			<value>Interact with objects</value> <!-- Interact with objects -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1166</key>
-			<value>Jump</value>
+			<value>Jump</value> <!-- Jump -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1167</key>
-			<value>Turns flashlight on and off</value>
+			<value>Turns flashlight on and off</value> <!-- Turns flashlight on and off -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1168</key>
-			<value>Opens Map View</value>
+			<value>Opens Map View</value> <!-- Opens Map View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1169</key>
-			<value>Zoom in in map view</value>
+			<value>Zoom in in map view</value> <!-- Zoom in in map view -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1170</key>
-			<value>Zoom out in map view</value>
+			<value>Zoom out in map view</value> <!-- Zoom out in map view -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1171</key>
-			<value>Equips Signalscope</value>
+			<value>Equips Signalscope</value> <!-- Equips Signalscope -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1172</key>
-			<value>Equips, Launches, and Retrieves scout</value>
+			<value>Equips, Launches, and Retrieves scout</value> <!-- Equips, Launches, and Retrieves scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1173</key>
-			<value>Scout: Takes forward snapshot\\nSignalscope: Change view\\nTranslator: Translate</value>
+			<value>Scout: Takes forward snapshot\\nSignalscope: Change view\\nTranslator: Translate</value> <!-- Scout: Takes forward snapshot\\nSignalscope: Change view\\nTranslator: Translate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1174</key>
-			<value>Scout: Takes rear view snapshot</value>
+			<value>Scout: Takes rear view snapshot</value> <!-- Scout: Takes rear view snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1175</key>
-			<value>Generic tool mode left and right</value>
+			<value>Generic tool mode left and right</value> <!-- Generic tool mode left and right -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1176</key>
-			<value>Generic tool mode up and down</value>
+			<value>Generic tool mode up and down</value> <!-- Generic tool mode up and down -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1177</key>
-			<value>Jetpack and Ship upwards movement</value>
+			<value>Jetpack and Ship upwards movement</value> <!-- Jetpack and Ship upwards movement -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1178</key>
-			<value>Jetpack and Ship downwards movement</value>
+			<value>Jetpack and Ship downwards movement</value> <!-- Jetpack and Ship downwards movement -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1179</key>
-			<value>When pressed, Move X-Axis will roll you about the forward direction</value>
+			<value>When pressed, Move X-Axis will roll you about the forward direction</value> <!-- When pressed, Move X-Axis will roll you about the forward direction -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1180</key>
-			<value>Triggers manual Jetpack Boost</value>
+			<value>Triggers manual Jetpack Boost</value> <!-- Triggers manual Jetpack Boost -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1181</key>
-			<value>Locks on to an indicated target</value>
+			<value>Locks on to an indicated target</value> <!-- Locks on to an indicated target -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1182</key>
-			<value>When locked on, activates thrusters to match the velocity of the locked on target</value>
+			<value>When locked on, activates thrusters to match the velocity of the locked on target</value> <!-- When locked on, activates thrusters to match the velocity of the locked on target -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1183</key>
-			<value>Toggles the Ship landing camera</value>
+			<value>Toggles the Ship landing camera</value> <!-- Toggles the Ship landing camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1184</key>
-			<value>When locked on, activates ship autopilot</value>
+			<value>When locked on, activates ship autopilot</value> <!-- When locked on, activates ship autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1185</key>
-			<value>Toggles free look while buckled into the ship cockpit seat</value>
+			<value>Toggles free look while buckled into the ship cockpit seat</value> <!-- Toggles free look while buckled into the ship cockpit seat -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1186</key>
-			<value>In the ship log, toggles between map and discovery mode</value>
+			<value>In the ship log, toggles between map and discovery mode</value> <!-- In the ship log, toggles between map and discovery mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1187</key>
-			<value>In the ship log, turns on a HUD Marker for the indicated ship log item</value>
+			<value>In the ship log, turns on a HUD Marker for the indicated ship log item</value> <!-- In the ship log, turns on a HUD Marker for the indicated ship log item -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1188</key>
-			<value>In the ship log, scrolls through long log entries</value>
+			<value>In the ship log, scrolls through long log entries</value> <!-- In the ship log, scrolls through long log entries -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1189</key>
-			<value>Enables wireless controller vibration function (wireless controller only).</value>
+			<value>Enables wireless controller vibration function (wireless controller only).</value> <!-- Enables wireless controller vibration function (wireless controller only). -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1190</key>
-			<value>Enables controller vibration (controller only).</value>
+			<value>Enables controller vibration (controller only).</value> <!-- Enables controller vibration (controller only). -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1191</key>
-			<value>Determines how far (from center) the left/right stick must be tilted before any input is detected. Consider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick.</value>
+			<value>Determines how far (from center) the left/right stick must be tilted before any input is detected. Consider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick.</value> <!-- Determines how far (from center) the left/right stick must be tilted before any input is detected. Consider increasing this dead zone if your character moves or looks around when you're not touching the left/right stick. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1192</key>
-			<value>Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected. Consider increasing this dead zone if you are unable to move or look at maximum speed.</value>
+			<value>Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected. Consider increasing this dead zone if you are unable to move or look at maximum speed.</value> <!-- Determines how far (from full tilt) the left/right stick must be released before maximum input is no longer detected. Consider increasing this dead zone if you are unable to move or look at maximum speed. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1193</key>
-			<value>Selects the resolution and framerate to render at.\\nDynamic resolution is ideal for displays with Variable Refresh Rate (VRR) support.</value>
+			<value>Selects the resolution and framerate to render at.\\nDynamic resolution is ideal for displays with Variable Refresh Rate (VRR) support.</value> <!-- Selects the resolution and framerate to render at.\\nDynamic resolution is ideal for displays with Variable Refresh Rate (VRR) support. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1200</key>
-			<value>The Stranger</value>
+			<value>The Stranger</value> <!-- The Stranger -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1201</key>
-			<value>THE PRISONER</value>
+			<value>THE PRISONER</value> <!-- THE PRISONER -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1210</key>
-			<value>Artifact</value>
+			<value>Artifact</value> <!-- Artifact -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1212</key>
-			<value>Lantern</value>
+			<value>Lantern</value> <!-- Lantern -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1213</key>
-			<value>Slide Reel</value>
+			<value>Slide Reel</value> <!-- Slide Reel -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1220</key>
-			<value>Push Raft</value>
+			<value>Push Raft</value> <!-- Push Raft -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1221</key>
-			<value>Rotate</value>
+			<value>Rotate</value> <!-- Rotate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1222</key>
-			<value>Use Interface</value>
+			<value>Use Interface</value> <!-- Use Interface -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1223</key>
-			<value>Release Raft</value>
+			<value>Release Raft</value> <!-- Release Raft -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1224</key>
-			<value>View Slideshow</value>
+			<value>View Slideshow</value> <!-- View Slideshow -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1225</key>
-			<value>Look</value>
+			<value>Look</value> <!-- Look -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1226</key>
-			<value>Rotate Up</value>
+			<value>Rotate Up</value> <!-- Rotate Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1227</key>
-			<value>Rotate Down</value>
+			<value>Rotate Down</value> <!-- Rotate Down -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1228</key>
-			<value>Rotate Up / Down</value>
+			<value>Rotate Up / Down</value> <!-- Rotate Up / Down -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1229</key>
-			<value>Open</value>
+			<value>Open</value> <!-- Open -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1230</key>
-			<value>Close</value>
+			<value>Close</value> <!-- Close -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1231</key>
-			<value>Give</value>
+			<value>Give</value> <!-- Give -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1232</key>
-			<value>Take</value>
+			<value>Take</value> <!-- Take -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1233</key>
-			<value>Vision Torch</value>
+			<value>Vision Torch</value> <!-- Vision Torch -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1234</key>
-			<value>Rotate Left / Right</value>
+			<value>Rotate Left / Right</value> <!-- Rotate Left / Right -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1235</key>
-			<value>Project</value>
+			<value>Project</value> <!-- Project -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1236</key>
-			<value>Project Vision</value>
+			<value>Project Vision</value> <!-- Project Vision -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1237</key>
-			<value>Rewatch Vision</value>
+			<value>Rewatch Vision</value> <!-- Rewatch Vision -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1238</key>
-			<value>Scan</value>
+			<value>Scan</value> <!-- Scan -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1250</key>
-			<value>&lt;color=red&gt;ERROR: Unknown Language&lt;/color&gt;</value>
+			<value>&lt;color=red&gt;ERROR: Unknown Language&lt;/color&gt;</value> <!-- &lt;color=red&gt;ERROR: Unknown Language&lt;/color&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1251</key>
-			<value>ERROR:\\nMAP OFFLINE</value>
+			<value>ERROR:\\nMAP OFFLINE</value> <!-- ERROR:\\nMAP OFFLINE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1260</key>
-			<value>Focus</value>
+			<value>Focus</value> <!-- Focus -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1261</key>
-			<value>Conceal</value>
+			<value>Conceal</value> <!-- Conceal -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1265</key>
-			<value>Forward</value>
+			<value>Forward</value> <!-- Forward -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1266</key>
-			<value>Reverse</value>
+			<value>Reverse</value> <!-- Reverse -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1300</key>
-			<value>Return warp status: CHARGED. Step onto warp receiver platform to activate return warp.</value>
+			<value>Return warp status: CHARGED. Step onto warp receiver platform to activate return warp.</value> <!-- Return warp status: CHARGED. Step onto warp receiver platform to activate return warp. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1310</key>
-			<value>Set Default Controller</value>
+			<value>Set Default Controller</value> <!-- Set Default Controller -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1311</key>
-			<value>Don't show this again</value>
+			<value>Don't show this again</value> <!-- Don't show this again -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1312</key>
-			<value>Controller Profile</value>
+			<value>Controller Profile</value> <!-- Controller Profile -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1313</key>
-			<value>Button Prompt Images</value>
+			<value>Button Prompt Images</value> <!-- Button Prompt Images -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1314</key>
-			<value> (Auto Detect)</value>
+			<value> (Auto Detect)</value> <!-- (Auto Detect) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1315</key>
-			<value> (Custom)</value>
+			<value> (Custom)</value> <!-- (Custom) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1316</key>
-			<value>Unknown Input Detected</value>
+			<value>Unknown Input Detected</value> <!-- Unknown Input Detected -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1317</key>
-			<value>Joystick Axis</value>
+			<value>Joystick Axis</value> <!-- Joystick Axis -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1318</key>
-			<value>Designate Joystick Type</value>
+			<value>Designate Joystick Type</value> <!-- Designate Joystick Type -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1319</key>
-			<value>Normal [-1, 1]</value>
+			<value>Normal [-1, 1]</value> <!-- Normal [-1, 1] -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1320</key>
-			<value>Trigger [-1, 1]</value>
+			<value>Trigger [-1, 1]</value> <!-- Trigger [-1, 1] -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1321</key>
-			<value>Action</value>
+			<value>Action</value> <!-- Action -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1322</key>
-			<value>Retrieve Scout</value>
+			<value>Retrieve Scout</value> <!-- Retrieve Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1323</key>
-			<value>Primary Tool Action</value>
+			<value>Primary Tool Action</value> <!-- Primary Tool Action -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1324</key>
-			<value>Secondary Tool Action</value>
+			<value>Secondary Tool Action</value> <!-- Secondary Tool Action -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1325</key>
-			<value>Launch/Retrieve Scout</value>
+			<value>Launch/Retrieve Scout</value> <!-- Launch/Retrieve Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1326</key>
-			<value>V1.x.8 Key Binding Update</value>
+			<value>V1.x.8 Key Binding Update</value> <!-- V1.x.8 Key Binding Update -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1327</key>
-			<value>Old Key Bindings</value>
+			<value>Old Key Bindings</value> <!-- Old Key Bindings -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1328</key>
-			<value>New Key Bindings</value>
+			<value>New Key Bindings</value> <!-- New Key Bindings -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1329</key>
-			<value>Open Rebinding Menu</value>
+			<value>Open Rebinding Menu</value> <!-- Open Rebinding Menu -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1330</key>
-			<value>Continue</value>
+			<value>Continue</value> <!-- Continue -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1331</key>
-			<value>Save Changes?</value>
+			<value>Save Changes?</value> <!-- Save Changes? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1332</key>
-			<value>Save Key Bindings</value>
+			<value>Save Key Bindings</value> <!-- Save Key Bindings -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1333</key>
-			<value>Discard Key Bindings</value>
+			<value>Discard Key Bindings</value> <!-- Discard Key Bindings -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1334</key>
-			<value>Keyboard Layout</value>
+			<value>Keyboard Layout</value> <!-- Keyboard Layout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1335</key>
-			<value>Update Keyboard Bindings?</value>
+			<value>Update Keyboard Bindings?</value> <!-- Update Keyboard Bindings? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1336</key>
-			<value>Convert Keys from </value>
+			<value>Convert Keys from </value> <!-- Convert Keys from -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1337</key>
-			<value> to </value>
+			<value> to </value> <!-- to -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1338</key>
-			<value> Layout</value>
+			<value> Layout</value> <!-- Layout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1339</key>
-			<value>Keep Keys as-is</value>
+			<value>Keep Keys as-is</value> <!-- Keep Keys as-is -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1400</key>
-			<value>Next Tab</value>
+			<value>Next Tab</value> <!-- Next Tab -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1401</key>
-			<value>Reset Current Changes</value>
+			<value>Reset Current Changes</value> <!-- Reset Current Changes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1402</key>
-			<value>Leave &amp; Save Changes</value>
+			<value>Leave &amp; Save Changes</value> <!-- Leave &amp; Save Changes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1403</key>
-			<value>Audio &amp; Language</value>
+			<value>Audio &amp; Language</value> <!-- Audio &amp; Language -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1404</key>
-			<value>Controls</value>
+			<value>Controls</value> <!-- Controls -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1405</key>
-			<value>Basic</value>
+			<value>Basic</value> <!-- Basic -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1406</key>
-			<value>Active Controller</value>
+			<value>Active Controller</value> <!-- Active Controller -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1407</key>
-			<value>Advanced</value>
+			<value>Advanced</value> <!-- Advanced -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1408</key>
-			<value>Preflight Checklist</value>
+			<value>Preflight Checklist</value> <!-- Preflight Checklist -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1409</key>
-			<value>(unsupported)</value>
+			<value>(unsupported)</value> <!-- (unsupported) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1410</key>
-			<value>Reduced Frights</value>
+			<value>Reduced Frights</value> <!-- Reduced Frights -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1411</key>
-			<value>Reduced Frights (Echoes of the Eye)</value>
+			<value>Reduced Frights (Echoes of the Eye)</value> <!-- Reduced Frights (Echoes of the Eye) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1412</key>
-			<value>Makes certain frightening sequences easier to navigate</value>
+			<value>Makes certain frightening sequences easier to navigate</value> <!-- Makes certain frightening sequences easier to navigate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1413</key>
-			<value>The frightening aspects of Echoes of the Eye are part of the intended experience. If they become an obstacle to your enjoyment of Outer Wilds, enabling this option will reduce some of those aspects.\\nAre you sure?</value>
+			<value>The frightening aspects of Echoes of the Eye are part of the intended experience. If they become an obstacle to your enjoyment of Outer Wilds, enabling this option will reduce some of those aspects.\\nAre you sure?</value> <!-- The frightening aspects of Echoes of the Eye are part of the intended experience. If they become an obstacle to your enjoyment of Outer Wilds, enabling this option will reduce some of those aspects.\\nAre you sure? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1414</key>
-			<value>The frightening aspects of Outer Wilds are part of the intended experience. If they become an obstacle to your enjoyment of the game, enabling this option will reduce some of those aspects.\\nAre you sure?</value>
+			<value>The frightening aspects of Outer Wilds are part of the intended experience. If they become an obstacle to your enjoyment of the game, enabling this option will reduce some of those aspects.\\nAre you sure?</value> <!-- The frightening aspects of Outer Wilds are part of the intended experience. If they become an obstacle to your enjoyment of the game, enabling this option will reduce some of those aspects.\\nAre you sure? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1420</key>
-			<value>Jetpack Auto Boost</value>
+			<value>Jetpack Auto Boost</value> <!-- Jetpack Auto Boost -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1421</key>
-			<value>Translator Auto Equip</value>
+			<value>Translator Auto Equip</value> <!-- Translator Auto Equip -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1422</key>
-			<value>Freeze time while translating text</value>
+			<value>Freeze time while translating text</value> <!-- Freeze time while translating text -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1423</key>
-			<value>Freeze time while reading ship log</value>
+			<value>Freeze time while reading ship log</value> <!-- Freeze time while reading ship log -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1424</key>
-			<value>Freeze time while talking to others</value>
+			<value>Freeze time while talking to others</value> <!-- Freeze time while talking to others -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1430</key>
-			<value>Music-only Volume</value>
+			<value>Music-only Volume</value> <!-- Music-only Volume -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1431</key>
-			<value>Change volume for all music and sound effects.</value>
+			<value>Change volume for all music and sound effects.</value> <!-- Change volume for all music and sound effects. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1440</key>
-			<value>General</value>
+			<value>General</value> <!-- General -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1441</key>
-			<value>Movement</value>
+			<value>Movement</value> <!-- Movement -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1442</key>
-			<value>Equipment</value>
+			<value>Equipment</value> <!-- Equipment -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1443</key>
-			<value>Flight</value>
+			<value>Flight</value> <!-- Flight -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1444</key>
-			<value>Ship Log</value>
+			<value>Ship Log</value> <!-- Ship Log -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1445</key>
-			<value>Retrieve Scout</value>
+			<value>Retrieve Scout</value> <!-- Retrieve Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1446</key>
-			<value>Primary Interact</value>
+			<value>Primary Interact</value> <!-- Primary Interact -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1447</key>
-			<value>Secondary Interact</value>
+			<value>Secondary Interact</value> <!-- Secondary Interact -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1450</key>
-			<value>SHIP FUEL DEPLETED</value>
+			<value>SHIP FUEL DEPLETED</value> <!-- SHIP FUEL DEPLETED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1451</key>
-			<value>New Exhibit</value>
+			<value>New Exhibit</value> <!-- New Exhibit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1452</key>
-			<value>Certain parts of Echoes of the Eye can be intense for some players. If they become an obstacle to your enjoyment of Outer Wilds, a "Reduced Frights" option is available in the gameplay menu.</value>
+			<value>Certain parts of Echoes of the Eye can be intense for some players. If they become an obstacle to your enjoyment of Outer Wilds, a "Reduced Frights" option is available in the gameplay menu.</value> <!-- Certain parts of Echoes of the Eye can be intense for some players. If they become an obstacle to your enjoyment of Outer Wilds, a "Reduced Frights" option is available in the gameplay menu. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1453</key>
-			<value>Adjust the slider until the image on the left is barely visible.</value>
+			<value>Adjust the slider until the image on the left is barely visible.</value> <!-- Adjust the slider until the image on the left is barely visible. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1500</key>
-			<value>- NEW EXHIBIT -</value>
+			<value>- NEW EXHIBIT -</value> <!-- - NEW EXHIBIT ‐ -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1501</key>
-			<value>- COMING SOON -</value>
+			<value>- COMING SOON -</value> <!-- - COMING SOON ‐ -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1502</key>
-			<value>Translator Auto Equip</value>
+			<value>Translator Auto Equip</value> <!-- Translator Auto Equip -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1503</key>
-			<value>AUDIO &amp; LANGUAGE</value>
+			<value>AUDIO &amp; LANGUAGE</value> <!-- AUDIO &amp; LANGUAGE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1504</key>
-			<value>CONTROLS</value>
+			<value>CONTROLS</value> <!-- CONTROLS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1505</key>
-			<value>Water Quality</value>
+			<value>Water Quality</value> <!-- Water Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1506</key>
-			<value>Amount of detail in waves and lighting quality of the water.\\nRendering cost: High</value>
+			<value>Amount of detail in waves and lighting quality of the water.\\nRendering cost: High</value> <!-- Amount of detail in waves and lighting quality of the water.\\nRendering cost: High -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1507</key>
-			<value>Lighting Effects Quality</value>
+			<value>Lighting Effects Quality</value> <!-- Lighting Effects Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1508</key>
-			<value>Resolution of reflections and darkened interiors in certain locations through the game world.\\nRendering cost: Medium</value>
+			<value>Resolution of reflections and darkened interiors in certain locations through the game world.\\nRendering cost: Medium</value> <!-- Resolution of reflections and darkened interiors in certain locations through the game world.\\nRendering cost: Medium -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1509</key>
-			<value>Reflections Quality</value>
+			<value>Reflections Quality</value> <!-- Reflections Quality -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1510</key>
-			<value>Resolution of reflections in certain locations through the game world.\\nRendering cost: Medium</value>
+			<value>Resolution of reflections in certain locations through the game world.\\nRendering cost: Medium</value> <!-- Resolution of reflections in certain locations through the game world.\\nRendering cost: Medium -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1511</key>
-			<value>Leave &amp; Save Changes</value>
+			<value>Leave &amp; Save Changes</value> <!-- Leave &amp; Save Changes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1512</key>
-			<value>Default Settings (Gameplay)</value>
+			<value>Default Settings (Gameplay)</value> <!-- Default Settings (Gameplay) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1513</key>
-			<value>Default Settings (Audio &amp; Language)</value>
+			<value>Default Settings (Audio &amp; Language)</value> <!-- Default Settings (Audio &amp; Language) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1514</key>
-			<value>Default Settings (Controls)</value>
+			<value>Default Settings (Controls)</value> <!-- Default Settings (Controls) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1515</key>
-			<value>Default Settings (Graphics)</value>
+			<value>Default Settings (Graphics)</value> <!-- Default Settings (Graphics) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1520</key>
-			<value>Thank you for supporting Outer Wilds Ventures! A new museum exhibit is now available in the village observatory.</value>
+			<value>Thank you for supporting Outer Wilds Ventures! A new museum exhibit is now available in the village observatory.</value> <!-- Thank you for supporting Outer Wilds Ventures! A new museum exhibit is now available in the village observatory. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1521</key>
-			<value>Patch 8 (PS4 version </value>
+			<value>Patch 8 (PS4 version </value> <!-- Patch 8 (PS4 version -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1522</key>
-			<value>) contains major updates to the input system.  As a result, all input bindings have been reset to defaults. We apologize for the inconvenience!</value>
+			<value>) contains major updates to the input system.  As a result, all input bindings have been reset to defaults. We apologize for the inconvenience!</value> <!-- ) contains major updates to the input system.  As a result, all input bindings have been reset to defaults. We apologize for the inconvenience! -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1523</key>
-			<value>Patch 8 contains major updates to the input system.  As a result, all input bindings have been reset to defaults. We apologize for the inconvenience!</value>
+			<value>Patch 8 contains major updates to the input system.  As a result, all input bindings have been reset to defaults. We apologize for the inconvenience!</value> <!-- Patch 8 contains major updates to the input system.  As a result, all input bindings have been reset to defaults. We apologize for the inconvenience! -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1530</key>
-			<value>DEEP SPACE RADIO</value>
+			<value>DEEP SPACE RADIO</value> <!-- DEEP SPACE RADIO -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1531</key>
-			<value>RADIO TOWER</value>
+			<value>RADIO TOWER</value> <!-- RADIO TOWER -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1532</key>
-			<value>DEEP SPACE SATELLITE</value>
+			<value>DEEP SPACE SATELLITE</value> <!-- DEEP SPACE SATELLITE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1540</key>
-			<value>Echoes of the Eye will become available once you resume from the title screen. Do you want to return to the title screen now?</value>
+			<value>Echoes of the Eye will become available once you resume from the title screen. Do you want to return to the title screen now?</value> <!-- Echoes of the Eye will become available once you resume from the title screen. Do you want to return to the title screen now? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1541</key>
-			<value>Interact with objects (secondary interactions)</value>
+			<value>Interact with objects (secondary interactions)</value> <!-- Interact with objects (secondary interactions) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1542</key>
-			<value>Scout: Launch/Forward Snapshot\\nSignalscope: Zoom In\\nTranslator: Translate</value>
+			<value>Scout: Launch/Forward Snapshot\\nSignalscope: Zoom In\\nTranslator: Translate</value> <!-- Scout: Launch/Forward Snapshot\\nSignalscope: Zoom In\\nTranslator: Translate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1543</key>
-			<value>Scout: Rearview Snapshot</value>
+			<value>Scout: Rearview Snapshot</value> <!-- Scout: Rearview Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1544</key>
-			<value>Change volume for sound effects.</value>
+			<value>Change volume for sound effects.</value> <!-- Change volume for sound effects. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1545</key>
-			<value>Change volume for sound effects.</value>
+			<value>Change volume for sound effects.</value> <!-- Change volume for sound effects. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1550</key>
-			<value>Would you like to reset your input settings?</value>
+			<value>Would you like to reset your input settings?</value> <!-- Would you like to reset your input settings? -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1551</key>
-			<value>Yes</value>
+			<value>Yes</value> <!-- Yes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1552</key>
-			<value>No</value>
+			<value>No</value> <!-- No -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1553</key>
-			<value>Fullscreen</value>
+			<value>Fullscreen</value> <!-- Fullscreen -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1554</key>
-			<value>Windowed</value>
+			<value>Windowed</value> <!-- Windowed -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1555</key>
-			<value>Borderless Window</value>
+			<value>Borderless Window</value> <!-- Borderless Window -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1556</key>
-			<value>Keyboard Layout</value>
+			<value>Keyboard Layout</value> <!-- Keyboard Layout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1557</key>
-			<value>Sets key bindings according to the selected keyboard layout. (Changing this setting resets Keyboard &amp; Mouse bindings to defaults)</value>
+			<value>Sets key bindings according to the selected keyboard layout. (Changing this setting resets Keyboard &amp; Mouse bindings to defaults)</value> <!-- Sets key bindings according to the selected keyboard layout. (Changing this setting resets Keyboard &amp; Mouse bindings to defaults) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1558</key>
-			<value>Switch Pro Controller (unsupported)</value>
+			<value>Switch Pro Controller (unsupported)</value> <!-- Switch Pro Controller (unsupported) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1559</key>
-			<value>Switch Slideshow</value>
+			<value>Switch Slideshow</value> <!-- Switch Slideshow -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1560</key>
-			<value>Resume Expedition</value>
+			<value>Resume Expedition</value> <!-- Resume Expedition -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1561</key>
-			<value>Adjust the slider until the image is barely visable.</value>
+			<value>Adjust the slider until the image is barely visable.</value> <!-- Adjust the slider until the image is barely visable. -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1562</key>
-			<value>Apply</value>
+			<value>Apply</value> <!-- Apply -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1563</key>
-			<value>Cancel</value>
+			<value>Cancel</value> <!-- Cancel -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1564</key>
-			<value>Gamma</value>
+			<value>Gamma</value> <!-- Gamma -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1565</key>
-			<value>Next</value>
+			<value>Next</value> <!-- Next -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1566</key>
-			<value>Previous</value>
+			<value>Previous</value> <!-- Previous -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1570</key>
-			<value>Vibration Function</value>
+			<value>Vibration Function</value> <!-- Vibration Function -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>177</key>
-			<value>UI Size</value>
+			<value>UI Size</value> <!-- UI Size -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1053</key>
-			<value>Auto</value>
+			<value>Auto</value> <!-- Auto -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1054</key>
-			<value>Regular</value>
+			<value>Regular</value> <!-- Regular -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1055</key>
-			<value>Large</value>
+			<value>Large</value> <!-- Large -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1194</key>
-			<value>Auto: Size is automatically determined by Language and Platform.\\nRegular/Large: Size is manually locked to the selected option.</value>
+			<value>Auto: Size is automatically determined by Language and Platform.\\nRegular/Large: Size is manually locked to the selected option.</value> <!-- Auto: Size is automatically determined by Language and Platform.\\nRegular/Large: Size is manually locked to the selected option. -->
 		</TranslationTableEntryUI>
 	</table_ui>
 </TranslationTable_XML>
