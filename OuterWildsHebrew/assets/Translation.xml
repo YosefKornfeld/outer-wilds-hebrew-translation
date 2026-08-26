@@ -2654,119 +2654,119 @@
 	</entry>
 	<entry>
 		<key>Slate</key>
-		<value>Slate</value>
+		<value>סלייט</value>
 	</entry>
 	<entry>
 		<key>Scientist1AThere’s our pilot! Back from your pre-launch campout under the stars, I see.</key>
-		<value>הנה הטייס שלנו! ואני רואה שבדיוק חזרת מהקמפינג טרום-שיגור תחת הכוכבים </value>
+		<value>הנה הטייס שלנו! חוזר משינה טובה תחת הכוכבים? לפני השיגור? </value>
 	</entry>
 	<entry>
 		<key>Scientist1ASo it’s Launch Day, eh? Seems like only yesterday you joined the space program, and suddenly here you are, leaving on your first solo voyage.</key>
-		<value>So it’s Launch Day, eh? Seems like only yesterday you joined the space program, and suddenly here you are, leaving on your first solo voyage.</value>
+		<value>נו, יום שיגור היום! זה מרגיש כאילו רק אתמול הצטרפת לתוכנית החלל ופתאום הנה אתה, עוזב לך למסע ראשון בחלל לגמרי לבד.</value>
 	</entry>
 	<entry>
 		<key>Scientist1AWhat do you say - ready to get this beauty off the ground? It’s all fueled up and ready to go!</key>
-		<value>What do you say - ready to get this beauty off the ground? It’s all fueled up and ready to go!</value>
+		<value>מה אומר, מוכן להרים את היפיפייה הזו באוויר? היא מתודלקת היטב ומוכנה ליציאה!</value>
 	</entry>
 	<entry>
 		<key>SlateScientist1AAll systems go!</key>
-		<value>All systems go!</value>
+		<value>כל המערכות פועלות!</value>
 	</entry>
 	<entry>
 		<key>SlateScientist1AI’m ready if you are.</key>
-		<value>I’m ready if you are.</value>
+		<value>אני מוכן אם אתה מוכן.</value>
 	</entry>
 	<entry>
 		<key>SlateScientist1AYou’re &lt;i&gt;sure&lt;/i&gt; you fixed the retro rockets?</key>
-		<value>You’re &lt;i&gt;sure&lt;/i&gt; you fixed the retro rockets?</value>
+		<value>אתה ץץץנטויץץץבטוחץץץנטוי סוףץץץ שתיקנת את מבערי הבלימה?</value>
 	</entry>
 	<entry>
 		<key>Scientist1BHey, you ready to get this thing off the ground? Ship’s all fueled and ready to go.</key>
-		<value>Hey, you ready to get this thing off the ground? Ship’s all fueled and ready to go.</value>
+		<value>הי, מוכן להרים את הדבר הזה באוויר? החללית מתודלקת ומוכנה ליציאה.</value>
 	</entry>
 	<entry>
 		<key>SlateScientist1BDid... did I just... die?</key>
-		<value>Did... did I just... die?</value>
+		<value>האם... האם אני הרגע... מתתי?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist1BAll systems go!</key>
-		<value>All systems go!</value>
+		<value>כל המערכות פועלות!</value>
 	</entry>
 	<entry>
 		<key>SlateScientist1BI’m ready if you are.</key>
-		<value>I’m ready if you are.</value>
+		<value>אני מוכן אם אתה מוכן.</value>
 	</entry>
 	<entry>
 		<key>SlateScientist1BYou’re &lt;i&gt;sure&lt;/i&gt; you fixed the retro rockets?</key>
-		<value>You’re &lt;i&gt;sure&lt;/i&gt; you fixed the retro rockets?</value>
-	</entry>
+		<value>אתה ץץץנטויץץץבטוחץץץנטוי סוףץץץ שתיקנת את מבערי הבלימה?</value>
+ד	</entry>
 	<entry>
 		<key>ScientistAnswer11Whoa, bad dream or something? You still look half asleep, but that’s a negative on being deceased.</key>
-		<value>Whoa, bad dream or something? You still look half asleep, but that’s a negative on being deceased.</value>
+		<value>וואו, חלום רע או משהו? אתה עדיין נראה חצי ישן, אבל קבל שלילי ממני על היותך ז״ל</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer11I know it’s tradition to sleep out under the stars the night before a launch, but if you ask me it makes you all a bit jumpy.</key>
-		<value>I know it’s tradition to sleep out under the stars the night before a launch, but if you ask me it makes you all a bit jumpy.</value>
+		<value>אני יודע שזו המסורת לישון מתחת לכוכבים בלילה שלפני השיגור, אבל אם תשאל אותי, זה גורם לכולכם להיות קצת על קוצים</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer12Glad you’re excited, but remember, if you wreck the ship I’m not building you a new one. I’m not made of lightweight reentry grade aluminum alloys, you know.</key>
-		<value>Glad you’re excited, but remember, if you wreck the ship I’m not building you a new one. I’m not made of lightweight reentry grade aluminum alloys, you know.</value>
+		<value>אני שמח שאתה מתרגש, אבל תזכור, אם אתה שובר את החללית, אני לא בונה לך חדשה. כמו שאתה יודע, סגסוגות אלומיניום קלות משקל בדרגת חיכוך אטמוספירי לא גדלות על העצים.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer13Are you kidding? Of course I’m ready - it’s finally time to test the new landing hydraulics with a pilot instead of the autoflight system!</key>
-		<value>Are you kidding? Of course I’m ready - it’s finally time to test the new landing hydraulics with a pilot instead of the autoflight system!</value>
+		<value>אתה צוחק? ברור שאני מוכן - סוף סוף הגיע הזמן לבחון את הידרוליקת הנחיתה החדשה עם טייס במקום עם מערכת הטיסה האוטומטית!</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer13...Speaking of pilots, make sure you don’t crash the ship the first time you put it down, you hear?</key>
-		<value>...Speaking of pilots, make sure you don’t crash the ship the first time you put it down, you hear?</value>
+		<value>...ואם כבר הזכרנו טייסים, תוודא שאתה לא מרסק את החללית ישר על הנחיתה הראשונה, מבין אותי?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer14That was only a problem one time. And then maybe a few times after that, but hey, no reason to dwell on the past, right?</key>
-		<value>That was only a problem one time. And then maybe a few times after that, but hey, no reason to dwell on the past, right?</value>
+		<value>זו היתה בעיה רק פעם אחת. ואולי כמה פעמים אחר כך, אבל היי, אין סיבה להתרפק על העבר, נכון?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer15Anyway, you’ll need to get the &lt;color=orange&gt;launch codes from Hornfels at the observatory&lt;/color&gt; before you can lift off. Just bring those here once you’ve said your goodbyes or whatever.</key>
-		<value>Anyway, you’ll need to get the &lt;color=orange&gt;launch codes from Hornfels at the observatory&lt;/color&gt; before you can lift off. Just bring those here once you’ve said your goodbyes or whatever.</value>
+		<value>בכל מקרה, אתה תצטרך להשיג את הץץץצבע כתוםץץץקודים לשיגור מהורנפלס במצפהץץץצבע סוףץץץ לפני שתוכל להמריא. פשוט תביא אותם לפה ברגע שסיימת להיג לכולם להתראות או מה שזה לא יהיה.</value>
 	</entry>
 	<entry>
 		<key>Scientist2Not having second thoughts, are you?</key>
-		<value>Not having second thoughts, are you?</value>
+		<value>אין לך מחשבות שניות, נכון?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist2Where are the launch codes again?</key>
-		<value>Where are the launch codes again?</value>
+		<value>איפה הקודים לשיגור שוב?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist2How’s the ship looking?</key>
-		<value>How’s the ship looking?</value>
+		<value>מה מצב הספינה?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist2How safe would you say this thing is?</key>
-		<value>How safe would you say this thing is?</value>
+		<value>כמה בטיחותי לדעתך הדבר הזה?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist2What’s my mission once I’m in space?</key>
-		<value>What’s my mission once I’m in space?</value>
+		<value>מה המשימה שלי ברגע שאני בחלל?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist2What else should I do before liftoff?</key>
-		<value>What else should I do before liftoff?</value>
+		<value>מה עוד כדאי שאעשה לפני ההמראה?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer24Hey, you’re the pilot - you tell me. Aren’t you pilot-types all eager to get up there and explore for yourselves?</key>
-		<value>Hey, you’re the pilot - you tell me. Aren’t you pilot-types all eager to get up there and explore for yourselves?</value>
+		<value>הי, אתה הטייס - אתה תגיד לי. זה לא הקטע שלכם הטייסים לעלות לשם ולחקור בעצמכם?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer24Doesn’t matter if you go to the moon or Brittle Hollow or just the other side of Timber Hearth. It’s all the same to me. Get out there and have fun!</key>
-		<value>Doesn’t matter if you go to the moon or Brittle Hollow or just the other side of Timber Hearth. It’s all the same to me. Get out there and have fun!</value>
+		<value>זה לא משנה אם אתה הולך לירח, בריטל הולו או פשוט הצד השני של קמין עץ, בשבילי הכל אותו דבר. פשוט צא החוצה ותהנה!</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer24Just don’t hurt the ship, that’s all I ask.</key>
-		<value>Just don’t hurt the ship, that’s all I ask.</value>
+		<value>רק אל תפגע בספינה, זה כל מה שאני מבקש.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer25If you have any goodbyes to say, better say ’em now. I think your friend Hal is in the observatory waiting to see you off.</key>
-		<value>If you have any goodbyes to say, better say ’em now. I think your friend Hal is in the observatory waiting to see you off.</value>
+		<value>אם יש לך אנשים להיפרד מהם, כדאי שתעשה את זה עכשיו. אני חושב שחברך האל מחכה לך במצפה כדי להיפרד.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer25Oh, and Gossan says they have the zero-g chamber set up if you want a refresher on making ship repairs in space. Not saying you &lt;i&gt;have&lt;/i&gt; to, but uh, it’d help get Gossan off my back if you did.</key>
