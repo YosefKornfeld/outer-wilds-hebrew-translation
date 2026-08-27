@@ -2838,59 +2838,59 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer33I won’t ask how you got the codes, so hurry up and launch before Hornfels decides to ground you for medical reasons.  I want to see whether the new cockpit stays attached during liftoff.</key>
-		<value>I won’t ask how you got the codes, so hurry up and launch before Hornfels decides to ground you for medical reasons.  I want to see whether the new cockpit stays attached during liftoff.</value>
+		<value>אני לא הולך לשאול אותך מאיפה קיבלת את הקודים, אז תזדרז ותמריא כבר לפני שהורנפלס מקרקע אותך מסיבות רפואיות. אני רוצה לראות אם הקוקפיט החדש נשאר מחובר בזמן ההמראה.</value>
 	</entry>
 	<entry>
 		<key>Scientist4Looks like you’re ready for takeoff! The excitement of a launch is fun and all, but I can’t wait to get back to working on the new ship.\\nWe’re working on fixing the autopilot’s avoidance system for this one!</key>
-		<value>Looks like you’re ready for takeoff! The excitement of a launch is fun and all, but I can’t wait to get back to working on the new ship.\\nWe’re working on fixing the autopilot’s avoidance system for this one!</value>
+		<value>נראה שאתה מוכן להמראה! הריגוש בשיגור הוא כיפי והכל, אבל אני לא כבר לא יכול לחכות לחזור לעבודה על הספינה החדשה. //נאנחנו עובדים על תיקון מערכת ההתחמקות של הטייס האוטומטי הפעם!</value>
 	</entry>
 	<entry>
 		<key>Scientist4...Uh, sorry.</key>
-		<value>...Uh, sorry.</value>
+		<value>...אממ, סליחה.</value>
 	</entry>
 	<entry>
 		<key>Scientist5There’s our pilot! Ready to get this beauty off the ground?</key>
-		<value>There’s our pilot! Ready to get this beauty off the ground?</value>
+		<value>הנה הטייס שלנו! מוכן להרים את היפיפייה הזו מעל האדמה?</value>
 	</entry>
 	<entry>
 		<key>Scientist5Hey, what can I do you for?</key>
-		<value>Hey, what can I do you for?</value>
+		<value>אז, מה אני יכול לעשות בשבילך?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist5You know the ship is a death-trap, right?</key>
-		<value>You know the ship is a death-trap, right?</value>
+		<value>אתה יודע שהספינה היא מלכודת מוות, כן?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist5You’re lucky I’m in a time loop, because otherwise I’d be super dead.</key>
-		<value>You’re lucky I’m in a time loop, because otherwise I’d be super dead.</value>
+		<value>יש לך מזל שאני תקוע בלולאת זמן, אחרת הייתי סופר מת.</value>
 	</entry>
 	<entry>
 		<key>SlateScientist5The autopilot flew my ship directly into the sun!</key>
-		<value>The autopilot flew my ship directly into the sun!</value>
+		<value>הטייס האוטומטי העיף אותי ישר לשמש!</value>
 	</entry>
 	<entry>
 		<key>SlateScientist5I keep getting killed by ghost matter.</key>
-		<value>I keep getting killed by ghost matter.</value>
+		<value>אני כל הזמן מת מחומר רפאים.</value>
 	</entry>
 	<entry>
 		<key>SlateScientist5The sun is going to go supernova, by the way.</key>
-		<value>The sun is going to go supernova, by the way.</value>
+		<value>השמש הולכת להתפוצץ, דרך אגב.</value>
 	</entry>
 	<entry>
 		<key>SlateScientist5Did you know it’s just an endless void outside our solar system?</key>
-		<value>Did you know it’s just an endless void outside our solar system?</value>
+		<value>אתה יודע שיש ריק אינסופי מחוץ למערכת השמש שלנו?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer35Well yeah, it’s a death-trap, but a really &lt;i&gt;powerful&lt;/i&gt; death trap. What, you suddenly care about safety &lt;i&gt;now&lt;/i&gt;?</key>
-		<value>Well yeah, it’s a death-trap, but a really &lt;i&gt;powerful&lt;/i&gt; death trap. What, you suddenly care about safety &lt;i&gt;now&lt;/i&gt;?</value>
+		<value>כן ברור, היא מלכודת מוות, אבל היא מלכודת מוות ממש ץץץנטויץץץעוצמתיתץץץנטוי סוףץץץ. מה, פתאום ׳כפת ׳ך מבטיחות? רק ץץץנטויץץץעכשיוץץץנטוי סוףץץץ?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer36And you’re lucky I don’t have you grounded for medical reasons, because I have no idea what you’re talking about.</key>
-		<value>And you’re lucky I don’t have you grounded for medical reasons, because I have no idea what you’re talking about.</value>
+		<value>ולך יש מזל שאני לא מקרקע אותך מנסיבות רפואיות, גיוון שאין לי מושג על מה אתה מדבר.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer37Had an exciting dream, did you?</key>
-		<value>Had an exciting dream, did you?</value>
+		<value>היה לך חלום מרגש, הא?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer37It’s not exactly &lt;i&gt;impossible&lt;/i&gt; for the autopilot to get you too close to the sun, but it’s not like it’ll try to take you there on purpose.</key>
@@ -7695,7 +7695,7 @@
 	</entry>
 	<entry>
 		<key>Mica</key>
-		<value>Mica</value>
+		<value>מיקה</value>
 	</entry>
 	<entry>
 		<key>ModelRocketKid1Hey, it’s you!</key>
@@ -13171,7 +13171,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>215</key>
-			<value>   Wake Up</value> <!-- Wake Up -->
+			<value>   תתעורר</value> <!-- Wake Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>216</key>
@@ -13179,11 +13179,11 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>217</key>
-			<value>Look Around</value> <!-- Look Around -->
+			<value>הבט סביב</value> <!-- Look Around -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>218</key>
-			<value>Move</value> <!-- Move -->
+			<value>זוז</value> <!-- Move -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>220</key>
@@ -13319,15 +13319,15 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>271</key>
-			<value>Roast Marshmallow</value> <!-- Roast Marshmallow -->
+			<value>צלה מרשמלו</value> <!-- Roast Marshmallow -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>272</key>
-			<value>Talk</value> <!-- Talk -->
+			<value>דבר</value> <!-- Talk -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>273</key>
-			<value>Talk to</value> <!-- Talk to -->
+			<value>דבר אל</value> <!-- Talk to -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>274</key>
@@ -14999,7 +14999,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1036</key>
-			<value>Doze Off</value> <!-- Doze Off -->
+			<value>נמנם</value> <!-- Doze Off -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>1037</key>
