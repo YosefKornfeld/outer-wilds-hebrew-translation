@@ -2790,7 +2790,7 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer221Well, it’s all very conceptual, but basically, it’s like taking a regular second-stage booster and strapping a bigger rocket onto it. \\nIsn’t that &lt;i&gt;great&lt;/i&gt;?</key>
-		<value>ובכן, כל זה די רעיוני, אבל ברמת העיקרון זה כמו לקחת רקטת בוסטר שלב שני ולהדביק עליה רקטה גדולה יותר. נכון שזה פשוט ץץץנטויץץץנהדרץץץנטוי סוףץץץ?</value>
+		<value>ובכן, כל זה די רעיוני, אבל ברמת העיקרון זה כמו לקחת רקטת בוסטר שלב שני ולהדביק עליה רקטה גדולה יותר.//ננכון שזה פשוט ץץץנטויץץץנהדרץץץנטוי סוףץץץ?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer222Probably!</key>
@@ -2798,43 +2798,43 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer23Oh, it’s a perfect ten. Unless you’re factoring in pilot error, in which case it’s about a four.\\nNo offense.</key>
-		<value>Oh, it’s a perfect ten. Unless you’re factoring in pilot error, in which case it’s about a four.\\nNo offense.</value>
+		<value>אוו, זה עשר מושלם. אלא אם כן אתה מחשיב בציון טעות אנוש, ואז זה בערך ארבע. //נבלי להעליב.</value>
 	</entry>
 	<entry>
 		<key>Scientist3Oh, hold up, you’re going to want to get the launch codes from the observatory first.</key>
-		<value>Oh, hold up, you’re going to want to get the launch codes from the observatory first.</value>
+		<value>היי, רק רגע, אתה רוצה ללכת לקחת את הקודים לשיגור מהמצפה קודם.</value>
 	</entry>
 	<entry>
 		<key>SlateScientist3I already got them from the observatory, remember?</key>
-		<value>I already got them from the observatory, remember?</value>
+		<value>כבר קיבלתי אותם מהמצפה, זוכר?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist3How did I get back here? Didn’t I already lift off?</key>
-		<value>How did I get back here? Didn’t I already lift off?</value>
+		<value>איך חזרתי לפה? לא המראתי כבר?</value>
 	</entry>
 	<entry>
 		<key>SlateScientist3Wait, did I just &lt;i&gt;die&lt;/i&gt;, or...?</key>
-		<value>Wait, did I just &lt;i&gt;die&lt;/i&gt;, or...?</value>
+		<value>רק רגע, אני הרגע ץץץנטויץץץ מתתיץץץנטוי סוףץץץ, או...?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer31Huh. Must be inhaling more fumes than I realized. That stuff is &lt;i&gt;potent&lt;/i&gt;.</key>
-		<value>Huh. Must be inhaling more fumes than I realized. That stuff is &lt;i&gt;potent&lt;/i&gt;.</value>
+		<value>וואלה. בטח שאפתי יותר עשן ממה שחשבתי. החומר הזה ץץץנטויץץץחזקץץץנטוי סוףץץץ.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer31Well, if you’ve got the codes, I’m not gonna stop you. Good luck, and take care of that ship!</key>
-		<value>Well, if you’ve got the codes, I’m not gonna stop you. Good luck, and take care of that ship!</value>
+		<value>ובכן, אם יש לך את הקודים כבר, אני לא הולך לעצור אותך. בהצלחה, ותטפל יפה בספינה!</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer32Trust me -- with the modifications I’ve made to those rockets? There’s no way I would have missed that.</key>
-		<value>Trust me -- with the modifications I’ve made to those rockets? There’s no way I would have missed that.</value>
+		<value>סמוך עליי -- עם השיפצורים שעשיתי לרקטות האלה? אין סיכוי שהייתי מפספס את זה.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer32I won’t ask how you got the launch codes, but since you have ’em, get a move on! I want to see whether the new cockpit stays attached during liftoff.</key>
-		<value>I won’t ask how you got the launch codes, but since you have ’em, get a move on! I want to see whether the new cockpit stays attached during liftoff.</value>
+		<value>אני לא הולך לשאול מאיפה קיבלת את הקודים, אבל כיוון שיש ׳ך אותם, צא כבר לדרך! אני רוצה לראות אם הקוקפיט החדש נשאר מחובר בזמן ההמראה.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer33Uh, &lt;i&gt;no&lt;/i&gt;...? You have a bad dream or something?</key>
-		<value>Uh, &lt;i&gt;no&lt;/i&gt;...? You have a bad dream or something?</value>
+		<value>אממ, ץץץנטויץץץלאץץץנטוי סוףץץץ...? חלום רע או משהו?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer33I won’t ask how you got the codes, so hurry up and launch before Hornfels decides to ground you for medical reasons.  I want to see whether the new cockpit stays attached during liftoff.</key>
@@ -14671,51 +14671,51 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>948</key>
-			<value>HUD</value> <!-- HUD -->
+			<value>תע״ל</value> <!-- HUD -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>949</key>
-			<value>ON</value> <!-- ON -->
+			<value>דולק</value> <!-- ON -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>950</key>
-			<value>OFF</value> <!-- OFF -->
+			<value>כבוי</value> <!-- OFF -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>951</key>
-			<value>CAUTION</value> <!-- CAUTION -->
+			<value>זהירות</value> <!-- CAUTION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>952</key>
-			<value>WARNING</value> <!-- WARNING -->
+			<value>אזהרה</value> <!-- WARNING -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>953</key>
-			<value>DAMAGE</value> <!-- DAMAGE -->
+			<value>נזק</value> <!-- DAMAGE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>954</key>
-			<value>ALTIMETER</value> <!-- ALTIMETER -->
+			<value>מד גובה</value> <!-- ALTIMETER -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>955</key>
-			<value>MATCH VELOCITY</value> <!-- MATCH VELOCITY -->
+			<value>השווה מהירות</value> <!-- MATCH VELOCITY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>956</key>
-			<value>OXYGEN REFILL:</value> <!-- OXYGEN REFILL: -->
+			<value>מילוי חמצן:</value> <!-- OXYGEN REFILL: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>957</key>
-			<value>SPOT A TREE</value> <!-- SPOT A TREE -->
+			<value>זהה עץ</value> <!-- SPOT A TREE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>958</key>
-			<value>WALK TOWARDS IT</value> <!-- WALK TOWARDS IT -->
+			<value>לך אליו</value> <!-- WALK TOWARDS IT -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>959</key>
-			<value>ENJOY!</value> <!-- ENJOY! -->
+			<value>תהנה!</value> <!-- ENJOY! -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>960</key>
@@ -14743,7 +14743,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>966</key>
-			<value>SWITCH PROFILE</value> <!-- SWITCH PROFILE -->
+			<value>החלף פרופיל</value> <!-- SWITCH PROFILE -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>967</key>
@@ -14763,7 +14763,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>971</key>
-			<value> OF 3 REPAIRED</value> <!-- OF 3 REPAIRED -->
+			<value> מתוך 3 תוקנו</value> <!-- OF 3 REPAIRED -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>972</key>

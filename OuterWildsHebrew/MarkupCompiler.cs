@@ -37,9 +37,24 @@ namespace OuterWildsHebrew
 		// The argument that turns any element into its closing tag: ץץץנטוי סוףץץץ -> </i>
 		private const string CloseArgument = "סוף";
 
+		// A textual stand-in for a real line break, so a translator can put paragraph breaks
+		// inside a single XML line without having to insert a literal newline that would then
+		// upset the RTL flow of the file itself. HebrewFixer already treats each \n line
+		// separately, so an escape here is exactly what wraps into two properly reordered
+		// paragraphs in game.
+		private const string NewlineEscape = "//נ";
+
 		public static string Compile(string text)
 		{
-			if (string.IsNullOrEmpty(text) || text.IndexOf(Marker) < 0) return text;
+			if (string.IsNullOrEmpty(text)) return text;
+
+			// Newline escapes are substituted first, so a marker cannot accidentally straddle
+			// what becomes a line break, and so the marker scan sees the same layout the
+			// player will see.
+			if (text.IndexOf(NewlineEscape, StringComparison.Ordinal) >= 0)
+				text = text.Replace(NewlineEscape, "\n");
+
+			if (text.IndexOf(Marker) < 0) return text;
 
 			var output = new StringBuilder(text.Length);
 			var token = new StringBuilder(32);
