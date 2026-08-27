@@ -11,6 +11,10 @@ namespace OuterWildsHebrew
 	/// "Flashlight ON" / "Autopilot aborted", and the signalscope labels. Those texts then
 	/// render Hebrew as missing-glyph tofu from the original Latin font (which shows up as
 	/// tiny flickering pixels), so we patch each one to install the right font by hand.
+	///
+	/// This class also lets each component use a different font from the general UI when the
+	/// user configures a component-specific bundle (see FontManager). When no override is
+	/// configured, every component falls back to the UI font and behaves as before.
 	/// </summary>
 	[HarmonyPatch]
 	internal static class FontPatches
@@ -21,6 +25,8 @@ namespace OuterWildsHebrew
 		// clones fixes the ones the cockpit spawned before we arrived.
 		private const string ConsoleLayoutPath =
 			"Ship_Body/Module_Cockpit/Systems_Cockpit/ShipCockpitUI/CockpitCanvases/ShipWorldSpaceUI/ConsoleDisplay/Mask/LayoutGroup";
+
+		private static FontManager Fonts => OuterWildsHebrew.Instance.Fonts;
 
 		// NomaiTranslatorProp.InitializeFont normally installs the language font on the
 		// translator's text field. The triple-underscore parameters are Harmony's way of
@@ -33,10 +39,10 @@ namespace OuterWildsHebrew
 			ref float ____fontSpacingInUse,
 			Text ____textField)
 		{
-			var font = OuterWildsHebrew.Instance.NomaiFont;
+			var font = Fonts.NomaiFont;
 
-			// If the Nomai bundle never loaded, let the game run its own InitializeFont so
-			// the translator at least falls back to the UI font instead of nothing.
+			// If neither the Nomai bundle nor the UI font is available, let the game run its
+			// own InitializeFont so the translator at least falls back to whatever it can.
 			if (font == null) return true;
 
 			____fontInUse = font;
@@ -54,11 +60,32 @@ namespace OuterWildsHebrew
 		[HarmonyPatch(typeof(SignalscopeUI), nameof(SignalscopeUI.Activate))]
 		public static void SignalscopeUI_Activate(SignalscopeUI __instance)
 		{
-			var font = TextTranslation.GetFont(false);
+			var font = Fonts.ShipUiFont;
 			if (font == null) return;
 
 			if (__instance._signalscopeLabel != null) __instance._signalscopeLabel.font = font;
 			if (__instance._distanceLabel != null) __instance._distanceLabel.font = font;
+		}
+
+		// Character dialog boxes are prefab clones that persist through the whole scene, so
+		// we run one sweep per SolarSystem load rather than hooking each conversation. Any
+		// Text component under a DialogueBoxVer2 gets the dialog font; inactive boxes are
+		// included because most conversation UIs are activated on demand.
+		public static void ApplyDialogFont()
+		{
+			var font = Fonts.DialogFont;
+			if (font == null) return;
+
+			var boxes = Resources.FindObjectsOfTypeAll<DialogueBoxVer2>();
+			foreach (var box in boxes)
+			{
+				if (box == null) continue;
+				var texts = box.GetComponentsInChildren<Text>(true);
+				foreach (var text in texts)
+				{
+					if (text != null) text.font = font;
+				}
+			}
 		}
 
 		// Called from OuterWildsHebrew.OnCompleteSceneLoad once the solar system scene
@@ -74,7 +101,7 @@ namespace OuterWildsHebrew
 				if (layout == null) yield return null;
 			}
 
-			var font = TextTranslation.GetFont(false);
+			var font = Fonts.ShipUiFont;
 			if (font == null) yield break;
 
 			var template = layout.transform.Find("TextTemplate");

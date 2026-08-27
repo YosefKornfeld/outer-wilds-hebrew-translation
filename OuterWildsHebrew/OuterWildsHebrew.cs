@@ -1,9 +1,8 @@
-﻿using HarmonyLib;
+using HarmonyLib;
 using OWML.Common;
 using OWML.ModHelper;
 using System.IO;
 using System.Reflection;
-using UnityEngine;
 
 namespace OuterWildsHebrew;
 
@@ -11,10 +10,12 @@ public class OuterWildsHebrew : ModBehaviour
 {
 	public static OuterWildsHebrew Instance;
 
-	// The dedicated font for the Nomai translator tool, loaded from its own bundle and
-	// applied by FontPatches. Null if the bundle is missing, in which case the translator
-	// falls back to the normal UI font.
-	public Font NomaiFont;
+	// Loads and hands out the per-component fonts (UI, ship UI, dialog, Nomai). See
+	// FontManager for how the bundles are picked up and how missing ones fall back.
+	public FontManager Fonts { get; private set; }
+
+	private ILocalizationAPI _api;
+	private string _registeredUiBundle;
 
 	public void Awake()
 	{
@@ -26,8 +27,8 @@ public class OuterWildsHebrew : ModBehaviour
 
 	public void Start()
 	{
-	    var api = ModHelper.Interaction.TryGetModApi<ILocalizationAPI>("xen.LocalizationUtility");
-	    if (api != null)
+	    _api = ModHelper.Interaction.TryGetModApi<ILocalizationAPI>("xen.LocalizationUtility");
+	    if (_api != null)
 	    {
 	        // Marker mistakes are the translator's to fix, so they go to the console rather
 	        // than being swallowed. Wired up before anything can compile a value.
@@ -35,29 +36,49 @@ public class OuterWildsHebrew : ModBehaviour
 
 	        // The fixer has to be registered right after the language, before the XML is read,
 	        // otherwise LocalizationUtility loads the entries with no fixer attached.
-	        api.RegisterLanguage(this, "Hebrew", "assets/Translation.xml");
+	        _api.RegisterLanguage(this, "Hebrew", "assets/Translation.xml");
 
 	        // Order matters: the compiler turns the Hebrew markers into real tags, which is
 	        // what HebrewFixer needs to see in order to carry them through reordering intact.
-	        api.AddLanguageFixer("Hebrew", text => HebrewFixer.Fix(MarkupCompiler.Compile(text)));
+	        _api.AddLanguageFixer("Hebrew", text => HebrewFixer.Fix(MarkupCompiler.Compile(text)));
 
 	        ValidateTranslation();
 
 	        // The stock fonts only cover the game's official languages, so every Hebrew
 	        // codepoint draws as a missing glyph. A bundled font that has the Hebrew block
-	        // is the only thing that makes the text visible at all. This UI font is used
-	        // everywhere except the Nomai translator, which FontPatches overrides below.
-			api.AddLanguageFont(this, "Hebrew", "assets/ui_font", "assets/ui_font.ttf");
+	        // is the only thing that makes the text visible at all. The UI font is used
+	        // everywhere except the components that FontPatches overrides below.
+	        RegisterUiFont();
 
-	        // The Nomai translator gets its own font from a separate bundle. Loaded here so
-	        // it is ready before the translator's InitializeFont patch runs in-game.
-	        LoadNomaiFont();
+	        // Component-specific fonts (ship UI, dialog, Nomai). Loaded here so they're
+	        // ready before any of the FontPatches hooks fire in-game.
+	        Fonts = new FontManager(ModHelper.Console, ModHelper.Manifest.ModFolderPath);
+	        Fonts.Configure(ModHelper.Config);
+
 	        Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 	    }
 	    else
 	    {
 	        ModHelper.Console.WriteLine("Could not find xen.LocalizationUtility", MessageType.Error);
 	    }
+	}
+
+	// OWML calls Configure on load and whenever the user edits the config in-game. Rebuilds
+	// the font cache so a changed bundle name takes effect without a game restart. The UI
+	// font itself is owned by LocalizationUtility and only re-registers if its bundle name
+	// actually changed, since AddLanguageFont doesn't like being called with the same values.
+	public override void Configure(IModConfig config)
+	{
+	    base.Configure(config);
+	    if (_api == null || Fonts == null) return;
+
+	    var newUiBundle = SafeGet(config, "uiFont", "ui_font");
+	    if (newUiBundle != _registeredUiBundle)
+	    {
+	        RegisterUiFont(newUiBundle);
+	    }
+
+	    Fonts.Configure(config);
 	}
 
 	// Cross-checks the translated values against the English keys they replace. Purely
@@ -75,31 +96,29 @@ public class OuterWildsHebrew : ModBehaviour
 	    }
 	}
 
-	// The UI font is loaded for us by LocalizationUtility, but the Nomai font lives in its
-	// own bundle that we load by hand. Each bundle holds a single font, so we just take the
-	// first one and don't have to know its exact in-bundle path.
-	private void LoadNomaiFont()
+	private void RegisterUiFont(string bundleName = null)
 	{
-	    var bundlePath = Path.Combine(ModHelper.Manifest.ModFolderPath, "assets", "nomai_font");
-	    if (!File.Exists(bundlePath))
+	    bundleName ??= SafeGet(ModHelper.Config, "uiFont", "ui_font");
+	    if (string.IsNullOrEmpty(bundleName))
 	    {
-	        ModHelper.Console.WriteLine($"Nomai font bundle missing at {bundlePath}", MessageType.Error);
+	        ModHelper.Console.WriteLine("uiFont is empty — the UI will render Hebrew as missing-glyph tofu", MessageType.Warning);
 	        return;
 	    }
 
-	    var bundle = AssetBundle.LoadFromFile(bundlePath);
-	    if (bundle == null)
+	    // Convention: bundle at assets/<name>, font asset inside named <name>.ttf. Keeping
+	    // the two in lockstep lets the config carry a single value per component.
+	    _api.AddLanguageFont(this, "Hebrew", $"assets/{bundleName}", $"assets/{bundleName}.ttf");
+	    _registeredUiBundle = bundleName;
+	}
+
+	private static string SafeGet(IModConfig config, string key, string fallback)
+	{
+	    try
 	    {
-	        ModHelper.Console.WriteLine("Could not load the Nomai font bundle", MessageType.Error);
-	        return;
+	        var value = config.GetSettingsValue<string>(key);
+	        return string.IsNullOrEmpty(value) ? fallback : value;
 	    }
-
-	    var fonts = bundle.LoadAllAssets<Font>();
-	    if (fonts.Length > 0) NomaiFont = fonts[0];
-	    else ModHelper.Console.WriteLine("Nomai font bundle contained no font", MessageType.Error);
-
-	    // Unload the bundle's raw data but keep the font asset we just pulled out of it.
-	    bundle.Unload(false);
+	    catch { return fallback; }
 	}
 
 	public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
@@ -111,5 +130,9 @@ public class OuterWildsHebrew : ModBehaviour
 		// LocalizationUtility's font swap, so patch its Text templates once the cockpit
 		// appears in the scene. See FontPatches.ApplyShipConsoleFont for the details.
 		StartCoroutine(FontPatches.ApplyShipConsoleFont());
+
+		// Character dialog boxes: no-op unless the user configured a dialog-specific font,
+		// otherwise the LU-swapped UI font is already what the boxes render with.
+		FontPatches.ApplyDialogFont();
 	}
 }

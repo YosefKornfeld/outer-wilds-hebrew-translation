@@ -1,4 +1,26 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
-  "enabled": true
+  "enabled": true,
+  "settings": {
+    "uiFont": {
+      "type": "text",
+      "value": "ui_font",
+      "tooltip": "Bundle name in the assets/ folder used for general UI (menus, HUD, computers, dialog, ship UI, signalscope). Both the bundle file and the font asset inside must share this name (e.g. assets/ui_font and ui_font.ttf inside the bundle)."
+    },
+    "shipUiFont": {
+      "type": "text",
+      "value": "",
+      "tooltip": "Optional override for the ship cockpit console (Flashlight ON, Autopilot aborted) and the signalscope on-screen labels. Leave empty to fall back to the UI font."
+    },
+    "dialogFont": {
+      "type": "text",
+      "value": "",
+      "tooltip": "Optional override for character dialog boxes (name field, main text, dialog option list). Leave empty to fall back to the UI font."
+    },
+    "nomaiFont": {
+      "type": "text",
+      "value": "nomai_font",
+      "tooltip": "Bundle used for the Nomai translator prop. Leave empty to fall back to the UI font."
+    }
+  }
 }
