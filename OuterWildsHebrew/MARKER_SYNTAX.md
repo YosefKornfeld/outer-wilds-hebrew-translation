@@ -46,3 +46,15 @@ Write tags in Hebrew instead of `&lt;...&gt;` so the line never breaks RTL flow.
 ```
 
 An unknown or unterminated marker is logged to the OWML console and left visible in-game rather than silently dropped.
+
+
+
+
+
+# מילון תרגומים
+## כוכבי לכת
+
+| שם | original |
+|---|---|
+| `קמין עץ` | `Timber Hearth` |
+| `שבר-אבן` | `Attlerock` | 

@@ -13215,7 +13215,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>230</key>
-			<value>Put Away</value> <!-- Put Away -->
+			<value>עזוב</value> <!-- Put Away -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>231</key>
@@ -13519,31 +13519,31 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>331</key>
-			<value>Rotate Stick</value> <!-- Rotate Stick -->
+			<value>סובב מקל</value> <!-- Rotate Stick -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>332</key>
-			<value>Extend Stick</value> <!-- Extend Stick -->
+			<value>הארך מקל</value> <!-- Extend Stick -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>333</key>
-			<value>Eat</value> <!-- Eat -->
+			<value>אכול</value> <!-- Eat -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>334</key>
-			<value>Toss</value> <!-- Toss -->
+			<value>זרוק</value> <!-- Toss -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>335</key>
-			<value>Put Away</value> <!-- Put Away -->
+			<value>עזוב</value> <!-- Put Away -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>336</key>
-			<value>Extinguish</value> <!-- Extinguish -->
+			<value>כבה</value> <!-- Extinguish -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>337</key>
-			<value>Replace</value> <!-- Replace -->
+			<value>החלף</value> <!-- Replace -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>340</key>
