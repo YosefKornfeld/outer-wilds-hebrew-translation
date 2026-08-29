@@ -30,7 +30,7 @@ namespace OuterWildsHebrew
 		/// wraps. If long dialogue reads bottom-to-top in game, set this to roughly the
 		/// number of characters that fit across a dialogue box (start around 42) and tune it.
 		/// </summary>
-		public static int MaxLineLength = 42;
+		public static int MaxLineLength = 62;
 
 		public static string Fix(string text)
 		{
