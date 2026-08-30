@@ -56,6 +56,13 @@ namespace OuterWildsHebrew
 
 			if (!CockpitTexts.ContainsKey(text))
 			{
+				// A RectTransform scales about its pivot, so a label pivoted somewhere other
+				// than where its text begins swings out of its box as it shrinks — which is
+				// what threw the signal name above the signalscope screen while the frequency
+				// underneath it, pivoted differently, stayed put. Move the pivot to the corner
+				// the text is aligned to and the block shrinks into place instead of away.
+				MovePivot(text.rectTransform, PivotFor(text.alignment));
+
 				CockpitTexts[text] = new CockpitText
 				{
 					BaseScale = text.rectTransform.localScale,
@@ -64,6 +71,48 @@ namespace OuterWildsHebrew
 			}
 
 			ApplyCockpitTextScale(text);
+		}
+
+		// Where the text sits in its box, as a pivot.
+		private static Vector2 PivotFor(TextAnchor alignment)
+		{
+			float x;
+			switch (alignment)
+			{
+				case TextAnchor.UpperLeft:
+				case TextAnchor.MiddleLeft:
+				case TextAnchor.LowerLeft: x = 0f; break;
+				case TextAnchor.UpperRight:
+				case TextAnchor.MiddleRight:
+				case TextAnchor.LowerRight: x = 1f; break;
+				default: x = 0.5f; break;
+			}
+
+			float y;
+			switch (alignment)
+			{
+				case TextAnchor.UpperLeft:
+				case TextAnchor.UpperCenter:
+				case TextAnchor.UpperRight: y = 1f; break;
+				case TextAnchor.LowerLeft:
+				case TextAnchor.LowerCenter:
+				case TextAnchor.LowerRight: y = 0f; break;
+				default: y = 0.5f; break;
+			}
+
+			return new Vector2(x, y);
+		}
+
+		// Changing a pivot moves the element, so shift it back by the same amount to leave the
+		// box exactly where the prefab put it.
+		private static void MovePivot(RectTransform rectTransform, Vector2 pivot)
+		{
+			var delta = pivot - rectTransform.pivot;
+			if (delta == Vector2.zero) return;
+
+			var size = rectTransform.rect.size;
+			rectTransform.pivot = pivot;
+			rectTransform.anchoredPosition += new Vector2(delta.x * size.x, delta.y * size.y);
 		}
 
 		internal static void ApplyCockpitTextScale(Text text)
@@ -80,9 +129,13 @@ namespace OuterWildsHebrew
 
 			if (_loggedScale) return;
 			_loggedScale = true;
+			// preferredHeight is what the font actually draws, which is not the same as its
+			// declared line height — the gap between the two is why the computed factor came
+			// out about half of what looked right, and is the number to correct from next.
 			OuterWildsHebrew.Instance.ModHelper.Console.WriteLine(
 				$"Cockpit text scaled by {factor:F3} (target line {info.TargetLineHeight:F1} " +
-				$"vs {font.name} line {font.lineHeight:F1})", MessageType.Success);
+				$"vs {font.name} declared line {font.lineHeight:F1}, drawn {text.preferredHeight:F1})",
+				MessageType.Success);
 		}
 
 		// Re-applies to everything already registered, so moving the slider takes effect without
