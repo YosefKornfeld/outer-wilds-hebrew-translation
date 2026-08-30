@@ -106,10 +106,5 @@ public class OuterWildsHebrew : ModBehaviour
 	{
 		if (newScene != OWScene.SolarSystem) return;
 		ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
-
-		// The cockpit console (Flashlight ON / Autopilot aborted) isn't reached by
-		// LocalizationUtility's font swap, so patch its Text templates once the cockpit
-		// appears in the scene. See FontPatches.ApplyShipConsoleFont for the details.
-		StartCoroutine(FontPatches.ApplyShipConsoleFont());
 	}
 }

@@ -1,4 +1,3 @@
-using System.Collections;
 using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,21 +6,14 @@ namespace OuterWildsHebrew
 {
 	/// <summary>
 	/// LocalizationUtility swaps the language font on most UI, but a handful of components
-	/// keep their prefab font — the Nomai translator, the ship cockpit console that shows
-	/// "Flashlight ON" / "Autopilot aborted", and the signalscope labels. Those texts then
-	/// render Hebrew as missing-glyph tofu from the original Latin font (which shows up as
-	/// tiny flickering pixels), so we patch each one to install the right font by hand.
+	/// keep their prefab font — the Nomai translator, the ship / suit / cockpit notification
+	/// panels (Flashlight ON, Autopilot aborted, …) and the signalscope labels. Those texts
+	/// then render Hebrew as missing-glyph tofu from the original Latin font (which shows up
+	/// as tiny flickering pixels), so we patch each one to install the right font by hand.
 	/// </summary>
 	[HarmonyPatch]
 	internal static class FontPatches
 	{
-		// Path to the LayoutGroup that ConsoleDisplay parents its notification lines under.
-		// The template GameObject is a Text prefab that gets cloned every time a new line
-		// appears, so patching the template fixes future lines and iterating existing
-		// clones fixes the ones the cockpit spawned before we arrived.
-		private const string ConsoleLayoutPath =
-			"Ship_Body/Module_Cockpit/Systems_Cockpit/ShipCockpitUI/CockpitCanvases/ShipWorldSpaceUI/ConsoleDisplay/Mask/LayoutGroup";
-
 		// NomaiTranslatorProp.InitializeFont normally installs the language font on the
 		// translator's text field. The triple-underscore parameters are Harmony's way of
 		// reaching the method's private fields by name.
@@ -61,35 +53,48 @@ namespace OuterWildsHebrew
 			if (__instance._distanceLabel != null) __instance._distanceLabel.font = font;
 		}
 
-		// Called from OuterWildsHebrew.OnCompleteSceneLoad once the solar system scene
-		// starts loading in. The cockpit isn't guaranteed to exist the instant the scene
-		// callback fires, so we poll for the LayoutGroup and patch it as soon as it shows
-		// up. One-shot per scene load — the cockpit persists for the whole SolarSystem.
-		public static IEnumerator ApplyShipConsoleFont()
+		// Ship / suit / cockpit notification panels (the "Flashlight ON" / "Autopilot aborted"
+		// lines) render through NotificationDisplayTextLayout, which clones Text items from
+		// _textDisplayTemplate into _textItemPool and reuses them for every posted line.
+		// The template's font is baked in at the prefab and never routed through
+		// TextTranslation.GetFont, so LU's language-font swap never reaches those clones and
+		// Hebrew renders as missing-glyph tofu. ExpandPool is where the pool grows, so
+		// postfixing it lets us re-stamp the font on both the template and every existing
+		// pooled item — the initial pool that Awake built, plus anything ExpandPool just
+		// added — which covers every clone the panel will ever show.
+		[HarmonyPostfix]
+		[HarmonyPatch(typeof(NotificationDisplayTextLayout), nameof(NotificationDisplayTextLayout.ExpandPool))]
+		public static void NotificationDisplayTextLayout_ExpandPool(NotificationDisplayTextLayout __instance)
 		{
-			GameObject layout = null;
-			while (layout == null)
-			{
-				layout = GameObject.Find(ConsoleLayoutPath);
-				if (layout == null) yield return null;
-			}
-
 			var font = TextTranslation.GetFont(false);
-			if (font == null) yield break;
+			if (font == null) return;
 
-			var template = layout.transform.Find("TextTemplate");
-			if (template != null)
+			if (__instance._textDisplayTemplate != null)
 			{
-				var text = template.GetComponent<Text>();
-				if (text != null) text.font = font;
+				foreach (var text in __instance._textDisplayTemplate.GetComponentsInChildren<Text>(true))
+					text.font = font;
 			}
 
-			foreach (Transform child in layout.transform)
+			if (__instance._textItemPool == null) return;
+			foreach (var item in __instance._textItemPool)
 			{
-				if (child.name != "TextTemplate(Clone)") continue;
-				var text = child.GetComponent<Text>();
-				if (text != null) text.font = font;
+				if (item == null) continue;
+				foreach (var text in item.GetComponentsInChildren<Text>(true))
+					text.font = font;
 			}
+		}
+
+		// ShipNotificationDisplay uses _testText to measure whether a candidate line fits
+		// the panel width, and the measurement is done in the panel's own font. If we leave
+		// it on the Latin font, the width the game computes for Hebrew glyphs won't match
+		// what the pooled items actually render, so lines can wrap or truncate wrong.
+		[HarmonyPostfix]
+		[HarmonyPatch(typeof(ShipNotificationDisplay), nameof(ShipNotificationDisplay.Awake))]
+		public static void ShipNotificationDisplay_Awake(ShipNotificationDisplay __instance)
+		{
+			var font = TextTranslation.GetFont(false);
+			if (font == null || __instance._testText == null) return;
+			__instance._testText.font = font;
 		}
 	}
 }
