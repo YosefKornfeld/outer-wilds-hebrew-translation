@@ -99,12 +99,15 @@ namespace OuterWildsHebrew
 				report.AppendLine($"    {Describe(text)}");
 				// Only the lines actually on screen are worth the extra detail, and only they
 				// can tell us why nothing appears.
-				if (text != null && text.gameObject.activeInHierarchy) report.AppendLine($"      {DescribeRendering(text)}");
+				if (text == null || !text.gameObject.activeInHierarchy) continue;
+				report.AppendLine($"      {DescribeRendering(text)}");
+				AppendScaleChain(report, text.transform);
 			}
 
 			var languageFont = TextTranslation.GetFont(false);
 			report.AppendLine($"  TextTranslation.GetFont(false): {(languageFont == null ? "null" : languageFont.name)}");
 
+			AppendFontControllerState(report, display);
 			AppendWorkingTextComparison(report, display);
 
 			Log(report.ToString());
@@ -120,6 +123,46 @@ namespace OuterWildsHebrew
 			var content = string.IsNullOrEmpty(text.text) ? "<empty>" : text.text;
 			return $"'{text.name}' active={text.gameObject.activeInHierarchy} enabled={text.enabled} " +
 			       $"font={font} size={text.fontSize} color={text.color} text=\"{content}\"";
+		}
+
+		// The ship's FontAndLanguageController holds, for every Text it manages, the size and
+		// scale the prefab shipped with. Printing those beside the live values says outright
+		// whether something shrank the text after the fact and by how much — the one question
+		// the objects themselves cannot answer, since a shrunk element looks entirely normal.
+		private static void AppendFontControllerState(StringBuilder report, ShipNotificationDisplay display)
+		{
+			var controller = display._fontController;
+			if (controller == null)
+			{
+				report.AppendLine("  fontController: none on the ship display");
+				return;
+			}
+
+			report.AppendLine($"  fontController '{controller.name}': containers={(controller._textContainerList == null ? -1 : controller._textContainerList.Count)}");
+			if (controller._textContainerList == null) return;
+
+			foreach (var container in controller._textContainerList)
+			{
+				var text = container.textElement;
+				if (text == null) { report.AppendLine("    <null textElement>"); continue; }
+
+				report.AppendLine($"    '{text.name}' isLanguageFont={container.isLanguageFont} shouldScale={container.shouldScale}");
+				report.AppendLine($"      size: now={text.fontSize} original={container.originalFontSize}");
+				report.AppendLine($"      scale: now={text.rectTransform.localScale.ToString("F4")} original={container.originalScale.ToString("F4")}");
+				report.AppendLine($"      sizeDelta: now={text.rectTransform.sizeDelta} original={container.originalSizeDelta}");
+			}
+		}
+
+		// The scale that hides text is often on an ancestor rather than the Text itself, so
+		// walk up to the canvas and print each step.
+		private static void AppendScaleChain(StringBuilder report, Transform transform)
+		{
+			report.AppendLine("      scale chain:");
+			for (var t = transform; t != null; t = t.parent)
+			{
+				report.AppendLine($"        '{t.name}' localScale={t.localScale.ToString("F4")}");
+				if (t.GetComponent<Canvas>() != null) break;
+			}
 		}
 
 		// A control group. Text elsewhere on screen is readable in the same font, so whatever
@@ -143,6 +186,7 @@ namespace OuterWildsHebrew
 				report.AppendLine($"    {Path(text.transform)}");
 				report.AppendLine($"      {Describe(text)}");
 				report.AppendLine($"      {DescribeRendering(text)}");
+				AppendScaleChain(report, text.transform);
 				shown++;
 			}
 
@@ -168,7 +212,9 @@ namespace OuterWildsHebrew
 			var texture = text.mainTexture;
 			var atlas = texture == null ? "no texture" : $"{texture.name} {texture.width}x{texture.height}";
 
-			return $"{glyphs} rect={rect.rect.size} localScale={rect.localScale} lossyScale={rect.lossyScale} " +
+			// Vector3.ToString rounds to one decimal, which prints every world-space scale as
+			// zero and hides exactly the differences we are looking for.
+			return $"{glyphs} rect={rect.rect.size} localScale={rect.localScale.ToString("F4")} lossyScale={rect.lossyScale.ToString("F6")} " +
 			       $"cull={renderer.cull} rendererAlpha={renderer.GetAlpha()} " +
 			       $"shader={(material == null || material.shader == null ? "none" : material.shader.name)} atlas={atlas} " +
 			       $"fontDynamic={(text.font == null ? "no font" : text.font.dynamic.ToString())}";

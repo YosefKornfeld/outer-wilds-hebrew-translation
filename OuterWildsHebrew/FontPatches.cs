@@ -95,7 +95,20 @@ namespace OuterWildsHebrew
 
 			foreach (var container in __instance._textContainerList)
 			{
-				if (container.textElement != null) container.textElement.font = font;
+				if (container.textElement == null) continue;
+				container.textElement.font = font;
+
+				// The game shrinks the text it manages when the language is not Latin, and
+				// LocalizationUtility makes a custom-font language report as non-Latin, so the
+				// shrink applies to us. LU undoes it — but only for the elements the prefab
+				// flagged as using the language font. The cockpit's are not flagged that way,
+				// which is exactly why their font was never swapped either, so nothing restores
+				// them and they draw at a fraction of their intended size. Put back what the
+				// prefab had, the same way LU does for the elements it covers.
+				if (container.isLanguageFont) continue;
+				if (container.originalFontSize > 0)
+					container.textElement.fontSize = TextTranslation.GetModifiedFontSize(container.originalFontSize);
+				container.textElement.rectTransform.localScale = container.originalScale;
 			}
 		}
 
