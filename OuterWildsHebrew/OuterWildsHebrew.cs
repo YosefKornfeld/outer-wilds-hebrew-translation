@@ -16,6 +16,11 @@ public class OuterWildsHebrew : ModBehaviour
 	// falls back to the normal UI font.
 	public Font NomaiFont;
 
+	// How much bigger the cockpit displays draw their text than the prefab asks for. Our font
+	// renders far smaller than its point size on those screens, and the right correction is
+	// something to see rather than calculate, so it is a slider in the mod's settings.
+	public static float CockpitFontScale = 2f;
+
 	public void Awake()
 	{
 		Instance = this;
@@ -70,6 +75,19 @@ public class OuterWildsHebrew : ModBehaviour
 	    {
 	        ModHelper.Console.WriteLine("Could not find xen.LocalizationUtility", MessageType.Error);
 	    }
+	}
+
+	// Called by OWML on load and again whenever the player moves the slider, so the cockpit
+	// text resizes while the game is running and the right value can just be dialled in.
+	public override void Configure(IModConfig config)
+	{
+		// A config written before this setting existed has no value for it, and the zero that
+		// comes back would shrink the cockpit text to nothing — the very problem this is meant
+		// to fix. Anything not sensible falls back to the default.
+		var scale = config.GetSettingsValue<float>("CockpitFontScale");
+		CockpitFontScale = scale > 0f ? scale : 2f;
+
+		FontPatches.ReapplyCockpitFontScale();
 	}
 
 	// Cross-checks the translated values against the English keys they replace. Purely

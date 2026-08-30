@@ -204,9 +204,13 @@ namespace OuterWildsHebrew
 			var rect = text.rectTransform;
 			var renderer = text.canvasRenderer;
 
+			// The size the glyphs actually come out at, measured from the vertices Unity is
+			// about to draw. Compared against fontSize it says outright whether the font
+			// renders at the point size it was asked for — the thing that makes cockpit text
+			// unreadable while every value on the object looks correct.
 			var glyphs = generator == null
 				? "generator=null"
-				: $"visibleChars={generator.characterCountVisible} verts={generator.vertexCount}";
+				: $"visibleChars={generator.characterCountVisible} verts={generator.vertexCount} drawn={MeasureGlyphs(generator)}";
 
 			var material = text.materialForRendering;
 			var texture = text.mainTexture;
@@ -218,6 +222,27 @@ namespace OuterWildsHebrew
 			       $"cull={renderer.cull} rendererAlpha={renderer.GetAlpha()} " +
 			       $"shader={(material == null || material.shader == null ? "none" : material.shader.name)} atlas={atlas} " +
 			       $"fontDynamic={(text.font == null ? "no font" : text.font.dynamic.ToString())}";
+		}
+
+		// Width and height of the drawn text in the Text's own units, taken from the generated
+		// vertices. A height far below the font size means the font draws small for its point
+		// size, which no amount of correct scaling or layout can compensate for.
+		private static string MeasureGlyphs(TextGenerator generator)
+		{
+			var verts = generator.verts;
+			if (verts == null || verts.Count == 0) return "nothing";
+
+			float minX = float.MaxValue, maxX = float.MinValue, minY = float.MaxValue, maxY = float.MinValue;
+			foreach (var vert in verts)
+			{
+				var p = vert.position;
+				if (p.x < minX) minX = p.x;
+				if (p.x > maxX) maxX = p.x;
+				if (p.y < minY) minY = p.y;
+				if (p.y > maxY) maxY = p.y;
+			}
+
+			return $"{(maxX - minX):F1}x{(maxY - minY):F1}";
 		}
 
 		private static string Path(Transform transform)

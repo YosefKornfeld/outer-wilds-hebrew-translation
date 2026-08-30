@@ -17,6 +17,41 @@ namespace OuterWildsHebrew
 	[HarmonyPatch]
 	internal static class FontPatches
 	{
+		// The cockpit's own font controller, which owns the console, the ship signalscope and
+		// the cockpit HUD labels. Captured so the font scale can be aimed at those and not at
+		// the ship log or the menus, which are sized fine as they are.
+		private static FontAndLanguageController _cockpitFontController;
+
+		// The size each Text had before we touched it. Scaling from this rather than from the
+		// current size keeps the slider from compounding every time it is applied.
+		private static readonly Dictionary<Text, int> BaseFontSizes = new Dictionary<Text, int>();
+
+		// The cockpit displays draw our font far smaller than the point size asks for, so the
+		// prefab's sizes leave the text unreadable. Rather than guess a correction factor, the
+		// scale is a config slider the player can turn while the game runs.
+		internal static void ApplyCockpitFontScale(Text text)
+		{
+			if (text == null) return;
+
+			if (!BaseFontSizes.TryGetValue(text, out var baseSize))
+			{
+				baseSize = text.fontSize;
+				BaseFontSizes[text] = baseSize;
+			}
+
+			text.fontSize = Mathf.Max(1, Mathf.RoundToInt(baseSize * OuterWildsHebrew.CockpitFontScale));
+		}
+
+		// Re-applies the scale to everything already touched, so moving the slider takes effect
+		// without reloading.
+		internal static void ReapplyCockpitFontScale()
+		{
+			foreach (var text in new List<Text>(BaseFontSizes.Keys))
+			{
+				if (text != null) ApplyCockpitFontScale(text);
+			}
+		}
+
 		// NomaiTranslatorProp.InitializeFont normally installs the language font on the
 		// translator's text field. The triple-underscore parameters are Harmony's way of
 		// reaching the method's private fields by name.
@@ -110,6 +145,11 @@ namespace OuterWildsHebrew
 					container.textElement.fontSize = TextTranslation.GetModifiedFontSize(container.originalFontSize);
 				container.textElement.rectTransform.localScale = container.originalScale;
 			}
+
+			// Only the cockpit's text needs the size correction.
+			if (__instance != _cockpitFontController) return;
+			foreach (var container in __instance._textContainerList)
+				ApplyCockpitFontScale(container.textElement);
 		}
 
 		// Text elements registered after InitializeFont has already run — pooled notification
@@ -132,6 +172,10 @@ namespace OuterWildsHebrew
 		[HarmonyPatch(typeof(ShipNotificationDisplay), nameof(ShipNotificationDisplay.Awake))]
 		public static void ShipNotificationDisplay_Awake(ShipNotificationDisplay __instance)
 		{
+			// The cockpit's controller owns the console, the signalscope and the HUD labels.
+			// Grabbing it here means the font scale can target exactly those.
+			if (__instance._fontController != null) _cockpitFontController = __instance._fontController;
+
 			var font = TextTranslation.GetFont(false);
 			if (font == null || __instance._testText == null) return;
 			__instance._testText.font = font;
@@ -146,10 +190,17 @@ namespace OuterWildsHebrew
 			var font = TextTranslation.GetFont(false);
 			if (font == null) return;
 
+			// The pooled lines are cloned from the template, so both need the size correction
+			// too — but only on the ship, whose display is the one drawing our font too small.
+			var scale = display is ShipNotificationDisplay;
+
 			if (display._textDisplayTemplate != null)
 			{
 				foreach (var text in display._textDisplayTemplate.GetComponentsInChildren<Text>(true))
+				{
 					text.font = font;
+					if (scale) ApplyCockpitFontScale(text);
+				}
 			}
 
 			if (display._textItemPool == null) return;
@@ -157,7 +208,10 @@ namespace OuterWildsHebrew
 			{
 				if (item == null) continue;
 				foreach (var text in item.GetComponentsInChildren<Text>(true))
+				{
 					text.font = font;
+					if (scale) ApplyCockpitFontScale(text);
+				}
 			}
 		}
 	}
