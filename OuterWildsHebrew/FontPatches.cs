@@ -56,6 +56,29 @@ namespace OuterWildsHebrew
 			if (__instance._distanceLabel != null) __instance._distanceLabel.font = font;
 		}
 
+		// TextTranslation indexes its font arrays by language, and a mod-registered language
+		// sits past the end of those vanilla-sized arrays. GetGameOverFont does the lookup
+		// with no bounds check, so for Hebrew it throws IndexOutOfRangeException — and it is
+		// called from FontAndLanguageController.InitializeFont, the method that installs the
+		// fonts on the ship, suit and cockpit text. The exception aborted InitializeFont part
+		// way through, which is why the cockpit console rendered nothing at all rather than
+		// tofu: those Text elements were never given a font. Stand in for the missing entry
+		// with the UI font, and leave the vanilla path alone when the index is in range.
+		[HarmonyPrefix]
+		[HarmonyPatch(typeof(TextTranslation), nameof(TextTranslation.GetGameOverFont))]
+		public static bool TextTranslation_GetGameOverFont(ref Font __result)
+		{
+			var table = TextTranslation.Get();
+			if (table == null) return true;
+
+			var fonts = table.m_gameOverFonts;
+			var language = (int)table.m_language;
+			if (fonts != null && language >= 0 && language < fonts.Length) return true;
+
+			__result = TextTranslation.GetFont(false);
+			return false;
+		}
+
 		// FontAndLanguageController owns the fonts of the ship / suit / cockpit text, and it
 		// is also what puts them back: every Text registered with it is stored in a
 		// TextContainer alongside its originalFont, and InitializeFont re-applies either the
