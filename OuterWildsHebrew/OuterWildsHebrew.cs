@@ -119,10 +119,4 @@ public class OuterWildsHebrew : ModBehaviour
 		if (newScene != OWScene.SolarSystem) return;
 		ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
 	}
-
-	public void Update()
-	{
-		// On-demand dump of the cockpit console's Text state. See ShipUiDiagnostics.
-		if (Input.GetKeyDown(ShipUiDiagnostics.DumpKey)) ShipUiDiagnostics.DumpConsoleState();
-	}
 }
