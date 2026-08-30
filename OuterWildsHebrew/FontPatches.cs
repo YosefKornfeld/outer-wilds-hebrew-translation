@@ -22,58 +22,76 @@ namespace OuterWildsHebrew
 		// the ship log or the menus, which are sized fine as they are.
 		private static FontAndLanguageController _cockpitFontController;
 
-		// The size each Text had before we touched it. Scaling from this rather than from the
-		// current size keeps the slider from compounding every time it is applied.
-		private static readonly Dictionary<Text, int> BaseFontSizes = new Dictionary<Text, int>();
-
-		// How much the cockpit's point sizes have to change for our font to occupy the same
-		// line height the prefab's font did. Derived once from the two fonts' own metrics.
-		private static float _lineHeightCorrection = 1f;
-
-		// Our font draws a much taller line than the game's for the same point size, so the
-		// cockpit's fixed line boxes — 40 units tall, for text the prefab sets at size 45 —
-		// overflow and get clipped to slivers by the console's mask. Scaling the point size by
-		// the ratio of the two fonts' line heights makes a line occupy the height the prefab
-		// laid out for it, which is what the boxes were built around.
-		private static void UpdateLineHeightCorrection(Font original, Font replacement)
+		// What one line of a cockpit Text is supposed to occupy, and the scale it started at.
+		// Kept per element because the cockpit mixes prefab fonts and sizes.
+		private struct CockpitText
 		{
-			if (original == null || replacement == null || original == replacement) return;
-			if (original.fontSize <= 0 || replacement.fontSize <= 0) return;
-
-			var originalLine = original.lineHeight / (float)original.fontSize;
-			var replacementLine = replacement.lineHeight / (float)replacement.fontSize;
-			if (originalLine <= 0f || replacementLine <= 0f) return;
-
-			_lineHeightCorrection = originalLine / replacementLine;
-			OuterWildsHebrew.Instance.ModHelper.Console.WriteLine(
-				$"Cockpit font line-height correction {_lineHeightCorrection:F3} " +
-				$"({original.name} {originalLine:F3} vs {replacement.name} {replacementLine:F3})",
-				MessageType.Success);
+			public Vector3 BaseScale;
+			public float TargetLineHeight;
 		}
 
-		internal static void ApplyCockpitFontScale(Text text)
-		{
-			if (text == null) return;
+		private static readonly Dictionary<Text, CockpitText> CockpitTexts = new Dictionary<Text, CockpitText>();
 
-			if (!BaseFontSizes.TryGetValue(text, out var baseSize))
+		// The console's target, remembered so the notification lines — which are clones with no
+		// entry of their own in the font controller — can be sized like the rest of the console.
+		private static float _consoleTargetLineHeight;
+		private static ShipNotificationDisplay _shipConsole;
+		private static bool _loggedScale;
+
+		// Our font ignores Text.fontSize: the same string measured 4943x376 units at size 225
+		// and at size 34. Its glyphs are baked at a fixed size and drawn at that size whatever
+		// the point size says, which is why the cockpit's lines overflow their 40-unit boxes and
+		// the console's mask clips them to slivers, and why changing sizes never did anything.
+		// Transform scale is the only lever left that the font honours, so scale each line down
+		// to the height the prefab's font would have drawn it at.
+		private static float TargetLineHeight(Font original, int originalFontSize)
+		{
+			if (original == null || original.fontSize <= 0 || originalFontSize <= 0) return 0f;
+			return originalFontSize * (original.lineHeight / (float)original.fontSize);
+		}
+
+		private static void RegisterCockpitText(Text text, float targetLineHeight)
+		{
+			if (text == null || targetLineHeight <= 0f) return;
+
+			if (!CockpitTexts.ContainsKey(text))
 			{
-				baseSize = text.fontSize;
-				BaseFontSizes[text] = baseSize;
+				CockpitTexts[text] = new CockpitText
+				{
+					BaseScale = text.rectTransform.localScale,
+					TargetLineHeight = targetLineHeight
+				};
 			}
 
-			// The correction is what should make it fit; the config slider is only there to
-			// nudge the result without another build.
-			var size = baseSize * _lineHeightCorrection * OuterWildsHebrew.CockpitFontScale;
-			text.fontSize = Mathf.Max(1, Mathf.RoundToInt(size));
+			ApplyCockpitTextScale(text);
 		}
 
-		// Re-applies the scale to everything already touched, so moving the slider takes effect
-		// without reloading.
+		internal static void ApplyCockpitTextScale(Text text)
+		{
+			if (text == null || !CockpitTexts.TryGetValue(text, out var info)) return;
+
+			var font = text.font;
+			if (font == null || font.lineHeight <= 0f) return;
+
+			var factor = info.TargetLineHeight / font.lineHeight * OuterWildsHebrew.CockpitFontScale;
+			if (factor <= 0f) return;
+
+			text.rectTransform.localScale = info.BaseScale * factor;
+
+			if (_loggedScale) return;
+			_loggedScale = true;
+			OuterWildsHebrew.Instance.ModHelper.Console.WriteLine(
+				$"Cockpit text scaled by {factor:F3} (target line {info.TargetLineHeight:F1} " +
+				$"vs {font.name} line {font.lineHeight:F1})", MessageType.Success);
+		}
+
+		// Re-applies to everything already registered, so moving the slider takes effect without
+		// reloading.
 		internal static void ReapplyCockpitFontScale()
 		{
-			foreach (var text in new List<Text>(BaseFontSizes.Keys))
+			foreach (var text in new List<Text>(CockpitTexts.Keys))
 			{
-				if (text != null) ApplyCockpitFontScale(text);
+				if (text != null) ApplyCockpitTextScale(text);
 			}
 		}
 
@@ -174,13 +192,22 @@ namespace OuterWildsHebrew
 			// Only the cockpit's text needs the size correction.
 			if (__instance != _cockpitFontController) return;
 
-			// The container remembers the font the prefab shipped with, which is the one whose
-			// line height the cockpit's boxes were sized around.
+			// The container remembers the font and size the prefab shipped with, which is what
+			// the cockpit's boxes were built around.
 			foreach (var container in __instance._textContainerList)
-				UpdateLineHeightCorrection(container.originalFont, font);
+			{
+				var target = TargetLineHeight(container.originalFont, container.originalFontSize);
+				RegisterCockpitText(container.textElement, target);
 
-			foreach (var container in __instance._textContainerList)
-				ApplyCockpitFontScale(container.textElement);
+				// The console's own measuring field stands in for the notification lines, which
+				// are clones the controller never sees.
+				if (target > 0f && container.textElement != null && container.textElement.name == "TestText")
+					_consoleTargetLineHeight = target;
+			}
+
+			// The pool was built during Awake, before the target above could be known, so give
+			// those lines their scale now.
+			if (_shipConsole != null) StampNotificationFont(_shipConsole);
 		}
 
 		// Text elements registered after InitializeFont has already run — pooled notification
@@ -204,8 +231,9 @@ namespace OuterWildsHebrew
 		public static void ShipNotificationDisplay_Awake(ShipNotificationDisplay __instance)
 		{
 			// The cockpit's controller owns the console, the signalscope and the HUD labels.
-			// Grabbing it here means the font scale can target exactly those.
+			// Grabbing it here means the correction can target exactly those.
 			if (__instance._fontController != null) _cockpitFontController = __instance._fontController;
+			_shipConsole = __instance;
 
 			var font = TextTranslation.GetFont(false);
 			if (font == null || __instance._testText == null) return;
@@ -230,7 +258,7 @@ namespace OuterWildsHebrew
 				foreach (var text in display._textDisplayTemplate.GetComponentsInChildren<Text>(true))
 				{
 					text.font = font;
-					if (scale) ApplyCockpitFontScale(text);
+					if (scale) RegisterCockpitText(text, _consoleTargetLineHeight);
 				}
 			}
 
@@ -241,7 +269,7 @@ namespace OuterWildsHebrew
 				foreach (var text in item.GetComponentsInChildren<Text>(true))
 				{
 					text.font = font;
-					if (scale) ApplyCockpitFontScale(text);
+					if (scale) RegisterCockpitText(text, _consoleTargetLineHeight);
 				}
 			}
 		}
