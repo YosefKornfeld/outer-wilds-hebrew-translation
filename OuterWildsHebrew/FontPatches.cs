@@ -1,4 +1,7 @@
 using HarmonyLib;
+using OWML.Common;
+using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -53,35 +56,36 @@ namespace OuterWildsHebrew
 			if (__instance._distanceLabel != null) __instance._distanceLabel.font = font;
 		}
 
-		// Ship / suit / cockpit notification panels (the "Flashlight ON" / "Autopilot aborted"
-		// lines) render through NotificationDisplayTextLayout, which clones Text items from
-		// _textDisplayTemplate into _textItemPool and reuses them for every posted line.
-		// The template's font is baked in at the prefab and never routed through
-		// TextTranslation.GetFont, so LU's language-font swap never reaches those clones and
-		// Hebrew renders as missing-glyph tofu. ExpandPool is where the pool grows, so
-		// postfixing it lets us re-stamp the font on both the template and every existing
-		// pooled item — the initial pool that Awake built, plus anything ExpandPool just
-		// added — which covers every clone the panel will ever show.
+		// FontAndLanguageController owns the fonts of the ship / suit / cockpit text, and it
+		// is also what puts them back: every Text registered with it is stored in a
+		// TextContainer alongside its originalFont, and InitializeFont re-applies either the
+		// language font or that original, depending on how the prefab flagged the item. The
+		// console items are flagged to keep their original (Latin) font, so stamping them
+		// anywhere earlier gets undone. This postfix runs after the controller has had its
+		// say and forces the Hebrew font onto every Text it manages.
 		[HarmonyPostfix]
-		[HarmonyPatch(typeof(NotificationDisplayTextLayout), nameof(NotificationDisplayTextLayout.ExpandPool))]
-		public static void NotificationDisplayTextLayout_ExpandPool(NotificationDisplayTextLayout __instance)
+		[HarmonyPatch(typeof(FontAndLanguageController), nameof(FontAndLanguageController.InitializeFont))]
+		public static void FontAndLanguageController_InitializeFont(FontAndLanguageController __instance)
 		{
 			var font = TextTranslation.GetFont(false);
-			if (font == null) return;
+			if (font == null || __instance._textContainerList == null) return;
 
-			if (__instance._textDisplayTemplate != null)
+			foreach (var container in __instance._textContainerList)
 			{
-				foreach (var text in __instance._textDisplayTemplate.GetComponentsInChildren<Text>(true))
-					text.font = font;
+				if (container.textElement != null) container.textElement.font = font;
 			}
+		}
 
-			if (__instance._textItemPool == null) return;
-			foreach (var item in __instance._textItemPool)
-			{
-				if (item == null) continue;
-				foreach (var text in item.GetComponentsInChildren<Text>(true))
-					text.font = font;
-			}
+		// Text elements registered after InitializeFont has already run — pooled notification
+		// lines get added as the pool grows — would otherwise keep the prefab font until the
+		// next language change, so stamp them as they arrive.
+		[HarmonyPostfix]
+		[HarmonyPatch(typeof(FontAndLanguageController), nameof(FontAndLanguageController.AddTextElement))]
+		public static void FontAndLanguageController_AddTextElement(Text textElement)
+		{
+			var font = TextTranslation.GetFont(false);
+			if (font == null || textElement == null) return;
+			textElement.font = font;
 		}
 
 		// ShipNotificationDisplay uses _testText to measure whether a candidate line fits
@@ -95,6 +99,69 @@ namespace OuterWildsHebrew
 			var font = TextTranslation.GetFont(false);
 			if (font == null || __instance._testText == null) return;
 			__instance._testText.font = font;
+		}
+
+		// Stamps the Hebrew font on a notification panel's line template and on every item
+		// currently in its pool. The template is what future clones are made from and the
+		// pool holds the clones that already exist, so between the two every line the panel
+		// can show is covered.
+		internal static void StampNotificationFont(NotificationDisplayTextLayout display)
+		{
+			var font = TextTranslation.GetFont(false);
+			if (font == null) return;
+
+			if (display._textDisplayTemplate != null)
+			{
+				foreach (var text in display._textDisplayTemplate.GetComponentsInChildren<Text>(true))
+					text.font = font;
+			}
+
+			if (display._textItemPool == null) return;
+			foreach (var item in display._textItemPool)
+			{
+				if (item == null) continue;
+				foreach (var text in item.GetComponentsInChildren<Text>(true))
+					text.font = font;
+			}
+		}
+	}
+
+	/// <summary>
+	/// The notification panels clone their lines from a prefab template into a pool, and
+	/// ExpandPool is where that pool grows. It is virtual, and both ShipNotificationDisplay
+	/// and SuitNotificationDisplay override it — Harmony patches one concrete method body, so
+	/// a patch on the base class alone never runs for the ship, which is why the cockpit
+	/// display stayed unreadable. Patch every declaration instead: the base, which
+	/// PlayerCockpitNotificationDisplay inherits as-is, plus each override.
+	/// </summary>
+	[HarmonyPatch]
+	internal static class NotificationPoolFontPatch
+	{
+		public static IEnumerable<MethodBase> TargetMethods()
+		{
+			var types = new[]
+			{
+				typeof(NotificationDisplayTextLayout),
+				typeof(ShipNotificationDisplay),
+				typeof(SuitNotificationDisplay)
+			};
+
+			foreach (var type in types)
+			{
+				// Looked up by name because only some of these declare their own override.
+				// A null here would take Harmony's whole PatchAll down with it, so a game
+				// update that renames the method costs us this one patch, not the mod.
+				var method = AccessTools.DeclaredMethod(type, "ExpandPool");
+				if (method != null) yield return method;
+				else OuterWildsHebrew.Instance.ModHelper.Console.WriteLine(
+					$"No ExpandPool on {type.Name}; its notification font will not be patched",
+					MessageType.Error);
+			}
+		}
+
+		public static void Postfix(NotificationDisplayTextLayout __instance)
+		{
+			FontPatches.StampNotificationFont(__instance);
 		}
 	}
 }
