@@ -84,14 +84,28 @@ namespace OuterWildsHebrew
 			report.AppendLine($"  template: {(display._textDisplayTemplate == null ? "null" : display._textDisplayTemplate.name)}");
 			report.AppendLine($"  pool items: {(display._textItemPool == null ? -1 : display._textItemPool.Count)}");
 
+			// The mask clips anything drawn outside it, so a line laid out past its edge is
+			// invisible while looking perfectly healthy on the object itself.
+			var mask = display.GetComponentInChildren<Mask>(true);
+			if (mask != null) report.AppendLine($"  mask: '{mask.name}' enabled={mask.enabled} showGraphic={mask.showMaskGraphic} rect={((RectTransform)mask.transform).rect}");
+			var mask2D = display.GetComponentInChildren<RectMask2D>(true);
+			if (mask2D != null) report.AppendLine($"  rectMask2D: '{mask2D.name}' enabled={mask2D.enabled} rect={((RectTransform)mask2D.transform).rect}");
+
 			// Everything under the display, pooled or not, so nothing is missed if the lines
 			// live somewhere other than the pool list.
 			report.AppendLine("  all Text under the display:");
 			foreach (var text in display.GetComponentsInChildren<Text>(true))
+			{
 				report.AppendLine($"    {Describe(text)}");
+				// Only the lines actually on screen are worth the extra detail, and only they
+				// can tell us why nothing appears.
+				if (text != null && text.gameObject.activeInHierarchy) report.AppendLine($"      {DescribeRendering(text)}");
+			}
 
 			var languageFont = TextTranslation.GetFont(false);
 			report.AppendLine($"  TextTranslation.GetFont(false): {(languageFont == null ? "null" : languageFont.name)}");
+
+			AppendWorkingTextComparison(report, display);
 
 			Log(report.ToString());
 		}
@@ -106,6 +120,58 @@ namespace OuterWildsHebrew
 			var content = string.IsNullOrEmpty(text.text) ? "<empty>" : text.text;
 			return $"'{text.name}' active={text.gameObject.activeInHierarchy} enabled={text.enabled} " +
 			       $"font={font} size={text.fontSize} color={text.color} text=\"{content}\"";
+		}
+
+		// A control group. Text elsewhere on screen is readable in the same font, so whatever
+		// differs between one of those and a console line is where the console is losing its
+		// glyphs. Without the comparison the console's numbers are hard to judge — there is
+		// nothing to say which of them is abnormal.
+		private static void AppendWorkingTextComparison(StringBuilder report, ShipNotificationDisplay display)
+		{
+			report.AppendLine("  other on-screen Text using the same font, for comparison:");
+
+			var shown = 0;
+			foreach (var text in Object.FindObjectsOfType<Text>())
+			{
+				if (shown >= 4) break;
+				if (text == null || text.font == null) continue;
+				// Only lines that are genuinely being drawn, and not the console's own.
+				if (!text.gameObject.activeInHierarchy || !text.enabled) continue;
+				if (string.IsNullOrEmpty(text.text)) continue;
+				if (text.GetComponentInParent<ShipNotificationDisplay>() == display) continue;
+
+				report.AppendLine($"    {Path(text.transform)}");
+				report.AppendLine($"      {Describe(text)}");
+				report.AppendLine($"      {DescribeRendering(text)}");
+				shown++;
+			}
+
+			if (shown == 0) report.AppendLine("    none found");
+		}
+
+		// Splits the two remaining ways a healthy-looking line can be invisible. Either the
+		// font produced no glyphs — the generator reports no visible characters and no verts,
+		// which means the font asset itself cannot draw this text — or it produced them and
+		// something about where or how they are drawn hides them: a zero scale, an empty rect,
+		// a culled or transparent CanvasRenderer, or a material with no font atlas behind it.
+		private static string DescribeRendering(Text text)
+		{
+			var generator = text.cachedTextGenerator;
+			var rect = text.rectTransform;
+			var renderer = text.canvasRenderer;
+
+			var glyphs = generator == null
+				? "generator=null"
+				: $"visibleChars={generator.characterCountVisible} verts={generator.vertexCount}";
+
+			var material = text.materialForRendering;
+			var texture = text.mainTexture;
+			var atlas = texture == null ? "no texture" : $"{texture.name} {texture.width}x{texture.height}";
+
+			return $"{glyphs} rect={rect.rect.size} localScale={rect.localScale} lossyScale={rect.lossyScale} " +
+			       $"cull={renderer.cull} rendererAlpha={renderer.GetAlpha()} " +
+			       $"shader={(material == null || material.shader == null ? "none" : material.shader.name)} atlas={atlas} " +
+			       $"fontDynamic={(text.font == null ? "no font" : text.font.dynamic.ToString())}";
 		}
 
 		private static string Path(Transform transform)
