@@ -16,10 +16,10 @@ public class OuterWildsHebrew : ModBehaviour
 	// falls back to the normal UI font.
 	public Font NomaiFont;
 
-	// How much bigger the cockpit displays draw their text than the prefab asks for. Our font
-	// renders far smaller than its point size on those screens, and the right correction is
-	// something to see rather than calculate, so it is a slider in the mod's settings.
-	public static float CockpitFontScale = 2f;
+	// A manual nudge on top of the cockpit font correction, as a fraction of it. The correction
+	// itself is computed from the two fonts' line heights and should need no help; this is here
+	// so the result can be adjusted in the mod's settings without another build.
+	public static float CockpitFontScale = 1f;
 
 	public void Awake()
 	{
@@ -81,11 +81,11 @@ public class OuterWildsHebrew : ModBehaviour
 	// text resizes while the game is running and the right value can just be dialled in.
 	public override void Configure(IModConfig config)
 	{
-		// A config written before this setting existed has no value for it, and the zero that
-		// comes back would shrink the cockpit text to nothing — the very problem this is meant
-		// to fix. Anything not sensible falls back to the default.
-		var scale = config.GetSettingsValue<float>("CockpitFontScale");
-		CockpitFontScale = scale > 0f ? scale : 2f;
+		// Whole percent rather than a fraction, because a config written before this setting
+		// existed returns zero, and a zero scale would shrink the cockpit text away entirely —
+		// the very problem this exists to fix. Anything not sensible falls back to no nudge.
+		var percent = config.GetSettingsValue<float>("CockpitFontPercent");
+		CockpitFontScale = percent > 0f ? percent / 100f : 1f;
 
 		FontPatches.ReapplyCockpitFontScale();
 	}

@@ -26,9 +26,31 @@ namespace OuterWildsHebrew
 		// current size keeps the slider from compounding every time it is applied.
 		private static readonly Dictionary<Text, int> BaseFontSizes = new Dictionary<Text, int>();
 
-		// The cockpit displays draw our font far smaller than the point size asks for, so the
-		// prefab's sizes leave the text unreadable. Rather than guess a correction factor, the
-		// scale is a config slider the player can turn while the game runs.
+		// How much the cockpit's point sizes have to change for our font to occupy the same
+		// line height the prefab's font did. Derived once from the two fonts' own metrics.
+		private static float _lineHeightCorrection = 1f;
+
+		// Our font draws a much taller line than the game's for the same point size, so the
+		// cockpit's fixed line boxes — 40 units tall, for text the prefab sets at size 45 —
+		// overflow and get clipped to slivers by the console's mask. Scaling the point size by
+		// the ratio of the two fonts' line heights makes a line occupy the height the prefab
+		// laid out for it, which is what the boxes were built around.
+		private static void UpdateLineHeightCorrection(Font original, Font replacement)
+		{
+			if (original == null || replacement == null || original == replacement) return;
+			if (original.fontSize <= 0 || replacement.fontSize <= 0) return;
+
+			var originalLine = original.lineHeight / (float)original.fontSize;
+			var replacementLine = replacement.lineHeight / (float)replacement.fontSize;
+			if (originalLine <= 0f || replacementLine <= 0f) return;
+
+			_lineHeightCorrection = originalLine / replacementLine;
+			OuterWildsHebrew.Instance.ModHelper.Console.WriteLine(
+				$"Cockpit font line-height correction {_lineHeightCorrection:F3} " +
+				$"({original.name} {originalLine:F3} vs {replacement.name} {replacementLine:F3})",
+				MessageType.Success);
+		}
+
 		internal static void ApplyCockpitFontScale(Text text)
 		{
 			if (text == null) return;
@@ -39,7 +61,10 @@ namespace OuterWildsHebrew
 				BaseFontSizes[text] = baseSize;
 			}
 
-			text.fontSize = Mathf.Max(1, Mathf.RoundToInt(baseSize * OuterWildsHebrew.CockpitFontScale));
+			// The correction is what should make it fit; the config slider is only there to
+			// nudge the result without another build.
+			var size = baseSize * _lineHeightCorrection * OuterWildsHebrew.CockpitFontScale;
+			text.fontSize = Mathf.Max(1, Mathf.RoundToInt(size));
 		}
 
 		// Re-applies the scale to everything already touched, so moving the slider takes effect
@@ -148,6 +173,12 @@ namespace OuterWildsHebrew
 
 			// Only the cockpit's text needs the size correction.
 			if (__instance != _cockpitFontController) return;
+
+			// The container remembers the font the prefab shipped with, which is the one whose
+			// line height the cockpit's boxes were sized around.
+			foreach (var container in __instance._textContainerList)
+				UpdateLineHeightCorrection(container.originalFont, font);
+
 			foreach (var container in __instance._textContainerList)
 				ApplyCockpitFontScale(container.textElement);
 		}
