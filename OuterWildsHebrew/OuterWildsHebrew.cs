@@ -52,7 +52,19 @@ public class OuterWildsHebrew : ModBehaviour
 	        // The Nomai translator gets its own font from a separate bundle. Loaded here so
 	        // it is ready before the translator's InitializeFont patch runs in-game.
 	        LoadNomaiFont();
-	        Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
+
+	        // Listing what actually got patched is the one cheap way to tell, from the log
+	        // alone, whether a build's changes reached the running game — a patch that silently
+	        // failed to find its target looks exactly like a patch that ran and did nothing.
+	        var harmony = Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
+	        foreach (var method in harmony.GetPatchedMethods())
+	        {
+	            ModHelper.Console.WriteLine(
+	                $"Patched {method.DeclaringType?.Name}.{method.Name}", MessageType.Success);
+	        }
+
+	        // OnCompleteSceneLoad is ours to subscribe; nothing calls it for us.
+	        LoadManager.OnCompleteSceneLoad += OnCompleteSceneLoad;
 	    }
 	    else
 	    {
@@ -106,5 +118,11 @@ public class OuterWildsHebrew : ModBehaviour
 	{
 		if (newScene != OWScene.SolarSystem) return;
 		ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
+	}
+
+	public void Update()
+	{
+		// On-demand dump of the cockpit console's Text state. See ShipUiDiagnostics.
+		if (Input.GetKeyDown(ShipUiDiagnostics.DumpKey)) ShipUiDiagnostics.DumpConsoleState();
 	}
 }
