@@ -2658,7 +2658,7 @@
 	</entry>
 	<entry>
 		<key>Scientist1AThere’s our pilot! Back from your pre-launch campout under the stars, I see.</key>
-		<value>הנה הטייס שלנו! חוזר משינה טובה תחת הכוכבים? לפני השיגור? </value>
+		<value>הנה הטייס שלנו! חוזר משינה טובה תחת הכוכבים לפני השיגור? </value>
 	</entry>
 	<entry>
 		<key>Scientist1ASo it’s Launch Day, eh? Seems like only yesterday you joined the space program, and suddenly here you are, leaving on your first solo voyage.</key>
@@ -2722,11 +2722,11 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer14That was only a problem one time. And then maybe a few times after that, but hey, no reason to dwell on the past, right?</key>
-		<value>זו היתה בעיה רק פעם אחת. ואולי כמה פעמים אחר כך, אבל היי, אין סיבה להתרפק על העבר, נכון?</value>
+		<value>זו היתה בעיה רק פעם אחת. ואולי כמה פעמים אחר כך, אבל היי, אין סיבה להיות תקוע בעבר, נכון?</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer15Anyway, you’ll need to get the &lt;color=orange&gt;launch codes from Hornfels at the observatory&lt;/color&gt; before you can lift off. Just bring those here once you’ve said your goodbyes or whatever.</key>
-		<value>בכל מקרה, אתה תצטרך להשיג את הץץץצבע כתוםץץץקודים לשיגור מהורנפלס במצפהץץץצבע סוףץץץ לפני שתוכל להמריא. פשוט תביא אותם לפה ברגע שסיימת להיג לכולם להתראות או מה שזה לא יהיה.</value>
+		<value>בכל מקרה, אתה תצטרך להשיג את הץץץצבע כתוםץץץקודים לשיגור מהורנפלס במצפהץץץצבע סוףץץץ לפני שתוכל להמריא. פשוט תביא אותם לפה ברגע שסיימת להגיד לכולם להתראות או מה שזה לא יהיה.</value>
 	</entry>
 	<entry>
 		<key>Scientist2Not having second thoughts, are you?</key>
@@ -2770,7 +2770,7 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer25Oh, and Gossan says they have the zero-g chamber set up if you want a refresher on making ship repairs in space. Not saying you &lt;i&gt;have&lt;/i&gt; to, but uh, it’d help get Gossan off my back if you did.</key>
-		<value>אה, וגוסאן מוסר שהוא הכין לך את חדר החוסר כבידה אם תרצה לקבל רענון על איך עושים תיקוני חללית בחלל. לא אומר שאתה ץץץנטויץץץחייבץץץנטוי סוףץץץ, אבל, אמממ, זה יעזור להוריד ממני את גוסאן אם תעשה את זה.</value>
+		<value>אה, וגוסאן מוסר שהוא הכין לך את חדר חוסר הכבידה אם תרצה לקבל רענון על איך עושים תיקוני חללית בחלל. לא אומר שאתה ץץץנטויץץץחייבץץץנטוי סוףץץץ, אבל, אמממ, זה יעזור להוריד ממני את גוסאן אם תעשה את זה.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer21Hornfels has the launch codes. Should be up at the observatory, like usual. I’m starting to think they live there.</key>
@@ -2798,7 +2798,7 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer23Oh, it’s a perfect ten. Unless you’re factoring in pilot error, in which case it’s about a four.\\nNo offense.</key>
-		<value>אוו, זה עשר מושלם. אלא אם כן אתה מחשיב בציון טעות אנוש, ואז זה בערך ארבע. //נבלי להעליב.</value>
+		<value>אוו, זה מאה עגול. אלא אם כן אתה מחשיב בציון את טעויות הטייס, ואז זה בערך ארבעים. //נבלי להעליב.</value>
 	</entry>
 	<entry>
 		<key>Scientist3Oh, hold up, you’re going to want to get the launch codes from the observatory first.</key>
@@ -2894,35 +2894,35 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer37It’s not exactly &lt;i&gt;impossible&lt;/i&gt; for the autopilot to get you too close to the sun, but it’s not like it’ll try to take you there on purpose.</key>
-		<value>It’s not exactly &lt;i&gt;impossible&lt;/i&gt; for the autopilot to get you too close to the sun, but it’s not like it’ll try to take you there on purpose.</value>
+		<value>זה לא בדיוק ץץץנטויץץץבלתי אפשריץץץנטוי סוףץץץ שהטייס האוטומטי ייקח אותך קרוב מדי לשמש, אבל זה לא כאילו הוא ינסה לקחת אותך לשם בכוונה.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer37Make sure the sun isn’t between you and your destination when you engage autopilot, and you’ll be fine.</key>
-		<value>Make sure the sun isn’t between you and your destination when you engage autopilot, and you’ll be fine.</value>
+		<value>תוודא שהשמש לא בינך לבין היעד שלך כשאתה משלב את הטייס האוטומטי, ואתה תהיה בסדר גמור.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer38Use your scout to detect it, you dumb idiot! Did you think I made that just so you could take pretty little pictures of trees? It has multiple uses!</key>
-		<value>Not if you use your scout to detect it, you won’t, you dumb idiot! Did you think I made that just so you could take pretty little pictures of trees? It has multiple uses!</value>
+		<value>אתה לא, אם תטרח להשתמש בגששון שלך, חתיכת טיפש מטומטם. חשבת שעשיתי את זה רק כדי שתוכל לקחת תמונות יפות של עצים? יש לזה שימושים שונים!</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer38You &lt;i&gt;do&lt;/i&gt; know you can use it as a light source, right? Stars above, please tell me you knew that.</key>
-		<value>You &lt;i&gt;do&lt;/i&gt; know you can use it as a light source, right? Stars above, please tell me you knew that.</value>
+		<value>אתה ץץץנטוייודעץץץנטוי סוףץץץ שאתה יכול להשתמש בו כמקור אור, נכון? כוכבים שבשמיים, בבקשה תגיד שידעת את זה.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer39Oh yeah, the observatory has an exhibit about that.</key>
-		<value>Oh yeah, the observatory has an exhibit about that.</value>
+		<value>אה כן, יש מיצג על זה במצפה.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer39Between you and me, I glossed over some of the finer details. Astrophysics is really more Hornfels’s domain.</key>
-		<value>Between you and me, I glossed over some of the finer details. Astrophysics is really more Hornfels’s domain.</value>
+		<value>בינינו, קצת דילגתי על חלק מהפרטים הקטנים יותר. אסטרופיזיקה זה איזור המומחיות של הורנפלס יותר משלי.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer39Me, I’m here for the rocket science and the marshmallows.</key>
-		<value>Me, I’m here for the rocket science and the marshmallows.</value>
+		<value>אני פה בעיקר בשביל המדע טילים והמרשמלו.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer40Yeah, I’d stick to exploring our solar system, if I were you. As much as I hate to admit it, our ships aren’t deep-space-worthy.</key>
-		<value>Yeah, I’d stick to exploring our solar system, if I were you. As much as I hate to admit it, our ships aren’t deep-space-worthy.</value>
+		<value>כן, אני במקומך לא הייתי חוקר מעבר למערכת השמש שלנו. אני ממש שונא להודות בזה, אבל החלליות שלנו לא מותאמות לחלל העמוק.</value>
 	</entry>
 	<entry>
 		<key>Slate_ShipLog_IntroHey, hold up a sec!</key>
