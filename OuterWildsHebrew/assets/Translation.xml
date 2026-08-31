@@ -7699,31 +7699,31 @@
 	</entry>
 	<entry>
 		<key>ModelRocketKid1Hey, it’s you!</key>
-		<value>Hey, it’s you!</value>
+		<value>הי, זה אתה!</value>
 	</entry>
 	<entry>
 		<key>ModelRocketKid1Slate said you’re blasting off in your ship today. I’m really excited to see the launch!</key>
-		<value>Slate said you’re blasting off in your ship today. I’m really excited to see the launch!</value>
+		<value>שמעתי מסלייט שהיום הוא יום השיגור. זה ממש מרגש לראות את זה!</value>
 	</entry>
 	<entry>
 		<key>ModelRocketKid1Aren’t you gonna go into space? Aren’t you? You better not have changed your mind!</key>
-		<value>Aren’t you gonna go into space? Aren’t you? You better not have changed your mind!</value>
+		<value>נו? נו? באמת הולכים לחלל? כולם מקווים שאין כאן מקרה של רגליים קרות!</value>
 	</entry>
 	<entry>
 		<key>MicaModelRocketKid1Hey, I’m still going!</key>
-		<value>Hey, I’m still going!</value>
+		<value>הי, אני עדיין בדרכי לשם!</value>
 	</entry>
 	<entry>
 		<key>MicaModelRocketKid1I want to practice with a pro before I leave.</key>
-		<value>I want to practice with a pro before I leave.</value>
+		<value>ברצוני להתאמן עם המומחים לפני היציאה.</value>
 	</entry>
 	<entry>
 		<key>MicaModelRocketKid1I hear you and Slate beefed up the model ship. Can I see it?</key>
-		<value>I hear you and Slate beefed up the model ship. Can I see it?</value>
+		<value>שמעתי שהמודל חללית עבר שדרוג מהידיים שלך ושל סלייט. אפשר לראות?</value>
 	</entry>
 	<entry>
 		<key>ModelRocketKid5You better be! It’s been forever since anyone launched into space. I really, &lt;i&gt;really&lt;/i&gt; want to see it.</key>
-		<value>You better be! It’s been forever since anyone launched into space. I really, &lt;i&gt;really&lt;/i&gt; want to see it.</value>
+		<value>כן, כדאי לך! עבר נצח מאז שמישהו השתגר לחלל. ז</value>
 	</entry>
 	<entry>
 		<key>ModelRocketKid5Really bad.</key>
@@ -13163,11 +13163,11 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>213</key>
-			<value>Roll</value> <!-- Roll -->
+			<value>תתגלגל</value> <!-- Roll -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>214</key>
-			<value>Jump</value> <!-- Jump -->
+			<value>קפוץ</value> <!-- Jump -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>215</key>
@@ -13175,7 +13175,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>216</key>
-			<value>(Hold and Release)</value> <!-- (Hold and Release) -->
+			<value>(החזק ושחרר)</value> <!-- (Hold and Release) -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>217</key>
