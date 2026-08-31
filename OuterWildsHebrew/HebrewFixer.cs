@@ -350,7 +350,7 @@ namespace OuterWildsHebrew
 			return (c >= '֐' && c <= '׿') || (c >= 'יִ' && c <= 'ﭏ');
 		}
 
-		private static bool ContainsHebrew(string text)
+		public static bool ContainsHebrew(string text)
 		{
 			foreach (char c in text)
 			{
