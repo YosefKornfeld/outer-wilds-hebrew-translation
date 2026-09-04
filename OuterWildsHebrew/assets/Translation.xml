@@ -13187,31 +13187,31 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>220</key>
-			<value>Up Thrust</value> <!-- Up Thrust -->
+			<value>דחף למעלה</value> <!-- Up Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>221</key>
-			<value>Down Thrust</value> <!-- Down Thrust -->
+			<value>דחף למטה</value> <!-- Down Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>222</key>
-			<value>Down / Up Thrust</value> <!-- Down / Up Thrust -->
+			<value>דחף למטה / למעלה</value> <!-- Down / Up Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>223</key>
-			<value>Horizontal Thrust</value> <!-- Horizontal Thrust -->
+			<value>דחף אופקי</value> <!-- Horizontal Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>224</key>
-			<value>Use Jetpack Booster   </value> <!-- Use Jetpack Booster -->
+			<value>השתמש במגביר ג׳טפק   </value> <!-- Use Jetpack Booster -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>225</key>
-			<value>Reset</value> <!-- Reset -->
+			<value>לאפס</value> <!-- Reset -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>226</key>
-			<value>Rotational Thrust</value> <!-- Rotational Thrust -->
+			<value>דחף סיבובי</value> <!-- Rotational Thrust -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>230</key>
@@ -13219,103 +13219,103 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>231</key>
-			<value>Aim Launcher</value> <!-- Aim Launcher -->
+			<value>כוון גששגר</value> <!-- Aim Launcher -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>232</key>
-			<value>Launch Scout</value> <!-- Launch Scout -->
+			<value>שגר גשש</value> <!-- Launch Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>233</key>
-			<value>Retrieve Scout</value> <!-- Retrieve Scout -->
+			<value>החזר גשש</value> <!-- Retrieve Scout -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>234</key>
-			<value>Photo Mode</value> <!-- Photo Mode -->
+			<value>מצב תמונה</value> <!-- Photo Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>235</key>
-			<value>Launch Mode</value> <!-- Launch Mode -->
+			<value>מצב שיגור</value> <!-- Launch Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>236</key>
-			<value>Forward Snapshot</value> <!-- Forward Snapshot -->
+			<value>תצלום קדמי</value> <!-- Forward Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>237</key>
-			<value>Take Snapshot</value> <!-- Take Snapshot -->
+			<value>קח תצלום</value> <!-- Take Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>238</key>
-			<value>Rearview Snapshot</value> <!-- Rearview Snapshot -->
+			<value>תצלום אחורי</value> <!-- Rearview Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>239</key>
-			<value>Rotate Camera</value> <!-- Rotate Camera -->
+			<value>סובב מצלמה</value> <!-- Rotate Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>240</key>
-			<value>Aim Camera</value> <!-- Aim Camera -->
+			<value>כוון מצלמה</value> <!-- Aim Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>241</key>
-			<value>Remove Snapshot</value> <!-- Remove Snapshot -->
+			<value>הסר תצלום</value> <!-- Remove Snapshot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>250</key>
-			<value>Liftoff</value> <!-- Liftoff -->
+			<value>המראה</value> <!-- Liftoff -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>251</key>
-			<value>Engage Autopilot</value> <!-- Engage Autopilot -->
+			<value>הפעל טייס אוטומטי</value> <!-- Engage Autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>252</key>
-			<value>Abort Autopilot</value> <!-- Abort Autopilot -->
+			<value>בטל טייס אוטומטי</value> <!-- Abort Autopilot -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>253</key>
-			<value>Liftoff / Landing Camera</value> <!-- Liftoff / Landing Camera -->
+			<value>מצלמת המראה / נחיתה</value> <!-- Liftoff / Landing Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>254</key>
-			<value>Landing Mode</value> <!-- Landing Mode -->
+			<value>מצב נחיתה</value> <!-- Landing Mode -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>255</key>
-			<value>Cockpit View</value> <!-- Cockpit View -->
+			<value>מבט קוקפיט</value> <!-- Cockpit View -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>256</key>
-			<value>Repair</value> <!-- Repair -->
+			<value>תקן</value> <!-- Repair -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>257</key>
-			<value>Buckle Up</value> <!-- Buckle Up -->
+			<value>תחגור</value> <!-- Buckle Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>258</key>
-			<value>Raise Eject Cover</value> <!-- Raise Eject Cover -->
+			<value>הרם מכסה פליטת חירום</value> <!-- Raise Eject Cover -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>259</key>
-			<value>Open Hatch</value> <!-- Open Hatch -->
+			<value>פתח צהר</value> <!-- Open Hatch -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>260</key>
-			<value>View Ship Log</value> <!-- View Ship Log -->
+			<value>צפה ביומן הספינה</value> <!-- View Ship Log -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>261</key>
-			<value>Eject</value> <!-- Eject -->
+			<value>פליטת חירום</value> <!-- Eject -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>269</key>
-			<value>SUIT: </value> <!-- SUIT: -->
+			<value>חליפה: </value> <!-- SUIT: -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>270</key>
-			<value>Leave</value> <!-- Leave -->
+			<value>עזוב</value> <!-- Leave -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>271</key>
@@ -13331,55 +13331,55 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>274</key>
-			<value> Activate Lift</value> <!-- Activate Lift -->
+			<value> הפעל מעלית</value> <!-- Activate Lift -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>275</key>
-			<value>Suit Up</value> <!-- Suit Up -->
+			<value>לבש חליפה</value> <!-- Suit Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>276</key>
-			<value>Use Camera</value> <!-- Use Camera -->
+			<value>השתמש במצלמה</value> <!-- Use Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>277</key>
-			<value>Use Scout Launcher</value> <!-- Use Scout Launcher -->
+			<value>השתמש בגששגר</value> <!-- Use Scout Launcher -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>278</key>
-			<value>Fly Model Ship</value> <!-- Fly Model Ship -->
+			<value>הטס את מודל הספינה</value> <!-- Fly Model Ship -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>279</key>
-			<value>Use Satellite Camera</value> <!-- Use Satellite Camera -->
+			<value>השתמש במצלמת הלווין</value> <!-- Use Satellite Camera -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>280</key>
-			<value>Enter Launch Codes</value> <!-- Enter Launch Codes -->
+			<value>הכנס קודים לשיגור</value> <!-- Enter Launch Codes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>281</key>
-			<value>Requires Launch Codes</value> <!-- Requires Launch Codes -->
+			<value>נדרשים קודים לשיגור</value> <!-- Requires Launch Codes -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>282</key>
-			<value>Light Campfire</value> <!-- Light Campfire -->
+			<value>הדלק מדורה</value> <!-- Light Campfire -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>283</key>
-			<value>Return Suit</value> <!-- Return Suit -->
+			<value>החזר חליפה</value> <!-- Return Suit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>284</key>
-			<value>Read</value> <!-- Read -->
+			<value>קרא</value> <!-- Read -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>285</key>
-			<value>Play Recording</value> <!-- Play Recording -->
+			<value>הפעל הקלטה</value> <!-- Play Recording -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>286</key>
-			<value>Repair</value> <!-- Repair -->
+			<value>תקן</value> <!-- Repair -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>287</key>
@@ -13387,15 +13387,15 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>288</key>
-			<value>Gather</value> <!-- Gather -->
+			<value>אסוף</value> <!-- Gather -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>289</key>
-			<value>Patch Suit Puncture</value> <!-- Patch Suit Puncture -->
+			<value>תקן חורים בחליפה</value> <!-- Patch Suit Puncture -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>290</key>
-			<value>Use Medkit and Refuel Jetpack</value> <!-- Use Medkit and Refuel Jetpack -->
+			<value>השתמש בערכת רפואה ותדלק ג׳טפק</value> <!-- Use Medkit and Refuel Jetpack -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>291</key>
@@ -13403,7 +13403,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>292</key>
-			<value>Use Medkit</value> <!-- Use Medkit -->
+			<value>השתמש בערכת רפואה</value> <!-- Use Medkit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>293</key>
@@ -13411,7 +13411,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>294</key>
-			<value>Refuel Jetpack</value> <!-- Refuel Jetpack -->
+			<value>תדלק ג׳טפק</value> <!-- Refuel Jetpack -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>295</key>
@@ -13423,19 +13423,19 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>297</key>
-			<value>Health and Fuel Full</value> <!-- Health and Fuel Full -->
+			<value>דלק וחיים מלאים</value> <!-- Health and Fuel Full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>298</key>
-			<value>Jetpack Fuel Full</value> <!-- Jetpack Fuel Full -->
+			<value>דלק ג׳טפק מלא</value> <!-- Jetpack Fuel Full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>299</key>
-			<value>Health Full</value> <!-- Health Full -->
+			<value>חיים מלאים</value> <!-- Health Full -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>300</key>
-			<value>Close Map</value> <!-- Close Map -->
+			<value>סגור מפה</value> <!-- Close Map -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>301</key>
@@ -13451,31 +13451,31 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>304</key>
-			<value>Observe</value> <!-- Observe -->
+			<value>התבונן</value> <!-- Observe -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>310</key>
-			<value>Pick Up </value> <!-- Pick Up -->
+			<value>הרם </value> <!-- Pick Up -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>311</key>
-			<value>Drop </value> <!-- Drop -->
+			<value>הפל </value> <!-- Drop -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>312</key>
-			<value>Remove </value> <!-- Remove -->
+			<value>הסר </value> <!-- Remove -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>313</key>
-			<value>Insert </value> <!-- Insert -->
+			<value>הכנס </value> <!-- Insert -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>314</key>
-			<value> Does Not Fit</value> <!-- Does Not Fit -->
+			<value> לא מתאים</value> <!-- Does Not Fit -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>315</key>
-			<value>Already Holding </value> <!-- Already Holding -->
+			<value>כבר מחזיק </value> <!-- Already Holding -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>316</key>
@@ -13503,7 +13503,7 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>322</key>
-			<value>Scroll</value> <!-- Scroll -->
+			<value>גלול</value> <!-- Scroll -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>323</key>
@@ -13511,11 +13511,11 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>324</key>
-			<value>Warp Core</value> <!-- Warp Core -->
+			<value>ליבת קיפצור</value> <!-- Warp Core -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>330</key>
-			<value>Move Stick</value> <!-- Move Stick -->
+			<value>הזז מקל</value> <!-- Move Stick -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>331</key>
@@ -13555,11 +13555,11 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>342</key>
-			<value>Translate</value> <!-- Translate -->
+			<value>תרגם</value> <!-- Translate -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>343</key>
-			<value>Scroll Text</value> <!-- Scroll Text -->
+			<value>גלגל טקסט</value> <!-- Scroll Text -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>344</key>
@@ -13567,15 +13567,15 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>345</key>
-			<value>&lt;!&gt; Too close to target text &lt;!&gt;</value> <!-- &lt;!&gt; Too close to target text &lt;!&gt; -->
+			<value>ץץץסימן קריאהץץץ קרוב מדי כדי לתרגם ץץץסימן קריאהץץץ</value> <!-- &lt;!&gt; Too close to target text &lt;!&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>346</key>
-			<value>&lt;!&gt; Untranslated Nomai recording &lt;!&gt;</value> <!-- &lt;!&gt; Untranslated Nomai recording &lt;!&gt; -->
+			<value>ץץץסימן קריאהץץץ הקלטת נומאי לא מתורגמת ץץץסימן קריאהץץץ</value> <!-- &lt;!&gt; Untranslated Nomai recording &lt;!&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>347</key>
-			<value>&lt;!&gt; Untranslated Nomai writing &lt;!&gt;</value> <!-- &lt;!&gt; Untranslated Nomai writing &lt;!&gt; -->
+			<value>ץץץסימן קריאהץץץ כתב נומאי לא מתורגם ץץץסימן קריאהץץץ</value> <!-- &lt;!&gt; Untranslated Nomai writing &lt;!&gt; -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>350</key>
