@@ -52,9 +52,49 @@ An unknown or unterminated marker is logged to the OWML console and left visible
 
 
 # מילון תרגומים
-## כוכבי לכת
+## כוכבי לכת / מקומות
 
 | שם | original |
 |---|---|
 | `קמין עץ` | `Timber Hearth` |
-| `שבר-אבן` | `Attlerock` | 
+| `רסיסלע` | `Attlerock` |
+| `סבך אפל` | `Dark Bramble` |
+| `תאומי שעון החול` | `Hourglass Twins` |
+| `תאום אפר` / `תאומאפר` | `Ash Twin` |
+| `תאום גחלת` / `תאומאש` | `Amber Twin` |
+
+## תחנת השמש (Sun Station)
+
+| שם | original |
+|---|---|
+| `קפסולת מילוט` | `escape pod` |
+| `העיר התלויה` | `the hanging city` |
+
+## בריטל הולו (Brittle Hollow)
+
+| שם | original |
+|---|---|
+| `פירעוע` | ? |
+| `שבר מעמקים` | ? |
+| `תהום שברירית` | ? |
+
+## כלים (Tools)
+
+| שם | original |
+|---|---|
+| `אותות סקופ` | `Signal Scope` |
+| `גששון` | `little scout` |
+| `גששגר` | `scout launcher` |
+| `חללית` | `ship` |
+
+## מושגים (Concepts)
+
+| שם | original |
+|---|---|
+| `קמינאים` | `Hearthians` |
+| `אבקוע` | `hatchling` |
+| `קפצור` | `warp` |
+| `קפצור דרך` | `warp travel` |
+| `הספינה` | `the vessel` |
+| `פרויקט תאום האפר` | `Ash Twin Project` |
+| `משואת מצוקה` | `distress beacon` | 
