@@ -62,21 +62,13 @@ An unknown or unterminated marker is logged to the OWML console and left visible
 | `תאומי שעון החול` | `Hourglass Twins` |
 | `תאום אפר` / `תאומאפר` | `Ash Twin` |
 | `תאום גחלת` / `תאומאש` | `Amber Twin` |
-
-## תחנת השמש (Sun Station)
+| `פיר שבריר`| `Brittle Hollow` |
 
 | שם | original |
 |---|---|
 | `קפסולת מילוט` | `escape pod` |
 | `העיר התלויה` | `the hanging city` |
 
-## בריטל הולו (Brittle Hollow)
-
-| שם | original |
-|---|---|
-| `פירעוע` | ? |
-| `שבר מעמקים` | ? |
-| `תהום שברירית` | ? |
 
 ## כלים (Tools)
 
