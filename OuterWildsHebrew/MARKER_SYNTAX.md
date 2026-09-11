@@ -74,7 +74,7 @@ An unknown or unterminated marker is logged to the OWML console and left visible
 
 | שם | original |
 |---|---|
-| `אותות סקופ` | `Signal Scope` |
+| `אותות-סקופ` | `Signal Scope` |
 | `גששון` | `little scout` |
 | `גששגר` | `scout launcher` |
 | `חללית` | `ship` |
