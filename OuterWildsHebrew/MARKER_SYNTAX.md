@@ -85,7 +85,7 @@ An unknown or unterminated marker is logged to the OWML console and left visible
 |---|---|
 | `קמינאים` | `Hearthians` |
 | `אבקוע` | `hatchling` |
-| `קפצור` | `warp` |
+| `קִפצוּר` | `warp` |
 | `קפצור דרך` | `warp travel` |
 | `הספינה` | `the vessel` |
 | `פרויקט תאום האפר` | `Ash Twin Project` |
