@@ -1,4 +1,20 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
-  "enabled": true
+  "enabled": true,
+  "settings": {
+    "shipScreenTextScale": {
+      "title": "Ship screen text size",
+      "tooltip": "Multiplies the text size on the cockpit screens only, leaving the rest of the game untouched.",
+      "type": "slider",
+      "min": 1,
+      "max": 4,
+      "value": 1.5
+    },
+    "logShipScreenText": {
+      "title": "Log ship screen sizing",
+      "tooltip": "Writes each cockpit screen's stock font sizing to the OWML console, for tuning.",
+      "type": "toggle",
+      "value": false
+    }
+  }
 }

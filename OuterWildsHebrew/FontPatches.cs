@@ -76,11 +76,21 @@ namespace OuterWildsHebrew
 			}
 
 			if (__instance._textItemPool == null) return;
+
+			// NotificationDisplayTextLayout also drives the suit's helmet notifications, and
+			// only the ship's screens are undersized, so the size pass is limited to pools
+			// that live under the ship. Items cloned after the cockpit scan has already run
+			// would otherwise keep the stock sizes the rest of the panel no longer uses.
+			var isShipPanel = __instance.transform.root.name == "Ship_Body";
+
 			foreach (var item in __instance._textItemPool)
 			{
 				if (item == null) continue;
 				foreach (var text in item.GetComponentsInChildren<Text>(true))
+				{
 					text.font = font;
+					if (isShipPanel) ShipScreenText.Apply(text);
+				}
 			}
 		}
 
