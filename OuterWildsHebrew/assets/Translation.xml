@@ -2906,7 +2906,7 @@
 	</entry>
 	<entry>
 		<key>ScientistAnswer38You &lt;i&gt;do&lt;/i&gt; know you can use it as a light source, right? Stars above, please tell me you knew that.</key>
-		<value>אתה ץץץנטוייודעץץץנטוי סוףץץץ שאתה יכול להשתמש בו כמקור אור, נכון? כוכבים שבשמיים, בבקשה תגיד שידעת את זה.</value>
+		<value>אתה ץץץנטויץץץיודעץץץנטוי סוףץץץ שאתה יכול להשתמש בו כמקור אור, נכון? כוכבים שבשמיים, בבקשה תגיד שידעת את זה.</value>
 	</entry>
 	<entry>
 		<key>ScientistAnswer39Oh yeah, the observatory has an exhibit about that.</key>
@@ -13871,15 +13871,15 @@
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>480</key>
-			<value>STAGE 1: ALIGNING FLIGHT TRAJECTORY</value> <!-- STAGE 1: ALIGNING FLIGHT TRAJECTORY -->
+			<value>במה 1: מתיישר על פי היעד</value> <!-- STAGE 1: ALIGNING FLIGHT TRAJECTORY -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>481</key>
-			<value>STAGE 2: ACCELERATING TOWARD DESTINATION</value> <!-- STAGE 2: ACCELERATING TOWARD DESTINATION -->
+			<value>במה 2: מאיץ בכיוון היעד</value> <!-- STAGE 2: ACCELERATING TOWARD DESTINATION -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>482</key>
-			<value>STAGE 3: FIRING RETRO-ROCKETS</value> <!-- STAGE 3: FIRING RETRO-ROCKETS -->
+			<value>במה 3: יורה רקטה לאחור</value> <!-- STAGE 3: FIRING RETRO-ROCKETS -->
 		</TranslationTableEntryUI>
 		<TranslationTableEntryUI>
 			<key>483</key>

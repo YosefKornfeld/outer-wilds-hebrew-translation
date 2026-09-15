@@ -52,6 +52,9 @@ public class OuterWildsHebrew : ModBehaviour
 	        // The Nomai translator gets its own font from a separate bundle. Loaded here so
 	        // it is ready before the translator's InitializeFont patch runs in-game.
 	        LoadNomaiFont();
+
+	        // The cockpit monitors render the dynamic Hebrew font far too small. See ShipScreenText.
+	        ShipScreenText.Log = message => ModHelper.Console.WriteLine(message, MessageType.Info);
 	        Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 	    }
 	    else
