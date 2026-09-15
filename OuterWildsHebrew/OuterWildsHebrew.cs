@@ -52,6 +52,9 @@ public class OuterWildsHebrew : ModBehaviour
 	        // The Nomai translator gets its own font from a separate bundle. Loaded here so
 	        // it is ready before the translator's InitializeFont patch runs in-game.
 	        LoadNomaiFont();
+
+	        // The cockpit monitors render the dynamic Hebrew font far too small. See ShipScreenText.
+	        ShipScreenText.Log = message => ModHelper.Console.WriteLine(message, MessageType.Info);
 	        Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 	    }
 	    else
@@ -102,30 +105,9 @@ public class OuterWildsHebrew : ModBehaviour
 	    bundle.Unload(false);
 	}
 
-	// Called by OWML whenever the settings are loaded or changed in the mod menu, which
-	// can happen before Start, so this only stores values and re-applies what already
-	// exists — it never assumes the ship has been scanned yet.
-	public override void Configure(IModConfig config)
-	{
-		base.Configure(config);
-
-		// A config.json written by an older version of the mod has no entry for this, and
-		// the missing value reads back as zero, so a scale below 1 is treated as "unset"
-		// rather than being allowed to shrink the screens into nothing.
-		var scale = config.GetSettingsValue<float>("shipScreenTextScale");
-		ShipScreenText.Scale = scale < 1f ? 1.5f : scale;
-		ShipScreenText.LogDetails = config.GetSettingsValue<bool>("logShipScreenText");
-		ShipScreenText.Reapply();
-	}
-
 	public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
 	{
 		if (newScene != OWScene.SolarSystem) return;
 		ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
-
-		// The cockpit screens size themselves with Unity's Best Fit, which the Hebrew font's
-		// taller metrics shrink to the point of being unreadable. See ShipScreenText.
-		ShipScreenText.Log = message => ModHelper.Console.WriteLine(message, MessageType.Info);
-		StartCoroutine(ShipScreenText.ApplyToCockpit());
 	}
 }

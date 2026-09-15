@@ -1,155 +1,64 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
+using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace OuterWildsHebrew
 {
 	/// <summary>
-	/// The cockpit screens (autopilot console, signalscope readout, frequency name) render
-	/// through Unity Text components with Best Fit turned on: Unity picks the largest size
-	/// between resizeTextMinSize and resizeTextMaxSize that still fits the panel's rect.
-	/// The bundled Hebrew font has far taller vertical metrics than the stock Latin fonts —
-	/// Hebrew faces reserve room above and below the letters for nikud — so the same string
-	/// generates a much taller block and Best Fit collapses down toward the minimum size.
-	/// The result is the unreadable text on the ship monitors even though the very same
-	/// font looks right everywhere the game uses a fixed size.
+	/// The two cockpit monitors — the signalscope screen and the autopilot / notification
+	/// console — are world-space canvases whose CanvasScaler has a very high
+	/// dynamicPixelsPerUnit (75 and 370). On a world-space canvas that value becomes the
+	/// canvas scale factor, and Unity rasterises *dynamic* font text at fontSize × scale
+	/// factor pixels, then shrinks the mesh back down by the same factor.
 	///
-	/// Raising the global font size would fix these panels by making every other piece of
-	/// text in the game too large, so instead we scale the three size fields on the Text
-	/// components under the cockpit UI only. Scaling the minimum matters most: Unity falls
-	/// back to it when nothing fits, so it works as a legibility floor while still letting
-	/// unusually long lines shrink from the maximum downwards.
+	/// The stock screens use VCR_OSD_MONO, a bitmap (non-dynamic) font, which ignores the
+	/// scale factor entirely, so the huge values never mattered. Our Hebrew font is dynamic,
+	/// so the same 45–48 size text asks for glyphs 3,600 to 16,650 pixels tall. Unity clamps
+	/// the glyph size far below that but still divides by the full scale factor, and the
+	/// text comes out a fraction of its intended size — a few specks on the console.
+	///
+	/// Lowering dynamicPixelsPerUnit on those canvases fixes the size without touching the
+	/// font size anywhere, so the rest of the game is unaffected. It only changes how many
+	/// pixels a dynamic glyph is rasterised with, and the stock bitmap-font text on the same
+	/// canvases doesn't use it at all.
 	/// </summary>
+	[HarmonyPatch]
 	internal static class ShipScreenText
 	{
-		// The world-space canvas holding the cockpit monitors. CockpitCanvases is the
-		// parent fallback in case a game update renames or reparents the inner object.
-		private const string WorldSpaceUIPath =
-			"Ship_Body/Module_Cockpit/Systems_Cockpit/ShipCockpitUI/CockpitCanvases/ShipWorldSpaceUI";
-
-		private const string CanvasesPath =
-			"Ship_Body/Module_Cockpit/Systems_Cockpit/ShipCockpitUI/CockpitCanvases";
-
-		/// <summary>How much larger the cockpit screen text should be. 1 leaves it stock.</summary>
-		public static float Scale = 1f;
-
-		/// <summary>Dumps each screen's stock sizing to the console the first time we see it.</summary>
-		public static bool LogDetails;
+		// Pixel height the largest text on a cockpit canvas gets rasterised at. Well below
+		// where Unity starts clamping, and still sharp when the player leans into a screen.
+		private const float TargetGlyphPixels = 128f;
 
 		public static Action<string> Log = _ => { };
 
-		// The sizes a Text had before we touched it. Scaling always starts from these, so
-		// re-applying after a settings change replaces the previous scale instead of
-		// compounding on top of it.
-		private struct Metrics
+		// ShipCockpitUI sits above both SignalScreen and CockpitCanvases, and its Start runs
+		// once the ship has built its screens, including the console's pooled text items.
+		[HarmonyPostfix]
+		[HarmonyPatch(typeof(ShipCockpitUI), nameof(ShipCockpitUI.Start))]
+		public static void ShipCockpitUI_Start(ShipCockpitUI __instance)
 		{
-			public int FontSize;
-			public int MinSize;
-			public int MaxSize;
+			foreach (var scaler in __instance.GetComponentsInChildren<CanvasScaler>(true))
+				CapDynamicPixelsPerUnit(scaler);
 		}
 
-		private static readonly Dictionary<Text, Metrics> Originals = new Dictionary<Text, Metrics>();
-
-		/// <summary>
-		/// Waits for the cockpit to exist — the scene-load callback can fire before the ship
-		/// is built — then scales every Text on its screens. One shot per SolarSystem load.
-		/// </summary>
-		public static IEnumerator ApplyToCockpit()
+		private static void CapDynamicPixelsPerUnit(CanvasScaler scaler)
 		{
-			// Everything we recorded last time belongs to the previous scene's ship.
-			Originals.Clear();
+			// dynamicPixelsPerUnit is only used as the scale factor on world-space canvases;
+			// the screen-space HUD canvases under the cockpit size themselves differently.
+			var canvas = scaler.GetComponent<Canvas>();
+			if (canvas == null || canvas.renderMode != RenderMode.WorldSpace) return;
 
-			GameObject root = null;
-			while (root == null)
-			{
-				root = GameObject.Find(WorldSpaceUIPath) ?? GameObject.Find(CanvasesPath);
-				if (root == null) yield return null;
-			}
+			var largestFontSize = 0;
+			foreach (var text in scaler.GetComponentsInChildren<Text>(true))
+				largestFontSize = Mathf.Max(largestFontSize, text.fontSize);
+			if (largestFontSize == 0) return;
 
-			// Give the displays one frame to lay their text out, so the diagnostic dump can
-			// report the size Best Fit actually settled on rather than an ungenerated zero.
-			yield return null;
+			var cap = TargetGlyphPixels / largestFontSize;
+			if (scaler.dynamicPixelsPerUnit <= cap) return;
 
-			foreach (var text in root.GetComponentsInChildren<Text>(true))
-				Apply(text);
-
-			Log($"Ship screens: scaled {Originals.Count} text fields by {Scale:0.00}x");
-		}
-
-		/// <summary>
-		/// Scales one Text from its stock sizes, recording those sizes the first time round.
-		/// Safe to call repeatedly on the same component.
-		/// </summary>
-		public static void Apply(Text text)
-		{
-			if (text == null) return;
-
-			if (!Originals.TryGetValue(text, out var original))
-			{
-				original = new Metrics
-				{
-					FontSize = text.fontSize,
-					MinSize = text.resizeTextMinSize,
-					MaxSize = text.resizeTextMaxSize
-				};
-				Originals[text] = original;
-
-				if (LogDetails) LogStockSizing(text, original);
-			}
-
-			var fontSize = Mathf.Max(1, Mathf.RoundToInt(original.FontSize * Scale));
-			var minSize = Mathf.Max(1, Mathf.RoundToInt(original.MinSize * Scale));
-			var maxSize = Mathf.Max(minSize, Mathf.RoundToInt(original.MaxSize * Scale));
-
-			// Max first: a minimum above the current maximum would leave Best Fit with an
-			// empty range to search for the moment in between the two assignments.
-			text.resizeTextMaxSize = maxSize;
-			text.resizeTextMinSize = minSize;
-			text.fontSize = fontSize;
-			text.SetAllDirty();
-		}
-
-		/// <summary>
-		/// Re-runs the scaling over everything we have already seen. Called when the scale
-		/// changes in the mod settings so it takes effect without reloading the save.
-		/// </summary>
-		public static void Reapply()
-		{
-			if (Originals.Count == 0) return;
-
-			foreach (var text in new List<Text>(Originals.Keys))
-			{
-				// Destroyed components compare equal to null but still work as dictionary
-				// keys, so they can be removed by the same reference we looked them up with.
-				if (text == null) Originals.Remove(text);
-				else Apply(text);
-			}
-		}
-
-		private static void LogStockSizing(Text text, Metrics original)
-		{
-			var rect = text.rectTransform.rect;
-			// Only meaningful when Best Fit is on — it reports the size Best Fit settled on
-			// for the last string it laid out, which is the number we actually want to see.
-			var rendered = text.cachedTextGenerator != null
-				? text.cachedTextGenerator.fontSizeUsedForBestFit
-				: 0;
-
-			Log($"[ship screen] {HierarchyPath(text.transform)} " +
-			    $"font={(text.font != null ? text.font.name : "none")} " +
-			    $"size={original.FontSize} bestFit={text.resizeTextForBestFit} " +
-			    $"min={original.MinSize} max={original.MaxSize} rendered={rendered} " +
-			    $"rect={rect.width:0}x{rect.height:0}");
-		}
-
-		private static string HierarchyPath(Transform transform)
-		{
-			var path = transform.name;
-			for (var parent = transform.parent; parent != null; parent = parent.parent)
-				path = parent.name + "/" + path;
-			return path;
+			Log($"Ship screen {scaler.name}: dynamicPixelsPerUnit {scaler.dynamicPixelsPerUnit:0.##} -> {cap:0.##}");
+			scaler.dynamicPixelsPerUnit = cap;
 		}
 	}
 }
