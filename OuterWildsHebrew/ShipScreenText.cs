@@ -131,7 +131,11 @@ namespace OuterWildsHebrew
 		private static void LogStockSizing(Text text, Metrics original)
 		{
 			var rect = text.rectTransform.rect;
-			var rendered = text.cachedTextGenerator != null ? text.cachedTextGenerator.fontSizeUsed : 0;
+			// Only meaningful when Best Fit is on — it reports the size Best Fit settled on
+			// for the last string it laid out, which is the number we actually want to see.
+			var rendered = text.cachedTextGenerator != null
+				? text.cachedTextGenerator.fontSizeUsedForBestFit
+				: 0;
 
 			Log($"[ship screen] {HierarchyPath(text.transform)} " +
 			    $"font={(text.font != null ? text.font.name : "none")} " +
